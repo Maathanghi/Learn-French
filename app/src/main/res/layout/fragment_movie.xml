@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootlayout"
+    tools:context="com.raywenderlich.favoritemovies.MovieFragment">
+
+
+  <FrameLayout
+      android:id="@+id/card_back"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+    <include layout="@layout/card_back" android:id="@+id/include_back"/>
+  </FrameLayout>
+
+  <FrameLayout
+      android:id="@+id/card_front"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center">
+    <include layout="@layout/card_front" android:id="@+id/include_front"/>
+
+  </FrameLayout>
+
+
+</FrameLayout>
