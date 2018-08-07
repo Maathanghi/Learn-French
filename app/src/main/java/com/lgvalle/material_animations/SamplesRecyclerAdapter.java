@@ -36,7 +36,7 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
         viewHolder.binding.sampleLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                switch (viewHolder.getAdapterPosition()) {
+                /*switch (viewHolder.getAdapterPosition()) {
                     case 0:
                         //transitionToActivity(TransitionActivity1.class, sample);
                         transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
@@ -52,7 +52,8 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                     case 3:
                         transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                         break;
-                }
+                }*/
+                transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
             }
         });
     }

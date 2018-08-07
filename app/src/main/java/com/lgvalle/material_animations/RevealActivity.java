@@ -22,18 +22,21 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.lgvalle.material_animations.databinding.ActivityRevealBinding;
-import com.lgvalle.material_animations.model.translation.*;
+import com.lgvalle.material_animations.model.translation.App;
+import com.lgvalle.material_animations.model.translation.Quiz;
+import com.lgvalle.material_animations.viewpager.QuizPagerAdapter;
 import com.raywenderlich.favoritemovies.AppHelper;
-import com.raywenderlich.favoritemovies.MoviesPagerAdapter;
+import com.raywenderlich.favoritemovies.LessonPagerAdapter;
 
 import java.util.ArrayList;
 
 
-public class RevealActivity extends BaseDetailActivity implements View.OnTouchListener,View.OnClickListener {
+public class RevealActivity extends BaseDetailActivity implements View.OnTouchListener,View.OnClickListener,ViewPager.OnPageChangeListener {
     private static final int DELAY = 100;
     private RelativeLayout bgViewGroup;
     private RelativeLayout bgViewstatus;
@@ -46,12 +49,16 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
     private Sample sample;
     private Button btnStatus;
     private Button btnExam;
+    App app;
 
 
     // Views
     private ViewPager viewPager;
-    private MoviesPagerAdapter pagerAdapter;
+    private LessonPagerAdapter pagerLessonAdapter;
+    private QuizPagerAdapter pagerQuizAdapter;
     private TabLayout tabLayout;
+    private ProgressBar progressBar;
+
 
 
     @Override
@@ -62,38 +69,47 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         setupLayout();
         setupToolbar();
         changeToolbarColor();
-        initiateViewPager();
+
     }
 
-    private void initiateViewPager(){
+    private App getLesson(String title, ArrayList<App> appData){
+        for(App app : appData) {
+            if(app.getTitle().equals(title)) {
+                return app;
+            }
+        }
+        return null;
+    }
+    private void initiateLevelViewPager(boolean isLesson){
         // Get the list of movies from the JSON file
-        ArrayList<com.lgvalle.material_animations.model.Movie> movies = AppHelper.getMoviesFromJson("movies.json", this);
-        ArrayList<com.lgvalle.material_animations.model.translation.App> appData = AppHelper.getAppDataFromJson("app.json", this);
+        ArrayList<App> appData = AppHelper.getAppDataFromJson("app.json", this);
+
+        app = getLesson(sample.getName(),appData);
 
         viewPager = (ViewPager)findViewById(R.id.viewPager);
         tabLayout = (TabLayout)findViewById(R.id.tabLayout);
+        progressBar = (ProgressBar)findViewById(R.id.progressBar);
 
-        // Initialize the MoviesPagerAdapter
-        pagerAdapter = new MoviesPagerAdapter(getSupportFragmentManager(), movies);
+        // Initialize the LessonPagerAdapter
+        if(isLesson) {
+            pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson());
+            // Set the Adapter and the TabLayout for the ViewPager
+            viewPager.setAdapter(pagerLessonAdapter);
+        }else{
+            pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz());
+            // Set the Adapter and the TabLayout for the ViewPager
+            viewPager.setAdapter(pagerQuizAdapter);
+        }
 
-        // Set the Adapter and the TabLayout for the ViewPager
-        viewPager.setAdapter(pagerAdapter);
+
+        viewPager.addOnPageChangeListener(this);
         tabLayout.setupWithViewPager(viewPager);
+        progressBar.setMax(app.getLesson().size()-1);
+        progressBar.setProgress(1);
     }
     private void changeToolbarColor() {
-        if(sample.getName().equalsIgnoreCase("level 1")){
-            selectedToolbarColor=R.color.sample_red;
-            toolbar.setBackgroundResource(R.color.sample_red);
-        }else if(sample.getName().equalsIgnoreCase("level 2")){
-            selectedToolbarColor=R.color.sample_blue;
-            toolbar.setBackgroundResource(R.color.sample_blue);
-        }else if(sample.getName().equalsIgnoreCase("level 3")){
-            selectedToolbarColor=R.color.sample_green;
-            toolbar.setBackgroundResource(R.color.sample_green);
-        }else if(sample.getName().equalsIgnoreCase("level 4")){
-            selectedToolbarColor=R.color.sample_yellow;
-            toolbar.setBackgroundResource(R.color.sample_yellow);
-        }
+        selectedToolbarColor = sample.getColor();
+        toolbar.setBackgroundColor(sample.getColor());
     }
     private void bindData() {
         ActivityRevealBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_reveal);
@@ -192,7 +208,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         btnBlue.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                revealBlue(bgViewGroup);
+                revealBlue(bgViewGroup,true);
             }
         });
         findViewById(R.id.square_yellow).setOnTouchListener(this);
@@ -203,7 +219,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         btnStatus.setOnClickListener(this);
     }
 
-    private void revealBlue(ViewGroup bgView) {
+    private void revealBlue(ViewGroup bgView, final boolean isLesson) {
         animateButtonsOut();
         Animator anim = animateRevealColorFromCoordinates(bgView, selectedToolbarColor, bgViewGroup.getWidth() / 2, 0);
         anim.addListener(new AnimatorListenerAdapter() {
@@ -212,6 +228,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
                 animateButtonsIn();
                 bgViewstatus.setVisibility(View.GONE);
                 bgViewGroup.setVisibility(View.VISIBLE);
+                initiateLevelViewPager(isLesson);
             }
         });
         body.setText(R.string.reveal_body4);
@@ -323,11 +340,11 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         animateRevealColorFromCoordinates(viewRoot, color, cx, cy);
     }
 
-    private Animator animateRevealColorFromCoordinates(ViewGroup viewRoot, @ColorRes int color, int x, int y) {
+    private Animator animateRevealColorFromCoordinates(ViewGroup viewRoot,  int color, int x, int y) {
         float finalRadius = (float) Math.hypot(viewRoot.getWidth(), viewRoot.getHeight());
 
         Animator anim = ViewAnimationUtils.createCircularReveal(viewRoot, x, y, 0, finalRadius);
-        viewRoot.setBackgroundColor(ContextCompat.getColor(this, color));
+        viewRoot.setBackgroundColor( color);
         anim.setDuration(getResources().getInteger(R.integer.anim_duration_long));
         anim.setInterpolator(new AccelerateDecelerateInterpolator());
         anim.start();
@@ -354,9 +371,31 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
     @Override
     public void onClick(View view) {
         if(view.getId()==R.id.lesson){
-            revealBlue(bgViewstatus);
+            revealBlue(bgViewstatus,true);
         }else if(view.getId()==R.id.exam){
-            revealBlue(bgViewstatus);
+            revealBlue(bgViewstatus,false);
         }
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+            progressBar.setProgress(position);
+            if(app.getLesson().size()-1 == position)
+            {
+                progressBar.setVisibility(View.GONE);
+            }else{
+                progressBar.setVisibility(View.VISIBLE);
+            }
+
+    }
+
+    @Override
+    public void onPageScrollStateChanged(int state) {
+
     }
 }

@@ -31,34 +31,24 @@
 package com.raywenderlich.favoritemovies
 
 import android.content.Context
-import org.json.JSONException
-import org.json.JSONObject
 import java.io.IOException
 import com.google.gson.GsonBuilder
-import com.lgvalle.material_animations.model.Example
 import com.lgvalle.material_animations.model.translation.App
 import com.lgvalle.material_animations.model.translation.AppData
 
 
 object AppHelper {
 
-  val KEY_TITLE = "title"
-  val KEY_RATING = "rating"
+  val KEY_ENGLISH_TRANSLATION = "title"
+  val KEY_FRENCH_TRANSLATION = "rating"
   val KEY_POSTER_URI = "posterUri"
-  val KEY_OVERVIEW = "overview"
+  val KEY_TITLE = "overview"
+  val KEY_OPTION_1 = "KEY_OPTION_1"
+  val KEY_OPTION_2 = "KEY_OPTION_2"
+  val KEY_OPTION_3 = "KEY_OPTION_3"
+  val KEY_OPTION_4 = "KEY_OPTION_4"
+  val KEY_CORRECT_ANSWER = "KEY_CORRECT_ANSWER"
 
-  @JvmStatic
-  fun getMoviesFromJson(fileName: String, context: Context): ArrayList<com.lgvalle.material_animations.model.Movie> {
-    var movies = java.util.ArrayList<com.lgvalle.material_animations.model.Movie>()
-    var example: Example
-
-      // Load the JSONArray from the file
-      val jsonString = loadJsonFromFile(fileName, context)
-      example =  parseJSON(jsonString);
-      movies = example.movies
-
-    return movies
-  }
 
   @JvmStatic
   fun getAppDataFromJson(fileName: String, context: Context): ArrayList<App> {
@@ -73,10 +63,7 @@ object AppHelper {
     return app
   }
 
-  fun parseJSON(response: String): Example {
-    val gson = GsonBuilder().create()
-    return gson.fromJson<Example>(response, Example::class.java!!)
-  }
+
 
   fun parseAppDataJSON(response: String): AppData {
     val gson = GsonBuilder().create()

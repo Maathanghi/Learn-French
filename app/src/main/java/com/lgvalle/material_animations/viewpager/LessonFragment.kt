@@ -38,13 +38,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.TextView
 import com.lgvalle.material_animations.R
-import com.lgvalle.material_animations.model.Movie
+import com.lgvalle.material_animations.model.translation.Lesson
 
 import com.squareup.picasso.Picasso
 
-class MovieFragment : Fragment() , View.OnClickListener{
+class LessonFragment : Fragment() , View.OnClickListener{
   override fun onClick(v: View) {
     val item_id = v.id
     when (item_id) {
@@ -62,6 +63,7 @@ class MovieFragment : Fragment() , View.OnClickListener{
   private lateinit var mFrenchText: TextView
   private lateinit var mEnglishText: TextView
   private lateinit var mImage: ImageView
+  private lateinit var mCongratzContainer: RelativeLayout
   private lateinit var root: View
   private fun changeCameraDistance() {
     val distance = 8000
@@ -83,6 +85,8 @@ class MovieFragment : Fragment() , View.OnClickListener{
     mFrenchText = mIncludeBack.findViewById(R.id.frenchText)
     mEnglishText = mIncludeBack.findViewById(R.id.englishText)
     mImage = mIncludeFront.findViewById(R.id.cardImage)
+
+    mCongratzContainer = view.findViewById(R.id.congratzContainer)
   }
 
   fun flipCard(view: View) {
@@ -105,7 +109,7 @@ class MovieFragment : Fragment() , View.OnClickListener{
   Bundle?): View? {
 
     // Creates the view controlled by the fragment
-    val view = inflater.inflate(R.layout.fragment_movie, container, false)
+    val view = inflater.inflate(R.layout.fragment_lesson, container, false)
     /*val titleTextView = view.findViewById<TextView>(R.id.titleTextView)
     val ratingTextView = view.findViewById<TextView>(R.id.ratingTextView)
     val posterImageView = view.findViewById<ImageView>(R.id.posterImageView)
@@ -128,12 +132,21 @@ class MovieFragment : Fragment() , View.OnClickListener{
     loadAnimations()
     changeCameraDistance()
 
-    // Download the image and display it using Picasso
-    Picasso.with(activity)
-         .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity.packageName))
-         .into(mImage)
-    mEnglishText.text = args.getString(AppHelper.KEY_TITLE)
-    mFrenchText.text = args.getString(AppHelper.KEY_TITLE)
+
+    if(args.getString(AppHelper.KEY_TITLE).equals("congratulations"))
+    {
+      mCardBackLayout.visibility= View.GONE
+      mCardFrontLayout.visibility= View.GONE
+      mCongratzContainer.visibility= View.VISIBLE
+    }else{
+      // Download the image and display it using Picasso
+      Picasso.with(activity)
+              .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity.packageName))
+              .into(mImage)
+      mEnglishText.text = args.getString(AppHelper.KEY_ENGLISH_TRANSLATION)
+      mFrenchText.text = args.getString(AppHelper.KEY_FRENCH_TRANSLATION)
+
+    }
 
 
     return view
@@ -142,18 +155,19 @@ class MovieFragment : Fragment() , View.OnClickListener{
   companion object {
 
     // Method for creating new instances of the fragment
-    fun newInstance(movie: Movie): MovieFragment {
+    fun newInstance(lesson: Lesson): LessonFragment {
 
       // Store the movie data in a Bundle object
       val args = Bundle()
-      args.putString(AppHelper.KEY_TITLE, movie.title)
-      args.putInt(AppHelper.KEY_RATING, movie.rating)
-      args.putString(AppHelper.KEY_POSTER_URI, movie.posterUri)
-      args.putString(AppHelper.KEY_OVERVIEW, movie.overview)
+      args.putString(AppHelper.KEY_ENGLISH_TRANSLATION, lesson.englishTranslation)
+      args.putString(AppHelper.KEY_FRENCH_TRANSLATION, lesson.frenchTranslation)
+      args.putString(AppHelper.KEY_POSTER_URI, lesson.imageUri)
+      args.putString(AppHelper.KEY_TITLE, lesson.title)
+      //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 
-      // Create a new MovieFragment and set the Bundle as the arguments
+      // Create a new LessonFragment and set the Bundle as the arguments
       // to be retrieved and displayed when the view is created
-      val fragment = MovieFragment()
+      val fragment = LessonFragment()
       fragment.arguments = args
       return fragment
     }

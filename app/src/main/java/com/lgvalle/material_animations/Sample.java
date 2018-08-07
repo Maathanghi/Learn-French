@@ -15,13 +15,13 @@ public class Sample implements Serializable {
     final int color;
     private final String name;
 
-    public Sample(@ColorRes int color, String name) {
+    public Sample( int color, String name) {
         this.color = color;
         this.name = name;
     }
 
     @BindingAdapter("bind:colorTint")
-    public static void setColorTint(ImageView view, @ColorRes int color) {
+    public static void setColorTint(ImageView view,  int color) {
         DrawableCompat.setTint(view.getDrawable(), color);
         //view.setColorFilter(color, PorterDuff.Mode.SRC_IN);
     }

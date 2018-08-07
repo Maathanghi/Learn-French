@@ -1,5 +1,6 @@
 package com.lgvalle.material_animations;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +10,11 @@ import android.support.v7.widget.Toolbar;
 import android.transition.Slide;
 import android.view.Gravity;
 
+import com.lgvalle.material_animations.model.translation.*;
+import com.lgvalle.material_animations.model.translation.App;
+import com.raywenderlich.favoritemovies.AppHelper;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -35,12 +41,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupSamples() {
-        samples = Arrays.asList(
-                new Sample(ContextCompat.getColor(this, R.color.sample_red), "Level 1"),
-                new Sample(ContextCompat.getColor(this, R.color.sample_blue), "Level 2"),
-                new Sample(ContextCompat.getColor(this, R.color.sample_green), "Level 3"),
-                new Sample(ContextCompat.getColor(this, R.color.sample_yellow), "Level 4")
-        );
+        ArrayList<App> appData = AppHelper.getAppDataFromJson("app.json", this);
+        samples = new ArrayList<>();
+        for(App level : appData) {
+            // Do something with the value
+            int color = Color.parseColor(level.getColor());
+            samples.add(new Sample(color, level.getTitle()));
+        }
+
     }
 
     private void setupToolbar() {
