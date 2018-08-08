@@ -22,10 +22,10 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var quizContainer: RelativeLayout
   private lateinit var root: View
   private lateinit var imgQuiz: ImageView
-  private lateinit var option1: RadioButton
-  private lateinit var option2: RadioButton
-  private lateinit var option3: RadioButton
-  private lateinit var option4: RadioButton
+  private lateinit var option1: Button
+  private lateinit var option2: Button
+  private lateinit var option3: Button
+  private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
 
 

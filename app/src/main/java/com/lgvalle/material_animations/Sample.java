@@ -1,6 +1,8 @@
 package com.lgvalle.material_animations;
 
+import android.content.Context;
 import android.databinding.BindingAdapter;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.ColorRes;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.widget.ImageView;
@@ -15,7 +17,7 @@ public class Sample implements Serializable {
     final int color;
     private final String name;
 
-    public Sample( int color, String name) {
+    public Sample(int color, String name) {
         this.color = color;
         this.name = name;
     }
@@ -33,6 +35,8 @@ public class Sample implements Serializable {
     public int getColor() {
         return color;
     }
+
+
 
 
 }

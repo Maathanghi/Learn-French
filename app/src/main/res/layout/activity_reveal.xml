@@ -47,6 +47,7 @@
 
         </android.support.v7.widget.Toolbar>
         <ProgressBar
+            android:visibility="gone"
             android:layout_marginTop="0px"
             android:paddingTop="0px"
             android:id="@+id/progressBar"
@@ -66,18 +67,45 @@
             android:layout_gravity="center_vertical"
             android:gravity="center_horizontal|center">
 
-            <Button
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangle"
                 android:id="@+id/lesson"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lesson" />
-
-            <Button
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imgLesson"
+                    android:src="@drawable/lesson"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp" />
+                <TextView
+                    android:layout_below="@+id/imgLesson"
+                    android:text="Lesson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle"
                 android:id="@+id/exam"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="150dp"
                 android:layout_toRightOf="@+id/lesson"
-                android:text="Take quiz" />
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/imgQuiz"
+                    android:src="@drawable/quiz"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp" />
+                <TextView
+                    android:layout_below="@+id/imgQuiz"
+                    android:text="Quiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
         </RelativeLayout>
         <RelativeLayout
             android:visibility="gone"

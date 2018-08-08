@@ -22,6 +22,7 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -47,8 +48,8 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
     private View btnRed;
     private String screen ="";
     private Sample sample;
-    private Button btnStatus;
-    private Button btnExam;
+    private LinearLayout btnStatus;
+    private LinearLayout btnExam;
     App app;
 
 
@@ -213,8 +214,8 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         });
         findViewById(R.id.square_yellow).setOnTouchListener(this);
 
-        btnStatus = (Button)findViewById(R.id.lesson);
-        btnExam = (Button)findViewById(R.id.exam);
+        btnStatus = (LinearLayout)findViewById(R.id.lesson);
+        btnExam = (LinearLayout)findViewById(R.id.exam);
         btnExam.setOnClickListener(this);
         btnStatus.setOnClickListener(this);
     }
@@ -229,6 +230,8 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
                 bgViewstatus.setVisibility(View.GONE);
                 bgViewGroup.setVisibility(View.VISIBLE);
                 initiateLevelViewPager(isLesson);
+                progressBar.setVisibility(View.VISIBLE);
+
             }
         });
         body.setText(R.string.reveal_body4);
