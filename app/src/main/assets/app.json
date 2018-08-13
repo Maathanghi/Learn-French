@@ -3,34 +3,52 @@
     "color":"#cccccc",
     "title": "level 1",
     "lesson": [{
-      "title": "Droid Runner 2049",
-      "imageUri": "apple",
-      "frenchTranslation": "Bonjour",
-      "englishTranslation": "Bonjour"
+      "title": "level1__bread",
+      "imageUri": "level1__bread",
+      "frenchTranslation": "Pain",
+      "englishTranslation": "Bread"
     },
       {
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
+        "title": "level1__building",
+        "imageUri": "level1__building",
+        "frenchTranslation": "Bâtiment",
+        "englishTranslation": "Building"
       },
       {
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
+        "title": "level1__candy",
+        "imageUri": "level1__candy",
+        "frenchTranslation": "candy",
+        "englishTranslation": "bonbons"
       },
       {
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
+        "title": "level1__elephant",
+        "imageUri": "level1__elephant",
+        "frenchTranslation": "l'éléphant",
+        "englishTranslation": "Elephant"
       },
       {
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
+        "title": "level1__glasses",
+        "imageUri": "level1__glasses",
+        "frenchTranslation": "des lunettes",
+        "englishTranslation": "Glasses"
+      },
+      {
+      "title": "level1__heart",
+      "imageUri": "level1__heart",
+      "frenchTranslation": "Cœur",
+      "englishTranslation": "Heart"
+      },
+      {
+        "title": "level1__school",
+        "imageUri": "level1__school",
+        "frenchTranslation": "école",
+        "englishTranslation": "School"
+      },
+      {
+        "title": "level1__sun",
+        "imageUri": "level1__sun",
+        "frenchTranslation": "Soleil",
+        "englishTranslation": "Sun"
       },
       {
         "title": "congratulations",
@@ -40,14 +58,23 @@
       }
     ],
     "quiz": [{
-      "title": "Droid Runner 2049",
-      "imageUri": "apple",
-      "option1": "Bonjour",
-      "option2": "Bonjour",
-      "option3": "Bonjour",
-      "option4": "Bonjour",
-      "correct": "Bonjour"
-    }]
+      "title": "Question 1",
+      "imageUri": "level1__sun",
+      "option1": "Soleil",
+      "option2": "école",
+      "option3": "Cœur",
+      "option4": "lunettes",
+      "correct": "Soleil"
+    },
+      {
+        "title": "Question 2",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
+      }]
   },
     {
       "color":"#800000",
