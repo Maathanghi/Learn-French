@@ -12,23 +12,41 @@
         android:layout_margin="50dp"
         android:background="@drawable/rectangle"/>
 
-    <TextView
-        android:id="@+id/frenchText"
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:paddingRight="10dp"
+        android:id="@+id/frenchText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Apple"
         android:textColor="@color/cardBack"
         style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:gravity="center"/>
+        />
+        <ImageView
+            android:layout_toRightOf="@+id/frenchText"
+            android:id="@+id/imgFrench"
+            android:src="@drawable/volume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     <TextView
+        android:layout_below="@+id/frenchText"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
         android:id="@+id/englishText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple1"
         android:textColor="@color/cardBack"
         style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:gravity="center"/>
+        />
+
+    </RelativeLayout>
 
 
 </FrameLayout>

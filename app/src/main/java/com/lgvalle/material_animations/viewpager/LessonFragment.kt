@@ -33,6 +33,7 @@ package com.raywenderlich.favoritemovies
 import android.animation.AnimatorInflater
 import android.animation.AnimatorSet
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -44,12 +45,17 @@ import com.lgvalle.material_animations.R
 import com.lgvalle.material_animations.model.translation.Lesson
 
 import com.squareup.picasso.Picasso
+import java.util.*
+import android.widget.Toast
+import kotlinx.android.synthetic.main.card_back.*
+
 
 class LessonFragment : Fragment() , View.OnClickListener{
   override fun onClick(v: View) {
     val item_id = v.id
     when (item_id) {
       R.id.rootlayout -> flipCard(v)
+      R.id.imgFrench -> textToSpeech(v)
     }
   }
 
@@ -62,7 +68,9 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var mIncludeFront: View
   private lateinit var mFrenchText: TextView
   private lateinit var mEnglishText: TextView
+  private lateinit var textToSpeech: TextToSpeech
   private lateinit var mImage: ImageView
+  private lateinit var mImageFrechTtoSpeech: ImageView
   private lateinit var mCongratzContainer: RelativeLayout
   private lateinit var root: View
   private fun changeCameraDistance() {
@@ -85,6 +93,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
     mFrenchText = mIncludeBack.findViewById(R.id.frenchText)
     mEnglishText = mIncludeBack.findViewById(R.id.englishText)
     mImage = mIncludeFront.findViewById(R.id.cardImage)
+    mImageFrechTtoSpeech = mIncludeBack.findViewById(R.id.imgFrench)
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
   }
@@ -105,7 +114,13 @@ class LessonFragment : Fragment() , View.OnClickListener{
     }
   }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState:
+  fun textToSpeech(view: View) {
+    val toSpeak = mFrenchText.getText().toString()
+    Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+    textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
+  }
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState:
   Bundle?): View? {
 
     // Creates the view controlled by the fragment
@@ -148,10 +163,25 @@ class LessonFragment : Fragment() , View.OnClickListener{
 
     }
 
+      mImageFrechTtoSpeech.setOnClickListener(this)
+    textToSpeech = TextToSpeech(context, TextToSpeech.OnInitListener { status ->
+      if (status != TextToSpeech.ERROR) {
+        textToSpeech.setLanguage(Locale.FRANCE)
+      }
+    })
+
 
     return view
   }
 
+
+  override fun onPause() {
+    if (textToSpeech != null) {
+      textToSpeech.stop()
+      textToSpeech.shutdown()
+    }
+    super.onPause()
+  }
   companion object {
 
     // Method for creating new instances of the fragment
