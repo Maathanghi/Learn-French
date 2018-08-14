@@ -30,6 +30,7 @@
         android:padding="@dimen/spacing_double">
 
         <Button
+            android:textColor="#ffffff"
             android:layout_alignParentLeft="true"
             android:text="@{sample.index}"
             android:background="@drawable/texview_round"
@@ -48,21 +49,21 @@
             tools:text="View " />
 
         <ImageView
-            android:visibility="@{sample.isProgress ? View.GONE : View.VISIBLE}"
+            android:visibility="@{sample.isProgress ? View.VISIBLE : View.GONE}"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:src="@drawable/inprogress" />
         <ImageView
-            android:visibility="@{sample.isDone ? View.GONE : View.VISIBLE}"
+            android:visibility="@{sample.isDone ? View.VISIBLE : View.GONE}"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:src="@drawable/check" />
         <ImageView
-            android:visibility="@{sample.isLocked ? View.GONE : View.VISIBLE}"
+            android:visibility="@{sample.isLocked ? View.VISIBLE : View.GONE}"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_width="25dp"

@@ -20,16 +20,15 @@ public class Sample implements Serializable {
     int index = 0;
     static int status = 0;
     private final String name;
-    private  boolean iconStatus = false;
     private static int LOCKED = 0;
     private static int INPROGRESS = 1;
     private static int DONE = 2;
 
-    public Sample(int color, String name,int index, int status) {
+    public Sample(int color, String name,int index, int iconStatus) {
         this.color = color;
         this.name = name;
         this.index = index;
-        this.status = status;
+        this.status = iconStatus;
     }
 
     @BindingAdapter("bind:colorTint")
@@ -57,18 +56,15 @@ public class Sample implements Serializable {
     }
 
     public boolean isLocked() {
-        iconStatus = getStatus(LOCKED);
-        return iconStatus;
+        return  getStatus(LOCKED);
     }
 
     public boolean isProgress() {
-        iconStatus = getStatus(INPROGRESS);
-        return iconStatus;
+        return  getStatus(INPROGRESS);
     }
 
     public boolean isDone() {
-        iconStatus = getStatus(DONE);
-        return iconStatus;
+        return getStatus(DONE);
     }
 
 

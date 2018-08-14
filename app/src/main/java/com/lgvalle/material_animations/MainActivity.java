@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             i++;
             // Do something with the value
             int color = Color.parseColor(level.getColor());
-            samples.add(new Sample(color, level.getTitle(),i,1));
+            samples.add(new Sample(color, level.getTitle(),i,0));
         }
 
     }

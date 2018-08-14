@@ -74,6 +74,15 @@
         "option3": "Bonjour",
         "option4": "Bonjour",
         "correct": "Bonjour"
+      },
+      {
+        "title": "congratulations",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
       }]
   },
     {
