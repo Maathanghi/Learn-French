@@ -43,6 +43,7 @@ object AppHelper {
   val KEY_FRENCH_TRANSLATION = "rating"
   val KEY_POSTER_URI = "posterUri"
   val KEY_TITLE = "overview"
+  val KEY_LEVEL = "currentLevel"
   val KEY_OPTION_1 = "KEY_OPTION_1"
   val KEY_OPTION_2 = "KEY_OPTION_2"
   val KEY_OPTION_3 = "KEY_OPTION_3"

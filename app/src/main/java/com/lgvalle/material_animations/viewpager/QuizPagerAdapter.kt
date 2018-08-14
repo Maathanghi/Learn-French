@@ -7,12 +7,12 @@ import com.lgvalle.material_animations.model.translation.Lesson
 import com.lgvalle.material_animations.model.translation.Quiz
 import com.raywenderlich.favoritemovies.LessonFragment
 
-class QuizPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Quiz>) :
+class QuizPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Quiz>, private val level: String) :
     FragmentStatePagerAdapter(fragmentManager) {
 
   // Return the Fragment associated with the object located at the specified position 
   override fun getItem(position: Int): Fragment {
-    return QuizFragment.newInstance(lessons[position])
+    return QuizFragment.newInstance(lessons[position],level)
   }
 
   // Return the number of objects in the array.  

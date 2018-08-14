@@ -97,7 +97,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerLessonAdapter);
         }else{
-            pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz());
+            pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz(),app.getTitle());
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerQuizAdapter);
         }

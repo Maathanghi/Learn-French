@@ -1,5 +1,7 @@
 package com.lgvalle.material_animations;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -20,6 +22,9 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private List<Sample> samples;
+    SharedPreferences sharedpreferences;
+    public static final String MyPREFERENCES = "MyPrefs" ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,9 +53,14 @@ public class MainActivity extends AppCompatActivity {
             i++;
             // Do something with the value
             int color = Color.parseColor(level.getColor());
-            samples.add(new Sample(color, level.getTitle(),i,0));
+            samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle())));
         }
+    }
 
+    private int getLevelStatus(String title){
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedpreferences.edit();
+        return sharedpreferences.getInt(title,0);
     }
 
     private void setupToolbar() {

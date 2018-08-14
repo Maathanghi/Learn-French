@@ -12,6 +12,11 @@ import com.lgvalle.material_animations.R
 import com.lgvalle.material_animations.model.translation.Quiz
 import com.raywenderlich.favoritemovies.AppHelper
 import com.squareup.picasso.Picasso
+import android.R.id.edit
+import android.content.Context
+import android.content.SharedPreferences
+
+
 
 class QuizFragment : Fragment() , View.OnClickListener {
   override fun onClick(v: View) {
@@ -27,6 +32,9 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var option3: Button
   private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
+
+  var prefs: SharedPreferences? = null
+  val PREFS_FILENAME = "MyPrefs"
 
 
   private fun findViews(view: View) {
@@ -62,12 +70,24 @@ class QuizFragment : Fragment() , View.OnClickListener {
 
     findViews(view)
 
+    prefs = context.getSharedPreferences(PREFS_FILENAME, 0)
 
     if(args!!.getString(AppHelper.KEY_TITLE).equals("congratulations"))
     {
       mCongratzContainer.visibility= View.VISIBLE
       quizContainer.visibility= View.GONE
+
+
+      val editor = prefs!!.edit()
+      editor.putInt(args.getString(AppHelper.KEY_LEVEL), 2)
+      editor.apply()
     }else{
+
+      val editor = prefs!!.edit()
+      editor.putInt(args.getString(AppHelper.KEY_LEVEL), 1)
+      editor.apply()
+
+
       quizContainer.visibility= View.VISIBLE
       mCongratzContainer.visibility= View.GONE
       // Download the image and display it using Picasso
@@ -88,7 +108,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
   companion object {
 
     // Method for creating new instances of the fragment
-    fun newInstance(quiz: Quiz): QuizFragment {
+    fun newInstance(quiz: Quiz,currentLevel: String): QuizFragment {
 
       // Store the movie data in a Bundle object
       val args = Bundle()
@@ -99,6 +119,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
       args.putString(AppHelper.KEY_CORRECT_ANSWER, quiz.correct)
       args.putString(AppHelper.KEY_POSTER_URI, quiz.imageUri)
       args.putString(AppHelper.KEY_TITLE, quiz.title)
+      args.putString(AppHelper.KEY_LEVEL, currentLevel)
       //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 
       // Create a new LessonFragment and set the Bundle as the arguments
