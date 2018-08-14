@@ -1,7 +1,7 @@
 {
   "app": [{
-    "color":"#cccccc",
-    "title": "level 1",
+    "color":"#228c8e",
+    "title": "Level 1",
     "lesson": [{
       "title": "level1__bread",
       "imageUri": "level1__bread",
@@ -78,7 +78,7 @@
   },
     {
       "color":"#800000",
-      "title": "level 2",
+      "title": "Level 2",
       "lesson": [{
         "title": "Droid Runner 2049",
         "imageUri": "apple",
@@ -114,6 +114,242 @@
         "imageUri": "",
         "frenchTranslation": "",
         "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
+      },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Bonjour"
+        }]
+    },
+    {
+      "color":"#800000",
+      "title": "Level 3",
+      "lesson": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "frenchTranslation": "Bonjour",
+        "englishTranslation": "Bonjour"
+      },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "dawn",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
+      },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Bonjour"
+        }]
+    },
+    {
+      "color":"#800000",
+      "title": "Level 4",
+      "lesson": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "frenchTranslation": "Bonjour",
+        "englishTranslation": "Bonjour"
+      },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "dawn",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
+      },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Bonjour"
+        }]
+    },
+    {
+      "color":"#800000",
+      "title": "Level 5",
+      "lesson": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "frenchTranslation": "Bonjour",
+        "englishTranslation": "Bonjour"
+      },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "dawn",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "option1": "Bonjour",
+        "option2": "Bonjour",
+        "option3": "Bonjour",
+        "option4": "Bonjour",
+        "correct": "Bonjour"
+      },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Bonjour"
+        }]
+    },
+    {
+      "color":"#800000",
+      "title": "Level 6",
+      "lesson": [{
+        "title": "Droid Runner 2049",
+        "imageUri": "apple",
+        "frenchTranslation": "Bonjour",
+        "englishTranslation": "Bonjour"
+      },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "apple",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "Droid Runner 2049",
+          "imageUri": "dawn",
+          "frenchTranslation": "Bonjour",
+          "englishTranslation": "Bonjour"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
         }
       ],
       "quiz": [{

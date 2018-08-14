@@ -63,7 +63,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     findViews(view)
 
 
-    if(args.getString(AppHelper.KEY_TITLE).equals("congratulations"))
+    if(args!!.getString(AppHelper.KEY_TITLE).equals("congratulations"))
     {
       mCongratzContainer.visibility= View.VISIBLE
       quizContainer.visibility= View.GONE
@@ -72,7 +72,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
       mCongratzContainer.visibility= View.GONE
       // Download the image and display it using Picasso
       Picasso.with(activity)
-              .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity.packageName))
+              .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity!!.packageName))
               .into(imgQuiz)
       option1.text = args.getString(AppHelper.KEY_OPTION_1)
       option2.text = args.getString(AppHelper.KEY_OPTION_2)

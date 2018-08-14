@@ -148,18 +148,21 @@ class LessonFragment : Fragment() , View.OnClickListener{
     changeCameraDistance()
 
 
-    if(args.getString(AppHelper.KEY_TITLE).equals("congratulations"))
+    if(args?.getString(AppHelper.KEY_TITLE).equals("congratulations"))
     {
       mCardBackLayout.visibility= View.GONE
       mCardFrontLayout.visibility= View.GONE
       mCongratzContainer.visibility= View.VISIBLE
     }else{
       // Download the image and display it using Picasso
-      Picasso.with(activity)
-              .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity.packageName))
-              .into(mImage)
-      mEnglishText.text = args.getString(AppHelper.KEY_ENGLISH_TRANSLATION)
-      mFrenchText.text = args.getString(AppHelper.KEY_FRENCH_TRANSLATION)
+      if (args != null) {
+        Picasso.with(activity)
+                .load(resources.getIdentifier(args.getString(AppHelper.KEY_POSTER_URI), "drawable", activity?.packageName))
+                .into(mImage)
+        mEnglishText.text = args.getString(AppHelper.KEY_ENGLISH_TRANSLATION)
+        mFrenchText.text = args.getString(AppHelper.KEY_FRENCH_TRANSLATION)
+      }
+
 
     }
 
