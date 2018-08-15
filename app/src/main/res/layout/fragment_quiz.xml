@@ -29,7 +29,7 @@
             android:id="@+id/optionGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/buttonSubmit">
+            android:layout_above="@+id/buttonNext">
 
             <LinearLayout
                 android:id="@+id/optionGroup1"
@@ -91,7 +91,7 @@
 
         <android.support.v7.widget.AppCompatButton
             android:enabled="false"
-            android:id="@+id/buttonSubmit"
+            android:id="@+id/buttonNext"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
@@ -153,7 +153,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_margin="10dp"
                 android:background="@drawable/curved_button"
-                android:id="@+id/buttonQuiz"
+                android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Submit"

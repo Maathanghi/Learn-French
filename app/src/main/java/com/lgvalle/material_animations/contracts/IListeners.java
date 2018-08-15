@@ -1,5 +1,7 @@
 package com.lgvalle.material_animations.contracts;
 
+import android.support.v4.view.ViewPager;
+
 import java.io.Serializable;
 
 /**
@@ -9,4 +11,6 @@ import java.io.Serializable;
 public interface IListeners extends Serializable{
     void quizClickListener();
     void takeHomeListener();
+    void nextQuestionListener();
+    ViewPager getViewPagerListener();
 }

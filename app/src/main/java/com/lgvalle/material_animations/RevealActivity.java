@@ -97,16 +97,18 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
             pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson(),this);
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerLessonAdapter);
+            progressBar.setMax(app.getLesson().size()-1);
         }else{
             pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz(),app.getTitle(),this);
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerQuizAdapter);
+            progressBar.setMax(app.getQuiz().size()-1);
         }
 
 
         viewPager.addOnPageChangeListener(this);
         tabLayout.setupWithViewPager(viewPager);
-        progressBar.setMax(app.getLesson().size()-1);
+
         progressBar.setProgress(0);
     }
     private void changeToolbarColor() {
@@ -410,6 +412,16 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
 
     @Override
     public void takeHomeListener() {
+        finish();
+    }
 
+    @Override
+    public void nextQuestionListener() {
+        viewPager.setCurrentItem(progressBar.getProgress()+1);
+    }
+
+    @Override
+    public ViewPager getViewPagerListener() {
+        return viewPager;
     }
 }

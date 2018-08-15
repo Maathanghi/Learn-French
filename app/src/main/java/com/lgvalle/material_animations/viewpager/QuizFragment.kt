@@ -31,6 +31,8 @@ class QuizFragment : Fragment() , View.OnClickListener {
       R.id.option2 -> changeButtonColor(v)
       R.id.option3 -> changeButtonColor(v)
       R.id.option4 -> changeButtonColor(v)
+      R.id.buttonNext -> iListner.nextQuestionListener()
+      R.id.buttonSubmit -> iListner.takeHomeListener()
     }
   }
 
@@ -57,13 +59,13 @@ class QuizFragment : Fragment() , View.OnClickListener {
     if(buttonText.equals(correctAnswer)){
       view.setBackgroundResource(R.drawable.dotted_correct_button)
       view.setTextColor(Color.parseColor("#ffffff"))
-      buttonSubmit.isEnabled=true
-      buttonSubmit.startAnimation(alphaDown)
+      buttonNext.isEnabled=true
+      buttonNext.startAnimation(alphaDown)
     }else{
       view.setBackgroundResource(R.drawable.dotted_wrong_button)
       view.setTextColor(Color.parseColor("#ffffff"))
-      buttonSubmit.isEnabled=false
-      buttonSubmit.startAnimation(alphaUp)
+      buttonNext.isEnabled=false
+      buttonNext.startAnimation(alphaUp)
     }
 
   }
@@ -77,6 +79,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var option3: Button
   private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
+  private lateinit var buttonNext: Button
   private lateinit var correctAnswer: String
 
 
@@ -95,11 +98,14 @@ class QuizFragment : Fragment() , View.OnClickListener {
     option3 = view.findViewById(R.id.option3)
     option4 = view.findViewById(R.id.option4)
     buttonSubmit = view.findViewById(R.id.buttonSubmit)
+    buttonNext = view.findViewById(R.id.buttonNext)
 
     option1.setOnClickListener(this)
     option2.setOnClickListener(this)
     option3.setOnClickListener(this)
     option4.setOnClickListener(this)
+    buttonSubmit.setOnClickListener(this)
+    buttonNext.setOnClickListener(this)
   }
 
 
@@ -152,9 +158,9 @@ class QuizFragment : Fragment() , View.OnClickListener {
       option3.text = args.getString(AppHelper.KEY_OPTION_3)
       option4.text = args.getString(AppHelper.KEY_OPTION_4)
       correctAnswer = args.getString(AppHelper.KEY_CORRECT_ANSWER)
-      iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
-
     }
+    iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
+
 
     textToSpeech = TextToSpeech(context, TextToSpeech.OnInitListener { status ->
       if (status != TextToSpeech.ERROR) {
