@@ -82,6 +82,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
   private lateinit var buttonNext: Button
+  private lateinit var txtLevel: TextView
   private lateinit var correctAnswer: String
 
 
@@ -101,6 +102,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     option4 = view.findViewById(R.id.option4)
     buttonSubmit = view.findViewById(R.id.buttonSubmit)
     buttonNext = view.findViewById(R.id.buttonNext)
+    txtLevel = view.findViewById(R.id.txtLevel)
 
     option1.setOnClickListener(this)
     option2.setOnClickListener(this)
@@ -140,7 +142,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     {
       mCongratzContainer.visibility= View.VISIBLE
       quizContainer.visibility= View.GONE
-
+      txtLevel.text = args.getString(AppHelper.KEY_LEVEL)
 
       val editor = prefs!!.edit()
       editor.putInt(args.getString(AppHelper.KEY_LEVEL), 2)

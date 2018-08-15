@@ -74,6 +74,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var mImageEnglishtoSpeech: ImageView
   private lateinit var mCongratzContainer: RelativeLayout
   private lateinit var buttonQuiz: Button
+  private lateinit var txtLevel: TextView
   private lateinit var root: View
   private lateinit var iListner: IListeners
   private fun changeCameraDistance() {
@@ -101,6 +102,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
     buttonQuiz = view.findViewById(R.id.buttonQuiz)
+    txtLevel = view.findViewById(R.id.txtLevel)
 
     buttonQuiz.setOnClickListener(this)
   }
@@ -169,6 +171,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       mCardBackLayout.visibility= View.GONE
       mCardFrontLayout.visibility= View.GONE
       mCongratzContainer.visibility= View.VISIBLE
+      txtLevel.text = args.getString(AppHelper.KEY_LEVEL)
     }else{
       // Download the image and display it using Picasso
       if (args != null) {

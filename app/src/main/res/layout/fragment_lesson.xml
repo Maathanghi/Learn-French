@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txtCongratys"
-                android:text="You have successfully completed" />
+                android:text="You have successfully completed lesson for " />
 
             <TextView
                 android:textStyle="bold"
