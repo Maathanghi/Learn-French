@@ -24,6 +24,9 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var textToSpeech: TextToSpeech
   private lateinit var iListner: IListeners
 
+  val alphaUp = AlphaAnimation(0.45f, 0.45f)
+  val alphaDown = AlphaAnimation(0.00f, 0.45f)
+
   override fun onClick(v: View) {
     val item_id = v.id
     when (item_id) {
@@ -52,8 +55,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
     textToSpeech.speak(buttonText, TextToSpeech.QUEUE_FLUSH, null)
 
-    val alphaUp = AlphaAnimation(0.45f, 0.45f)
-    val alphaDown = AlphaAnimation(0.00f, 0.45f)
+
     alphaUp.fillAfter = true
 
     if(buttonText.equals(correctAnswer)){
@@ -106,6 +108,9 @@ class QuizFragment : Fragment() , View.OnClickListener {
     option4.setOnClickListener(this)
     buttonSubmit.setOnClickListener(this)
     buttonNext.setOnClickListener(this)
+
+    buttonNext.startAnimation(alphaUp)
+
   }
 
 
