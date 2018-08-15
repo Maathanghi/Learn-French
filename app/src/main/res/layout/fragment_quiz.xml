@@ -121,15 +121,17 @@
                 android:src="@drawable/trophy"></ImageView>
 
             <TextView
+                android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 android:id="@+id/txtCongratys"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/imgCongrats"
                 android:gravity="center"
-                android:text="Congratulations" />
+                android:text="Congratulations!!!" />
 
             <TextView
+                android:textStyle="bold"
                 android:id="@+id/txtSuccessCompleted"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -137,6 +139,7 @@
                 android:text="You have successfully completed" />
 
             <TextView
+                android:textStyle="bold"
                 android:id="@+id/txtLevel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
