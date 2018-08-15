@@ -40,20 +40,11 @@
             android:layout_height="match_parent">
             <ImageView
                 android:id="@+id/imgCongrats"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:src="@drawable/trophy"></ImageView>
-
-            <TextView
-                android:layout_marginTop="20dp"
-                android:id="@+id/txtCongratys"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/imgCongrats"
-                android:gravity="center"
-                android:text="Congratulations" />
+                android:src="@drawable/congrats"></ImageView>
 
             <TextView
                 android:id="@+id/txtSuccessCompleted"
@@ -67,26 +58,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txtSuccessCompleted"
-                android:text="Level 1" />
+                android:text="Lesson 1" />
         </LinearLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="@color/light_grey"
-            android:gravity="center_horizontal"
-            android:paddingBottom="20dp"
-            android:paddingTop="20dp">
+
 
             <android.support.v7.widget.AppCompatButton
+                android:layout_margin="10dp"
+                android:background="@drawable/curved_button"
+                android:layout_alignParentBottom="true"
                 android:id="@+id/buttonQuiz"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/buttonRedo"
                 android:text="Take Quiz"
-                android:textColor="@color/cardFront"
+                android:textColor="@color/white"
                 app:backgroundTint="@color/colorAccent" />
-        </RelativeLayout>
 
     </RelativeLayout>
 

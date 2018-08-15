@@ -11,8 +11,8 @@
 
     <RelativeLayout
         android:id="@+id/quizContainer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <ImageView
             android:layout_centerHorizontal="true"
@@ -26,79 +26,78 @@
 
 
         <RelativeLayout
-            android:layout_above="@+id/buttonSubmit"
             android:id="@+id/optionGroup"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonSubmit">
+
             <LinearLayout
                 android:id="@+id/optionGroup1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:weightSum="2"
-                >
+                android:weightSum="2">
+
                 <Button
                     android:id="@+id/option1"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/curved_button"
-                    android:layout_weight="1"
-                    android:text="Option 1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
 
                 <Button
                     android:id="@+id/option2"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/curved_button"
-                    android:layout_weight="1"
-                    android:text="Option 1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_marginTop="10dp"
-                android:layout_below="@+id/optionGroup1"
                 android:id="@+id/optionGroup2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/optionGroup1"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal"
-                android:weightSum="2"
-                >
+                android:weightSum="2">
+
                 <Button
                     android:id="@+id/option3"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/curved_button"
-                    android:layout_weight="1"
-                    android:text="Option 1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
 
                 <Button
                     android:id="@+id/option4"
-                    android:layout_margin="10dp"
-                    android:background="@drawable/curved_button"
-                    android:layout_weight="1"
-                    android:text="Option 1"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
 
             </LinearLayout>
 
         </RelativeLayout>
 
         <android.support.v7.widget.AppCompatButton
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginBottom="5dp"
             android:id="@+id/buttonSubmit"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
             android:background="@drawable/curved_button"
             android:text="Next"
-            android:textColor="@color/cardFront"
+            android:textColor="@color/white"
             app:backgroundTint="@color/sample_blue" />
     </RelativeLayout>
 
@@ -115,8 +114,8 @@
             android:layout_height="match_parent">
             <ImageView
                 android:id="@+id/imgCongrats"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:src="@drawable/trophy"></ImageView>
@@ -144,32 +143,18 @@
                 android:layout_below="@+id/txtSuccessCompleted"
                 android:text="Level 1" />
         </LinearLayout>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:background="@color/light_grey"
-            android:gravity="center_horizontal"
-            android:paddingBottom="20dp"
-            android:paddingTop="20dp">
+
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/buttonRedo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Retry"
-                android:textColor="@color/cardFront"
-                app:backgroundTint="@color/colorAccent" />
-
-            <android.support.v7.widget.AppCompatButton
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/curved_button"
                 android:id="@+id/buttonQuiz"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@+id/buttonRedo"
                 android:text="Submit"
-                android:textColor="@color/cardFront"
+                android:textColor="@color/white"
                 app:backgroundTint="@color/colorAccent" />
-        </RelativeLayout>
 
     </RelativeLayout>
 

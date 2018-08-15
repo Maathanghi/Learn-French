@@ -106,7 +106,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         viewPager.addOnPageChangeListener(this);
         tabLayout.setupWithViewPager(viewPager);
         progressBar.setMax(app.getLesson().size()-1);
-        progressBar.setProgress(1);
+        progressBar.setProgress(0);
     }
     private void changeToolbarColor() {
         selectedToolbarColor = sample.getColor();
@@ -390,7 +390,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
             progressBar.setProgress(position);
             if(app.getLesson().size()-1 == position)
             {
-                progressBar.setVisibility(View.GONE);
+                progressBar.setVisibility(View.VISIBLE);
             }else{
                 progressBar.setVisibility(View.VISIBLE);
             }
