@@ -56,6 +56,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
     when (item_id) {
       R.id.rootlayout -> flipCard(v)
       R.id.imgFrench -> textToSpeech(v)
+      R.id.imgEnglish -> textToSpeech(v)
     }
   }
 
@@ -71,6 +72,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var textToSpeech: TextToSpeech
   private lateinit var mImage: ImageView
   private lateinit var mImageFrechTtoSpeech: ImageView
+  private lateinit var mImageEnglishtoSpeech: ImageView
   private lateinit var mCongratzContainer: RelativeLayout
   private lateinit var root: View
   private fun changeCameraDistance() {
@@ -94,6 +96,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
     mEnglishText = mIncludeBack.findViewById(R.id.englishText)
     mImage = mIncludeFront.findViewById(R.id.cardImage)
     mImageFrechTtoSpeech = mIncludeBack.findViewById(R.id.imgFrench)
+    mImageEnglishtoSpeech = mIncludeBack.findViewById(R.id.imgEnglish)
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
   }
@@ -115,9 +118,18 @@ class LessonFragment : Fragment() , View.OnClickListener{
   }
 
   fun textToSpeech(view: View) {
-    val toSpeak = mFrenchText.getText().toString()
-    Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
-    textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
+
+    if(view.id == R.id.imgEnglish){
+      textToSpeech.setLanguage(Locale.ENGLISH)
+      val toSpeak = mEnglishText.getText().toString()
+      Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+      textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
+    }else{
+      textToSpeech.setLanguage(Locale.FRANCE)
+      val toSpeak = mFrenchText.getText().toString()
+      Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+      textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
+    }
   }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState:
@@ -167,12 +179,13 @@ class LessonFragment : Fragment() , View.OnClickListener{
     }
 
       mImageFrechTtoSpeech.setOnClickListener(this)
-    textToSpeech = TextToSpeech(context, TextToSpeech.OnInitListener { status ->
-      if (status != TextToSpeech.ERROR) {
-        textToSpeech.setLanguage(Locale.FRANCE)
-      }
-    })
+      mImageEnglishtoSpeech.setOnClickListener(this)
 
+      textToSpeech = TextToSpeech(context, TextToSpeech.OnInitListener { status ->
+        if (status != TextToSpeech.ERROR) {
+          textToSpeech.setLanguage(Locale.ENGLISH)
+        }
+      })
 
     return view
   }

@@ -18,7 +18,7 @@ public class Sample implements Serializable {
 
     final int color;
     int index = 0;
-    static int status = 0;
+    int status = 0;
     private final String name;
     private static int LOCKED = 0;
     private static int INPROGRESS = 1;
@@ -48,7 +48,7 @@ public class Sample implements Serializable {
         return color;
     }
 
-    public static boolean getStatus(int reqStatus) {
+    public boolean getStatus(int reqStatus) {
         if(status == reqStatus){
             return true;
         }
