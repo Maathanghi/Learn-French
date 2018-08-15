@@ -11,10 +11,14 @@ import com.lgvalle.material_animations.model.translation.Quiz
 import com.raywenderlich.favoritemovies.AppHelper
 import com.squareup.picasso.Picasso
 import android.content.SharedPreferences
-
+import android.graphics.Color
+import android.speech.tts.TextToSpeech
+import java.util.*
 
 
 class QuizFragment : Fragment() , View.OnClickListener {
+  private lateinit var textToSpeech: TextToSpeech
+
   override fun onClick(v: View) {
     val item_id = v.id
     when (item_id) {
@@ -30,13 +34,24 @@ class QuizFragment : Fragment() , View.OnClickListener {
     option2.setBackgroundResource(R.drawable.curved_button)
     option3.setBackgroundResource(R.drawable.curved_button)
     option4.setBackgroundResource(R.drawable.curved_button)
+    option1.setTextColor(Color.parseColor("#000000"))
+    option2.setTextColor(Color.parseColor("#000000"))
+    option3.setTextColor(Color.parseColor("#000000"))
+    option4.setTextColor(Color.parseColor("#000000"))
     val b = view as Button
     val buttonText = b.text.toString()
+
+    textToSpeech.setLanguage(Locale.ENGLISH)
+    Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
+    textToSpeech.speak(buttonText, TextToSpeech.QUEUE_FLUSH, null)
+
     if(buttonText.equals(correctAnswer)){
       view.setBackgroundResource(R.drawable.dotted_correct_button)
+      view.setTextColor(Color.parseColor("#ffffff"))
       buttonSubmit.isEnabled=true
     }else{
       view.setBackgroundResource(R.drawable.dotted_wrong_button)
+      view.setTextColor(Color.parseColor("#ffffff"))
       buttonSubmit.isEnabled=false
     }
 
@@ -127,6 +142,11 @@ class QuizFragment : Fragment() , View.OnClickListener {
 
     }
 
+    textToSpeech = TextToSpeech(context, TextToSpeech.OnInitListener { status ->
+      if (status != TextToSpeech.ERROR) {
+        textToSpeech.setLanguage(Locale.FRANCE)
+      }
+    })
 
     return view
   }
