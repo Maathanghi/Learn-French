@@ -1,7 +1,5 @@
 package com.lgvalle.material_animations.viewpager
 
-import android.animation.AnimatorInflater
-import android.animation.AnimatorSet
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
@@ -12,14 +10,35 @@ import com.lgvalle.material_animations.R
 import com.lgvalle.material_animations.model.translation.Quiz
 import com.raywenderlich.favoritemovies.AppHelper
 import com.squareup.picasso.Picasso
-import android.R.id.edit
-import android.content.Context
 import android.content.SharedPreferences
 
 
 
 class QuizFragment : Fragment() , View.OnClickListener {
   override fun onClick(v: View) {
+    val item_id = v.id
+    when (item_id) {
+      R.id.option1 -> changeButtonColor(v)
+      R.id.option2 -> changeButtonColor(v)
+      R.id.option3 -> changeButtonColor(v)
+      R.id.option4 -> changeButtonColor(v)
+    }
+  }
+
+  fun changeButtonColor(view: View) {
+    option1.setBackgroundResource(R.drawable.curved_button)
+    option2.setBackgroundResource(R.drawable.curved_button)
+    option3.setBackgroundResource(R.drawable.curved_button)
+    option4.setBackgroundResource(R.drawable.curved_button)
+    val b = view as Button
+    val buttonText = b.text.toString()
+    if(buttonText.equals(correctAnswer)){
+      view.setBackgroundResource(R.drawable.dotted_correct_button)
+      buttonSubmit.isEnabled=true
+    }else{
+      view.setBackgroundResource(R.drawable.dotted_wrong_button)
+      buttonSubmit.isEnabled=false
+    }
 
   }
 
@@ -32,6 +51,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var option3: Button
   private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
+  private lateinit var correctAnswer: String
 
   var prefs: SharedPreferences? = null
   val PREFS_FILENAME = "MyPrefs"
@@ -47,6 +67,11 @@ class QuizFragment : Fragment() , View.OnClickListener {
     option3 = view.findViewById(R.id.option3)
     option4 = view.findViewById(R.id.option4)
     buttonSubmit = view.findViewById(R.id.buttonSubmit)
+
+    option1.setOnClickListener(this)
+    option2.setOnClickListener(this)
+    option3.setOnClickListener(this)
+    option4.setOnClickListener(this)
   }
 
 
@@ -98,6 +123,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
       option2.text = args.getString(AppHelper.KEY_OPTION_2)
       option3.text = args.getString(AppHelper.KEY_OPTION_3)
       option4.text = args.getString(AppHelper.KEY_OPTION_4)
+      correctAnswer = args.getString(AppHelper.KEY_CORRECT_ANSWER)
 
     }
 
