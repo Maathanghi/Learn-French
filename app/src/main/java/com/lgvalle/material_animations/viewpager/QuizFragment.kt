@@ -13,11 +13,13 @@ import com.squareup.picasso.Picasso
 import android.content.SharedPreferences
 import android.graphics.Color
 import android.speech.tts.TextToSpeech
+import com.lgvalle.material_animations.contracts.IListeners
 import java.util.*
 
 
 class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var textToSpeech: TextToSpeech
+  private lateinit var iListner: IListeners
 
   override fun onClick(v: View) {
     val item_id = v.id
@@ -67,6 +69,8 @@ class QuizFragment : Fragment() , View.OnClickListener {
   private lateinit var option4: Button
   private lateinit var buttonSubmit: Button
   private lateinit var correctAnswer: String
+
+
 
   var prefs: SharedPreferences? = null
   val PREFS_FILENAME = "MyPrefs"
@@ -139,6 +143,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
       option3.text = args.getString(AppHelper.KEY_OPTION_3)
       option4.text = args.getString(AppHelper.KEY_OPTION_4)
       correctAnswer = args.getString(AppHelper.KEY_CORRECT_ANSWER)
+      iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
 
     }
 
@@ -153,8 +158,10 @@ class QuizFragment : Fragment() , View.OnClickListener {
 
   companion object {
 
+
+
     // Method for creating new instances of the fragment
-    fun newInstance(quiz: Quiz,currentLevel: String): QuizFragment {
+    fun newInstance(quiz: Quiz,currentLevel: String,listner: IListeners): QuizFragment {
 
       // Store the movie data in a Bundle object
       val args = Bundle()
@@ -166,6 +173,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
       args.putString(AppHelper.KEY_POSTER_URI, quiz.imageUri)
       args.putString(AppHelper.KEY_TITLE, quiz.title)
       args.putString(AppHelper.KEY_LEVEL, currentLevel)
+      args.putSerializable(AppHelper.KEY_LISTENER, listner)
       //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 
       // Create a new LessonFragment and set the Bundle as the arguments

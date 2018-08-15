@@ -33,14 +33,15 @@ package com.raywenderlich.favoritemovies
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
 import android.support.v4.app.FragmentStatePagerAdapter
+import com.lgvalle.material_animations.contracts.IListeners
 import com.lgvalle.material_animations.model.translation.Lesson
 
-class LessonPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Lesson>) :
+class LessonPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Lesson>,private val listner: IListeners) :
     FragmentStatePagerAdapter(fragmentManager) {
 
   // Return the Fragment associated with the object located at the specified position 
   override fun getItem(position: Int): Fragment {
-    return LessonFragment.newInstance(lessons[position])
+    return LessonFragment.newInstance(lessons[position],listner)
   }
 
   // Return the number of objects in the array.  

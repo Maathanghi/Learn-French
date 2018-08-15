@@ -27,6 +27,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.lgvalle.material_animations.contracts.IListeners;
 import com.lgvalle.material_animations.databinding.ActivityRevealBinding;
 import com.lgvalle.material_animations.model.translation.App;
 import com.lgvalle.material_animations.model.translation.Quiz;
@@ -37,7 +38,7 @@ import com.raywenderlich.favoritemovies.LessonPagerAdapter;
 import java.util.ArrayList;
 
 
-public class RevealActivity extends BaseDetailActivity implements View.OnTouchListener,View.OnClickListener,ViewPager.OnPageChangeListener {
+public class RevealActivity extends BaseDetailActivity implements View.OnTouchListener,View.OnClickListener,ViewPager.OnPageChangeListener,IListeners {
     private static final int DELAY = 100;
     private RelativeLayout bgViewGroup;
     private RelativeLayout bgViewstatus;
@@ -93,11 +94,11 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
 
         // Initialize the LessonPagerAdapter
         if(isLesson) {
-            pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson());
+            pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson(),this);
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerLessonAdapter);
         }else{
-            pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz(),app.getTitle());
+            pagerQuizAdapter = new QuizPagerAdapter(getSupportFragmentManager(), app.getQuiz(),app.getTitle(),this);
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerQuizAdapter);
         }
@@ -399,6 +400,16 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
 
     @Override
     public void onPageScrollStateChanged(int state) {
+
+    }
+
+    @Override
+    public void quizClickListener() {
+        revealBlue(bgViewstatus,false);
+    }
+
+    @Override
+    public void takeHomeListener() {
 
     }
 }

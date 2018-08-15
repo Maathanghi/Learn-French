@@ -38,15 +38,13 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.RelativeLayout
-import android.widget.TextView
+import android.widget.*
 import com.lgvalle.material_animations.R
 import com.lgvalle.material_animations.model.translation.Lesson
 
 import com.squareup.picasso.Picasso
 import java.util.*
-import android.widget.Toast
+import com.lgvalle.material_animations.contracts.IListeners
 import kotlinx.android.synthetic.main.card_back.*
 
 
@@ -57,6 +55,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       R.id.rootlayout -> flipCard(v)
       R.id.imgFrench -> textToSpeech(v)
       R.id.imgEnglish -> textToSpeech(v)
+      R.id.buttonQuiz -> iListner.quizClickListener()
     }
   }
 
@@ -74,7 +73,9 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var mImageFrechTtoSpeech: ImageView
   private lateinit var mImageEnglishtoSpeech: ImageView
   private lateinit var mCongratzContainer: RelativeLayout
+  private lateinit var buttonQuiz: Button
   private lateinit var root: View
+  private lateinit var iListner: IListeners
   private fun changeCameraDistance() {
     val distance = 8000
     val scale = resources.displayMetrics.density * distance
@@ -99,6 +100,9 @@ class LessonFragment : Fragment() , View.OnClickListener{
     mImageEnglishtoSpeech = mIncludeBack.findViewById(R.id.imgEnglish)
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
+    buttonQuiz = view.findViewById(R.id.buttonQuiz)
+
+    buttonQuiz.setOnClickListener(this)
   }
 
   fun flipCard(view: View) {
@@ -174,10 +178,8 @@ class LessonFragment : Fragment() , View.OnClickListener{
         mEnglishText.text = args.getString(AppHelper.KEY_ENGLISH_TRANSLATION)
         mFrenchText.text = args.getString(AppHelper.KEY_FRENCH_TRANSLATION)
       }
-
-
     }
-
+      iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
       mImageFrechTtoSpeech.setOnClickListener(this)
       mImageEnglishtoSpeech.setOnClickListener(this)
 
@@ -201,7 +203,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
   companion object {
 
     // Method for creating new instances of the fragment
-    fun newInstance(lesson: Lesson): LessonFragment {
+    fun newInstance(lesson: Lesson,listner: IListeners): LessonFragment {
 
       // Store the movie data in a Bundle object
       val args = Bundle()
@@ -209,6 +211,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       args.putString(AppHelper.KEY_FRENCH_TRANSLATION, lesson.frenchTranslation)
       args.putString(AppHelper.KEY_POSTER_URI, lesson.imageUri)
       args.putString(AppHelper.KEY_TITLE, lesson.title)
+      args.putSerializable(AppHelper.KEY_LISTENER, listner)
       //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 
       // Create a new LessonFragment and set the Bundle as the arguments

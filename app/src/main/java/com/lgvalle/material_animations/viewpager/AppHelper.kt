@@ -49,6 +49,7 @@ object AppHelper {
   val KEY_OPTION_3 = "KEY_OPTION_3"
   val KEY_OPTION_4 = "KEY_OPTION_4"
   val KEY_CORRECT_ANSWER = "KEY_CORRECT_ANSWER"
+  val KEY_LISTENER = "KEY_LISTENER"
 
 
   @JvmStatic
