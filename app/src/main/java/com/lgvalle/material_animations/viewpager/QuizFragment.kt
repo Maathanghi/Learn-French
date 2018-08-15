@@ -15,6 +15,9 @@ import android.graphics.Color
 import android.speech.tts.TextToSpeech
 import com.lgvalle.material_animations.contracts.IListeners
 import java.util.*
+import android.view.animation.AlphaAnimation
+
+
 
 
 class QuizFragment : Fragment() , View.OnClickListener {
@@ -47,14 +50,20 @@ class QuizFragment : Fragment() , View.OnClickListener {
     Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
     textToSpeech.speak(buttonText, TextToSpeech.QUEUE_FLUSH, null)
 
+    val alphaUp = AlphaAnimation(0.45f, 0.45f)
+    val alphaDown = AlphaAnimation(0.00f, 0.45f)
+    alphaUp.fillAfter = true
+
     if(buttonText.equals(correctAnswer)){
       view.setBackgroundResource(R.drawable.dotted_correct_button)
       view.setTextColor(Color.parseColor("#ffffff"))
       buttonSubmit.isEnabled=true
+      buttonSubmit.startAnimation(alphaDown)
     }else{
       view.setBackgroundResource(R.drawable.dotted_wrong_button)
       view.setTextColor(Color.parseColor("#ffffff"))
       buttonSubmit.isEnabled=false
+      buttonSubmit.startAnimation(alphaUp)
     }
 
   }
