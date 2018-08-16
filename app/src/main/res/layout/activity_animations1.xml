@@ -5,7 +5,7 @@
 
         <variable
             name="animationsSample"
-            type="com.lgvalle.flash_cards.Sample" />
+            type="com.french.flash_cards.Sample" />
     </data>
 
     <LinearLayout
