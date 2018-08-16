@@ -6,7 +6,7 @@
 
         <variable
             name="reveal1Sample"
-            type="com.lgvalle.material_animations.Sample" />
+            type="com.lgvalle.flash_cards.Sample" />
     </data>
 
     <LinearLayout
