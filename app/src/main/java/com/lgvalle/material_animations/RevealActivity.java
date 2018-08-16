@@ -390,7 +390,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
     @Override
     public void onPageSelected(int position) {
             progressBar.setProgress(position);
-            if(app.getLesson().size()-1 == position)
+            if(app.getLesson().size() - 1 == position)
             {
                 progressBar.setVisibility(View.VISIBLE);
             }else{
