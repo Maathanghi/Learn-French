@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
@@ -11,10 +11,15 @@
         style="@style/MaterialAnimations.TextAppearance.Title"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
-        android:background="@color/material_animations_primary"
+        android:background="@color/app_color_1"
         android:elevation="@dimen/elevation_header">
-
+        <ImageView
+            android:layout_gravity="center_vertical|start"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/logo_new" />
         <TextView
+            android:paddingLeft="10dp"
             android:id="@+id/title"
             style="@style/MaterialAnimations.TextAppearance.Title.Inverse"
             android:layout_width="wrap_content"
@@ -24,10 +29,32 @@
 
     </android.support.v7.widget.Toolbar>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/app_color_1">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:src="@drawable/reading_man" />
+
+       <TextView
+           android:layout_gravity="center"
+           android:textColor="@color/white"
+           android:text="Learn French using Flash card"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
     <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="10dp"
         android:id="@+id/sample_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/app_color_5"
         android:scrollbars="vertical" />
 
 </LinearLayout>
