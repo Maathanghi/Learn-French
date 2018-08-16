@@ -11,9 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-/**
- * Created by lgvalle on 05/09/15.
- */
+
 public class SharedElementFragment1 extends Fragment {
 
     private static final String EXTRA_SAMPLE = "sample";

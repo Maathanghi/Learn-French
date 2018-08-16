@@ -11,9 +11,7 @@ import com.squareup.picasso.Picasso;
 
 import java.io.Serializable;
 
-/**
- * Created by lgvalle on 04/09/15.
- */
+
 public class Sample implements Serializable {
 
     final int color;

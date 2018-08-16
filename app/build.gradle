@@ -8,7 +8,7 @@ android {
     buildToolsVersion '27.0.0'
 
     defaultConfig {
-        applicationId "com.lgvalle.material_animations"
+        applicationId "com.french.material_animations"
         minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
