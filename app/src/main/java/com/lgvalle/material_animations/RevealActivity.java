@@ -71,7 +71,6 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
         setupLayout();
         setupToolbar();
         changeToolbarColor();
-
     }
 
     private App getLesson(String title, ArrayList<App> appData){
