@@ -36,12 +36,12 @@ import android.support.v4.app.FragmentStatePagerAdapter
 import com.lgvalle.material_animations.contracts.IListeners
 import com.lgvalle.material_animations.model.translation.Lesson
 
-class LessonPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Lesson>,private val listner: IListeners) :
+class LessonPagerAdapter(fragmentManager: FragmentManager, private val lessons: ArrayList<Lesson>,private val listner: IListeners,private val level: String) :
     FragmentStatePagerAdapter(fragmentManager) {
 
   // Return the Fragment associated with the object located at the specified position 
   override fun getItem(position: Int): Fragment {
-    return LessonFragment.newInstance(lessons[position],listner)
+    return LessonFragment.newInstance(lessons[position],listner,level)
   }
 
   // Return the number of objects in the array.  

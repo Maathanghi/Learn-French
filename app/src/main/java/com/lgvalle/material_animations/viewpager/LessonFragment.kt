@@ -206,7 +206,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
   companion object {
 
     // Method for creating new instances of the fragment
-    fun newInstance(lesson: Lesson,listner: IListeners): LessonFragment {
+    fun newInstance(lesson: Lesson,listner: IListeners,level: String): LessonFragment {
 
       // Store the movie data in a Bundle object
       val args = Bundle()
@@ -214,6 +214,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       args.putString(AppHelper.KEY_FRENCH_TRANSLATION, lesson.frenchTranslation)
       args.putString(AppHelper.KEY_POSTER_URI, lesson.imageUri)
       args.putString(AppHelper.KEY_TITLE, lesson.title)
+      args.putString(AppHelper.KEY_LEVEL, level)
       args.putSerializable(AppHelper.KEY_LISTENER, listner)
       //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 

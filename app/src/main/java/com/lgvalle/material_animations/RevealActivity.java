@@ -94,7 +94,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
 
         // Initialize the LessonPagerAdapter
         if(isLesson) {
-            pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson(),this);
+            pagerLessonAdapter = new LessonPagerAdapter(getSupportFragmentManager(), app.getLesson(),this,app.getTitle());
             // Set the Adapter and the TabLayout for the ViewPager
             viewPager.setAdapter(pagerLessonAdapter);
             progressBar.setMax(app.getLesson().size()-1);
