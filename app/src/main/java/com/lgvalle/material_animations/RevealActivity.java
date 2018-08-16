@@ -396,7 +396,6 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
             }else{
                 progressBar.setVisibility(View.VISIBLE);
             }
-
     }
 
     @Override
