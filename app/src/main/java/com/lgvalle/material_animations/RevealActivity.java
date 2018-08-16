@@ -415,7 +415,7 @@ public class RevealActivity extends BaseDetailActivity implements View.OnTouchLi
 
     @Override
     public void nextQuestionListener() {
-        viewPager.setCurrentItem(progressBar.getProgress()+1);
+        viewPager.setCurrentItem(progressBar.getProgress() + 1);
     }
 
     @Override
