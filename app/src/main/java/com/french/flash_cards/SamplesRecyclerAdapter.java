@@ -57,7 +57,7 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                         break;
                 }*/
 
-                if(sample.status == 0){
+                if(sample.status == 0 && (!sample.getName().equals("Level 1"))){
                     showInfo();
                 }else {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);

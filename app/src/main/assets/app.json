@@ -259,63 +259,177 @@
       ]
     },
     {
-      "color":"#800000",
-      "title": "Level 3",
-      "lesson": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
-      },
+      "color":"#228c8e",
+      "title":"Level 3",
+      "lesson":[
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level3__aeroplane",
+          "imageUri":"level3__aeroplane",
+          "frenchTranslation":"Avion",
+          "englishTranslation":"Aeroplane"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level3__banana",
+          "imageUri":"level3__banana",
+          "frenchTranslation":"Banane",
+          "englishTranslation":"Banana"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level3__icecream",
+          "imageUri":"level3__icecream",
+          "frenchTranslation":"Crème glacée",
+          "englishTranslation":"IceCream"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "dawn",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level3__pen",
+          "imageUri":"level3__pen",
+          "frenchTranslation":"Stylo",
+          "englishTranslation":"Pen"
         },
         {
-          "title": "congratulations",
-          "imageUri": "",
-          "frenchTranslation": "",
-          "englishTranslation": ""
+          "title":"level3__pharmacie",
+          "imageUri":"level3__pharmacie",
+          "frenchTranslation":"Pharmacie",
+          "englishTranslation":"Pharmacy"
+        },
+        {
+          "title":"level3__policeman",
+          "imageUri":"level3__policeman",
+          "frenchTranslation":"Policier",
+          "englishTranslation":"Police man"
+        },
+        {
+          "title":"level3__star",
+          "imageUri":"level3__star",
+          "frenchTranslation":"étoiles",
+          "englishTranslation":"Stars"
+        },
+        {
+          "title":"level3__sugar",
+          "imageUri":"level3__sugar",
+          "frenchTranslation":"Sucre",
+          "englishTranslation":"Sugar"
+        },
+        {
+          "title":"level3__table",
+          "imageUri":"level3__table",
+          "frenchTranslation":"Table",
+          "englishTranslation":"Table"
+        },
+        {
+          "title":"level3__wallet",
+          "imageUri":"level3__wallet",
+          "frenchTranslation":"Portefeuille",
+          "englishTranslation":"Wallet"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"",
+          "frenchTranslation":"",
+          "englishTranslation":""
         }
       ],
-      "quiz": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "option1": "Bonjour",
-        "option2": "Bonjour",
-        "option3": "Bonjour",
-        "option4": "Bonjour",
-        "correct": "Bonjour"
-      },
+      "quiz":[
         {
-          "title": "congratulations",
-          "imageUri": "apple",
-          "option1": "Bonjour",
-          "option2": "Bonjour",
-          "option3": "Bonjour",
-          "option4": "Bonjour",
-          "correct": "Bonjour"
-        }]
+          "title":"Question 1",
+          "imageUri":"level3__aeroplane",
+          "option1":"Soleil",
+          "option2":"Avion",
+          "option3":"Cœur",
+          "option4":"lunettes",
+          "correct":"Avion"
+        },
+        {
+          "title":"Question 2",
+          "imageUri":"level3__banana",
+          "option1":"monnaie",
+          "option2":"Avion",
+          "option3":"Banane",
+          "option4":"Argent",
+          "correct":"Banane"
+        },
+        {
+          "title":"Question 3",
+          "imageUri":"level3__pen",
+          "option1":"Avion",
+          "option2":"Thé",
+          "option3":"Sac",
+          "option4":"Stylo",
+          "correct":"Stylo"
+        },
+        {
+          "title":"Question 4",
+          "imageUri":"level3__table",
+          "option1":"Avion",
+          "option2":"Tram",
+          "option3":"Policiertte",
+          "option4":"Train",
+          "correct":"Train"
+        },
+        {
+          "title":"Question 5",
+          "imageUri":"level3__wallet",
+          "option1":"Avion",
+          "option2":"Portefeuille",
+          "option3":"Temps",
+          "option4":"Train",
+          "correct":"Portefeuille"
+        },
+        {
+          "title":"Question 6",
+          "imageUri":"level3__sugar",
+          "option1":"Chein",
+          "option2":"Sac",
+          "option3":"Sucre",
+          "option4":"Tarte",
+          "correct":"Sucre"
+        },
+        {
+          "title":"Question 7",
+          "imageUri":"level3__policeman",
+          "option1":"Policier",
+          "option2":"cloche",
+          "option3":"Sucre",
+          "option4":"Casque",
+          "correct":"Policier"
+        },
+        {
+          "title":"Question 8",
+          "imageUri":"level3__icecream",
+          "option1":"Policier",
+          "option2":"Crème glacée",
+          "option3":"Sucre",
+          "option4":"viande",
+          "correct":"Crème glacée"
+        },
+        {
+          "title":"Question 9",
+          "imageUri":"level3__star",
+          "option1":"étoiles",
+          "option2":"Positif",
+          "option3":"Pas",
+          "option4":"viande",
+          "correct":"étoiles"
+        },
+        {
+          "title":"Question 10",
+          "imageUri":"level3__pharmacie",
+          "option1":"étoiles",
+          "option2":"Infirmière",
+          "option3":"Poste",
+          "option4":"Pharmacie",
+          "correct":"Pharmacie"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"apple",
+          "option1":"Bonjour",
+          "option2":"Bonjour",
+          "option3":"Bonjour",
+          "option4":"Bonjour",
+          "correct":"Banane"
+        }
+      ]
     },
     {
       "color":"#800000",

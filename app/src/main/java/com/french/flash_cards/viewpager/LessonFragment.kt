@@ -114,6 +114,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       mSetRightOut.start()
       mSetLeftIn.start()
       mIsBackVisible = true
+      textToSpeech(mImageFrechTtoSpeech)
     } else {
       mSetRightOut.setTarget(mCardBackLayout)
       mSetLeftIn.setTarget(mCardFrontLayout)
@@ -128,12 +129,12 @@ class LessonFragment : Fragment() , View.OnClickListener{
     if(view.id == R.id.imgEnglish){
       textToSpeech.setLanguage(Locale.ENGLISH)
       val toSpeak = mEnglishText.getText().toString()
-      Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+      //Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
       textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
     }else{
       textToSpeech.setLanguage(Locale.FRANCE)
       val toSpeak = mFrenchText.getText().toString()
-      Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
+      //Toast.makeText(context, toSpeak, Toast.LENGTH_SHORT).show()
       textToSpeech.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null)
     }
   }
