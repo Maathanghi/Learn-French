@@ -68,12 +68,39 @@
     },
       {
         "title": "Question 2",
-        "imageUri": "apple",
-        "option1": "Bonjour",
-        "option2": "Bonjour",
-        "option3": "Bonjour",
-        "option4": "Bonjour",
-        "correct": "Bonjour"
+        "imageUri": "level1__glasses",
+        "option1": "des lunettes",
+        "option2": "école",
+        "option3": "Soleil",
+        "option4": "Bâtiment",
+        "correct": "des lunettes"
+      },
+      {
+        "title": "Question 3",
+        "imageUri": "level1__heart",
+        "option1": "école",
+        "option2": "Soleil",
+        "option3": "des lunettes",
+        "option4": "Cœur",
+        "correct": "Cœur"
+      },
+      {
+        "title": "Question 4",
+        "imageUri": "level1__bread",
+        "option1": "école",
+        "option2": "Pain",
+        "option3": "des lunettes",
+        "option4": "Cœur",
+        "correct": "Pain"
+      },
+      {
+        "title": "Question 5",
+        "imageUri": "level1__candy",
+        "option1": "bonbons",
+        "option2": "Pain",
+        "option3": "des lunettes",
+        "option4": "Cœur",
+        "correct": "Pain"
       },
       {
         "title": "congratulations",
