@@ -432,63 +432,177 @@
       ]
     },
     {
-      "color":"#800000",
-      "title": "Level 4",
-      "lesson": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
-      },
+      "color":"#228c8e",
+      "title":"Level 4",
+      "lesson":[
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level4__book",
+          "imageUri":"level4__book",
+          "frenchTranslation":"Livre",
+          "englishTranslation":"Book"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level4__box",
+          "imageUri":"level4__box",
+          "frenchTranslation":"Boîte",
+          "englishTranslation":"Box"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level4__butterfly",
+          "imageUri":"level4__butterfly",
+          "frenchTranslation":"Papillon",
+          "englishTranslation":"Butterfly"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "dawn",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level4__church",
+          "imageUri":"level4__church",
+          "frenchTranslation":"Église",
+          "englishTranslation":"Church"
         },
         {
-          "title": "congratulations",
-          "imageUri": "",
-          "frenchTranslation": "",
-          "englishTranslation": ""
+          "title":"level4__cow",
+          "imageUri":"level4__cow",
+          "frenchTranslation":"Vache",
+          "englishTranslation":"Cow"
+        },
+        {
+          "title":"level4__flag",
+          "imageUri":"level4__flag",
+          "frenchTranslation":"Vache",
+          "englishTranslation":"Cow"
+        },
+        {
+          "title":"level4__hand",
+          "imageUri":"level4__hand",
+          "frenchTranslation":"Main",
+          "englishTranslation":"Hand"
+        },
+        {
+          "title":"level4__milk",
+          "imageUri":"level4__milk",
+          "frenchTranslation":"Lait",
+          "englishTranslation":"Milk"
+        },
+        {
+          "title":"level4__snow",
+          "imageUri":"level4__snow",
+          "frenchTranslation":"Table",
+          "englishTranslation":"Table"
+        },
+        {
+          "title":"level3__wallet",
+          "imageUri":"level3__wallet",
+          "frenchTranslation":"Neige",
+          "englishTranslation":"Snow"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"",
+          "frenchTranslation":"",
+          "englishTranslation":""
         }
       ],
-      "quiz": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "option1": "Bonjour",
-        "option2": "Bonjour",
-        "option3": "Bonjour",
-        "option4": "Bonjour",
-        "correct": "Bonjour"
-      },
+      "quiz":[
         {
-          "title": "congratulations",
-          "imageUri": "apple",
-          "option1": "Bonjour",
-          "option2": "Bonjour",
-          "option3": "Bonjour",
-          "option4": "Bonjour",
-          "correct": "Bonjour"
-        }]
+          "title":"Question 1",
+          "imageUri":"level4__book",
+          "option1":"Soleil",
+          "option2":"Livre",
+          "option3":"Cśur",
+          "option4":"lunettes",
+          "correct":"Livre"
+        },
+        {
+          "title":"Question 2",
+          "imageUri":"level4__box",
+          "option1":"monnaie",
+          "option2":"Livre",
+          "option3":"Boîte",
+          "option4":"Argent",
+          "correct":"Boîte"
+        },
+        {
+          "title":"Question 3",
+          "imageUri":"level4__church",
+          "option1":"Livre",
+          "option2":"Thé",
+          "option3":"Sac",
+          "option4":"Église",
+          "correct":"Église"
+        },
+        {
+          "title":"Question 4",
+          "imageUri":"level4__snow",
+          "option1":"Livre",
+          "option2":"Tram",
+          "option3":"Vachette",
+          "option4":"Train",
+          "correct":"Train"
+        },
+        {
+          "title":"Question 5",
+          "imageUri":"level3__wallet",
+          "option1":"Livre",
+          "option2":"Neige",
+          "option3":"Temps",
+          "option4":"Train",
+          "correct":"Neige"
+        },
+        {
+          "title":"Question 6",
+          "imageUri":"level4__milk",
+          "option1":"Chein",
+          "option2":"Sac",
+          "option3":"Lait",
+          "option4":"Tarte",
+          "correct":"Lait"
+        },
+        {
+          "title":"Question 7",
+          "imageUri":"level4__flag",
+          "option1":"Vache",
+          "option2":"cloche",
+          "option3":"Lait",
+          "option4":"Casque",
+          "correct":"Vache"
+        },
+        {
+          "title":"Question 8",
+          "imageUri":"level4__butterfly",
+          "option1":"Vache",
+          "option2":"Papillon",
+          "option3":"Lait",
+          "option4":"viande",
+          "correct":"Papillon"
+        },
+        {
+          "title":"Question 9",
+          "imageUri":"level4__hand",
+          "option1":"Main",
+          "option2":"Positif",
+          "option3":"Pas",
+          "option4":"viande",
+          "correct":"Main"
+        },
+        {
+          "title":"Question 10",
+          "imageUri":"level4__cow",
+          "option1":"Main",
+          "option2":"Infirmičre",
+          "option3":"Poste",
+          "option4":"Vache",
+          "correct":"Vache"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"apple",
+          "option1":"Bonjour",
+          "option2":"Bonjour",
+          "option3":"Bonjour",
+          "option4":"Bonjour",
+          "correct":"Boîte"
+        }
+      ]
     },
     {
       "color":"#800000",
