@@ -51,7 +51,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     val b = view as Button
     val buttonText = b.text.toString()
 
-    textToSpeech.setLanguage(Locale.ENGLISH)
+    textToSpeech.setLanguage(Locale.FRANCE)
     Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
     textToSpeech.speak(buttonText, TextToSpeech.QUEUE_FLUSH, null)
 
