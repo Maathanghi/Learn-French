@@ -156,7 +156,7 @@
                 android:id="@+id/buttonSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Submit"
+                android:text="Finish"
                 android:textColor="@color/white"
                 app:backgroundTint="@color/app_color_3" />
 

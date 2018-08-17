@@ -86,63 +86,177 @@
       }]
   },
     {
-      "color":"#800000",
-      "title": "Level 2",
-      "lesson": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "frenchTranslation": "Bonjour",
-        "englishTranslation": "Bonjour"
-      },
+      "color":"#228c8e",
+      "title":"Level 2",
+      "lesson":[
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level2__cat",
+          "imageUri":"level2__cat",
+          "frenchTranslation":"Chat",
+          "englishTranslation":"Cat"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level2__cash",
+          "imageUri":"level2__cash",
+          "frenchTranslation":"Espèces",
+          "englishTranslation":"Cash"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "apple",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level2__chicken",
+          "imageUri":"level2__chicken",
+          "frenchTranslation":"Poulet",
+          "englishTranslation":"Chicken"
         },
         {
-          "title": "Droid Runner 2049",
-          "imageUri": "dawn",
-          "frenchTranslation": "Bonjour",
-          "englishTranslation": "Bonjour"
+          "title":"level2__coffee",
+          "imageUri":"level2__coffee",
+          "frenchTranslation":"Café",
+          "englishTranslation":"Coffee"
         },
         {
-        "title": "congratulations",
-        "imageUri": "",
-        "frenchTranslation": "",
-        "englishTranslation": ""
+          "title":"level2__hospital",
+          "imageUri":"level2__hospital",
+          "frenchTranslation":"l'hôpital",
+          "englishTranslation":"Hospital"
+        },
+        {
+          "title":"level2__ring",
+          "imageUri":"level2__ring",
+          "frenchTranslation":"Bague",
+          "englishTranslation":"Ring"
+        },
+        {
+          "title":"level2__staircase",
+          "imageUri":"level2__staircase",
+          "frenchTranslation":"Escaliers",
+          "englishTranslation":"Staricase"
+        },
+        {
+          "title":"level2__tomato",
+          "imageUri":"level2__tomato",
+          "frenchTranslation":"Tomate",
+          "englishTranslation":"Tomato"
+        },
+        {
+          "title":"level2__train",
+          "imageUri":"level2__train",
+          "frenchTranslation":"Train",
+          "englishTranslation":"Train"
+        },
+        {
+          "title":"level2__watch",
+          "imageUri":"level2__watch",
+          "frenchTranslation":"Montre",
+          "englishTranslation":"Watch"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"",
+          "frenchTranslation":"",
+          "englishTranslation":""
         }
       ],
-      "quiz": [{
-        "title": "Droid Runner 2049",
-        "imageUri": "apple",
-        "option1": "Bonjour",
-        "option2": "Bonjour",
-        "option3": "Bonjour",
-        "option4": "Bonjour",
-        "correct": "Bonjour"
-      },
+      "quiz":[
         {
-          "title": "congratulations",
-          "imageUri": "apple",
-          "option1": "Bonjour",
-          "option2": "Bonjour",
-          "option3": "Bonjour",
-          "option4": "Bonjour",
-          "correct": "Bonjour"
-        }]
+          "title":"Question 1",
+          "imageUri":"level2__cat",
+          "option1":"Soleil",
+          "option2":"Chat",
+          "option3":"Cœur",
+          "option4":"lunettes",
+          "correct":"Chat"
+        },
+        {
+          "title":"Question 2",
+          "imageUri":"level2__cash",
+          "option1":"monnaie",
+          "option2":"Chat",
+          "option3":"Espèces",
+          "option4":"Argent",
+          "correct":"Espèces"
+        },
+        {
+          "title":"Question 3",
+          "imageUri":"level2__coffee",
+          "option1":"Chat",
+          "option2":"Thé",
+          "option3":"Sac",
+          "option4":"Café",
+          "correct":"Café"
+        },
+        {
+          "title":"Question 4",
+          "imageUri":"level2__train",
+          "option1":"Chat",
+          "option2":"Tram",
+          "option3":"Baguette",
+          "option4":"Train",
+          "correct":"Train"
+        },
+        {
+          "title":"Question 5",
+          "imageUri":"level2__watch",
+          "option1":"Chat",
+          "option2":"Montre",
+          "option3":"Temps",
+          "option4":"Train",
+          "correct":"Montre"
+        },
+        {
+          "title":"Question 6",
+          "imageUri":"level2__tomato",
+          "option1":"Chein",
+          "option2":"Sac",
+          "option3":"Tomate",
+          "option4":"Tarte",
+          "correct":"Tomate"
+        },
+        {
+          "title":"Question 7",
+          "imageUri":"level2__ring",
+          "option1":"Bague",
+          "option2":"cloche",
+          "option3":"Tomate",
+          "option4":"Casque",
+          "correct":"Bague"
+        },
+        {
+          "title":"Question 8",
+          "imageUri":"level2__chicken",
+          "option1":"Bague",
+          "option2":"Poulet",
+          "option3":"Tomate",
+          "option4":"viande",
+          "correct":"Poulet"
+        },
+        {
+          "title":"Question 9",
+          "imageUri":"level2__staircase",
+          "option1":"Escaliers",
+          "option2":"Positif",
+          "option3":"Pas",
+          "option4":"viande",
+          "correct":"Escaliers"
+        },
+        {
+          "title":"Question 10",
+          "imageUri":"level2__hospital",
+          "option1":"Escaliers",
+          "option2":"Infirmière",
+          "option3":"Poste",
+          "option4":"l'hôpital",
+          "correct":"l'hôpital"
+        },
+        {
+          "title":"congratulations",
+          "imageUri":"apple",
+          "option1":"Bonjour",
+          "option2":"Bonjour",
+          "option3":"Bonjour",
+          "option4":"Bonjour",
+          "correct":"Espèces"
+        }
+      ]
     },
     {
       "color":"#800000",
