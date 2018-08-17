@@ -1,10 +1,12 @@
 package com.french.flash_cards;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -54,11 +56,28 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                         transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                         break;
                 }*/
-                transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
+
+                if(sample.status == 0){
+                    showInfo();
+                }else {
+                    transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
+                }
             }
         });
     }
 
+    private void showInfo(){
+        AlertDialog alertDialog = new AlertDialog.Builder(activity).create();
+        alertDialog.setTitle("Alert");
+        alertDialog.setMessage("Please complete previous Levels");
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
     private void transitionToActivity(Class target, Sample sample) {
         final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(activity, true);
         startActivity(target, pairs, sample);
