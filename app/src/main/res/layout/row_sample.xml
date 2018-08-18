@@ -19,7 +19,18 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         card_view:cardCornerRadius="5dp">
+<TextView
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:id="@+id/header"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:text="Header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
     <RelativeLayout
+        android:visibility="gone"
         android:id="@+id/sample_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

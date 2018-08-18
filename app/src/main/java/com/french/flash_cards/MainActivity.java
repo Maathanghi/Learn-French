@@ -58,7 +58,10 @@ public class MainActivity extends AppCompatActivity {
         samples = new ArrayList<>();
         int i =0;
         for(App level : appData) {
-            i++;
+            if(!level.getTitle().contains("Header")){
+                i++;
+            }
+
             // Do something with the value
             int color = Color.parseColor(level.getColor());
             samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle())));
