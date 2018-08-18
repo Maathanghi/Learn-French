@@ -2,7 +2,8 @@
 
 
     <style name="MaterialAnimations" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:typeface">serif</item>
+        <item name="android:fontFamily">@font/comic</item>
+        <item name="android:typeface">monospace</item>
         <item name="android:colorPrimary">@color/material_animations_primary</item>
         <item name="android:colorPrimaryDark">@color/material_animations_primary_dark</item>
         <item name="android:colorAccent">@color/material_animations_accent</item>

@@ -89,7 +89,6 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
             viewHolder.binding.sampleLayout.setVisibility(View.GONE);
             viewHolder.binding.header.setVisibility(View.VISIBLE);
             viewHolder.binding.header.setText(getHeader(position));
-            viewHolder.binding.header.setTextColor(R.color.white);
         }else{
             viewHolder.binding.sampleLayout.setVisibility(View.VISIBLE);
             viewHolder.binding.header.setVisibility(View.GONE);
