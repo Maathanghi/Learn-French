@@ -18,6 +18,9 @@ import com.french.flash_cards.databinding.RowSampleBinding;
 import java.util.List;
 
 public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecyclerAdapter.SamplesViewHolder> {
+
+    private static final int TYPE_HEADER = 0;
+    private static final int TYPE_ITEM = 1;
     private final Activity activity;
     private final List<Sample> samples;
 
@@ -58,25 +61,24 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                 }*/
 
                 Sample preSample;
-                if(position != 0) {
+                if (position != 0) {
                     preSample = samples.get(position - 1);
-                }else{
+                } else {
                     preSample = samples.get(position);
                 }
-                if(sample.status == 0 && (position == 0)){
+                if (sample.status == 0 && (position == 0)) {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
-                }else if(sample.status == 0 && (preSample.status == 0 || preSample.status == 1)){
+                } else if (sample.status == 0 && (preSample.status == 0 || preSample.status == 1)) {
                     //showInfo();
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);//DELETE
-                }
-                else {
+                } else {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 }
             }
         });
     }
 
-    private void showInfo(){
+    private void showInfo() {
         AlertDialog alertDialog = new AlertDialog.Builder(activity).create();
         alertDialog.setTitle("Alert");
         alertDialog.setMessage("Please complete previous Levels");
@@ -88,6 +90,7 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                 });
         alertDialog.show();
     }
+
     private void transitionToActivity(Class target, Sample sample) {
         final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(activity, true);
         startActivity(target, pairs, sample);

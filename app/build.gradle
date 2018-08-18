@@ -4,19 +4,27 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
+    signingConfigs {
+        ananth {
+            keyAlias 'ananth'
+            keyPassword 'ananth12345'
+            storeFile file('/Users/anand/Documents/french/Learn-french/keystore')
+            storePassword 'ananth12345'
+        }
+    }
     compileSdkVersion 26
     buildToolsVersion '27.0.0'
-
     defaultConfig {
-        applicationId "com.french.material_animations"
+        applicationId "com.french.flash_cards"
         minSdkVersion 21
-        targetSdkVersion 23
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
-            minifyEnabled false
+            shrinkResources true // This must be first
+            minifyEnabled true   // This must be after shrinkResources
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -26,18 +34,16 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     //compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:recyclerview-v7:23.1.1'
     implementation 'com.google.code.gson:gson:2.8.2'
-
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support:design:26.1.0'
     implementation 'com.android.support:cardview-v7:26.1.0'
