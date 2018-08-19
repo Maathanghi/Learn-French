@@ -121,7 +121,7 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                 } else {
                     preSample = samples.get(position);
                 }
-                if (sample.status == 0 && (position == 0)) {
+                if (sample.status == 0 && preSample.getName().contains("Header")) {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 } else if (sample.status == 0 && (preSample.status == 0 || preSample.status == 1)) {
                     showInfo();
