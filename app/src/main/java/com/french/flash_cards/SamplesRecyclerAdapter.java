@@ -124,8 +124,8 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                 if (sample.status == 0 && (position == 0)) {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 } else if (sample.status == 0 && (preSample.status == 0 || preSample.status == 1)) {
-                    //showInfo();
-                    transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);//DELETE
+                    showInfo();
+                    //transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);//DELETE
                 } else {
                     transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 }

@@ -8,7 +8,7 @@ android {
         ananth {
             keyAlias 'ananth'
             keyPassword 'ananth12345'
-            storeFile file('/Users/anand/Documents/french/Learn-french/keystore')
+            storeFile file('/Users/anand/Documents/french/Learn-french/keystore_new')
             storePassword 'ananth12345'
         }
     }
@@ -18,8 +18,8 @@ android {
         applicationId "com.french.flash_cards"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.1"
     }
     buildTypes {
         release {
