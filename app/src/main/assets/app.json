@@ -1559,7 +1559,7 @@
         {
           "title": "level8__baby",
           "imageUri": "level8__baby",
-          "frenchTranslation": "Le b»b»",
+          "frenchTranslation": "Le bébé",
           "englishTranslation": "Baby",
           "tag": "family"
         },
@@ -1710,9 +1710,9 @@
           "imageUri": "level8__baby",
           "option1": "monnaie",
           "option2": "Avocat",
-          "option3": "Le b»b»",
+          "option3": "Le bébé",
           "option4": "Argent",
-          "correct": "Le b»b»"
+          "correct": "Le bébé"
         },
         {
           "title": "Question 3",
