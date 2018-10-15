@@ -22,7 +22,7 @@
         {
           "title": "level1__building",
           "imageUri": "level1__building",
-          "frenchTranslation": "B‚timent",
+          "frenchTranslation": "Bâtiment",
           "englishTranslation": "Building",
           "tag": "buildings"
         },
@@ -36,7 +36,7 @@
         {
           "title": "level1__elephant",
           "imageUri": "level1__elephant",
-          "frenchTranslation": "l'ÈlÈphant",
+          "frenchTranslation": "l'éléphant",
           "englishTranslation": "Elephant",
           "tag": "animal;zoo"
         },
@@ -50,14 +50,14 @@
         {
           "title": "level1__heart",
           "imageUri": "level1__heart",
-          "frenchTranslation": "Cúur",
+          "frenchTranslation": "Cœur",
           "englishTranslation": "Heart",
           "tag": "body;symbol"
         },
         {
           "title": "level1__school",
           "imageUri": "level1__school",
-          "frenchTranslation": "Ècole",
+          "frenchTranslation": "école",
           "englishTranslation": "School",
           "tag": "building;school"
         },
@@ -79,8 +79,8 @@
         "title": "Question 1",
         "imageUri": "level1__sun",
         "option1": "Soleil",
-        "option2": "Ècole",
-        "option3": "Cúur",
+        "option2": "école",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Soleil"
       },
@@ -88,27 +88,27 @@
           "title": "Question 2",
           "imageUri": "level1__glasses",
           "option1": "des lunettes",
-          "option2": "Ècole",
+          "option2": "école",
           "option3": "Soleil",
-          "option4": "B‚timent",
+          "option4": "Bâtiment",
           "correct": "des lunettes"
         },
         {
           "title": "Question 3",
           "imageUri": "level1__heart",
-          "option1": "Ècole",
+          "option1": "école",
           "option2": "Soleil",
           "option3": "des lunettes",
-          "option4": "Cúur",
-          "correct": "Cúur"
+          "option4": "Cœur",
+          "correct": "Cœur"
         },
         {
           "title": "Question 4",
           "imageUri": "level1__bread",
-          "option1": "Ècole",
+          "option1": "école",
           "option2": "Pain",
           "option3": "des lunettes",
-          "option4": "Cúur",
+          "option4": "Cœur",
           "correct": "Pain"
         },
         {
@@ -117,7 +117,7 @@
           "option1": "bonbons",
           "option2": "Pain",
           "option3": "des lunettes",
-          "option4": "Cúur",
+          "option4": "Cœur",
           "correct": "Pain"
         },
         {
@@ -158,14 +158,14 @@
         {
           "title": "level2__coffee",
           "imageUri": "level2__coffee",
-          "frenchTranslation": "CafÈ",
+          "frenchTranslation": "Café",
           "englishTranslation": "Coffee",
           "tag": "food;supermarket"
         },
         {
           "title": "level2__hospital",
           "imageUri": "level2__hospital",
-          "frenchTranslation": "l'hÙpital",
+          "frenchTranslation": "l'hôpital",
           "englishTranslation": "Hospital",
           "tag": "building;hospital"
         },
@@ -216,7 +216,7 @@
         "imageUri": "level2__cat",
         "option1": "Soleil",
         "option2": "Chat",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Chat"
       },
@@ -233,10 +233,10 @@
           "title": "Question 3",
           "imageUri": "level2__coffee",
           "option1": "Chat",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Sac",
-          "option4": "CafÈ",
-          "correct": "CafÈ"
+          "option4": "Café",
+          "correct": "Café"
         },
         {
           "title": "Question 4",
@@ -298,8 +298,8 @@
           "option1": "Escaliers",
           "option2": "Infirmière",
           "option3": "Poste",
-          "option4": "l'hÙpital",
-          "correct": "l'hÙpital"
+          "option4": "l'hôpital",
+          "correct": "l'hôpital"
         },
         {
           "title": "congratulations",
@@ -332,7 +332,7 @@
         {
           "title": "level3__icecream",
           "imageUri": "level3__icecream",
-          "frenchTranslation": "Crème glacÈe",
+          "frenchTranslation": "Crème glacée",
           "englishTranslation": "IceCream",
           "tag": "food;supermarket"
         },
@@ -360,7 +360,7 @@
         {
           "title": "level3__star",
           "imageUri": "level3__star",
-          "frenchTranslation": "Ètoiles",
+          "frenchTranslation": "étoiles",
           "englishTranslation": "Stars",
           "tag": "nature"
         },
@@ -397,7 +397,7 @@
         "imageUri": "level3__aeroplane",
         "option1": "Soleil",
         "option2": "Avion",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Avion"
       },
@@ -414,7 +414,7 @@
           "title": "Question 3",
           "imageUri": "level3__pen",
           "option1": "Avion",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Sac",
           "option4": "Stylo",
           "correct": "Stylo"
@@ -459,24 +459,24 @@
           "title": "Question 8",
           "imageUri": "level3__icecream",
           "option1": "Policier",
-          "option2": "Crème glacÈe",
+          "option2": "Crème glacée",
           "option3": "Sucre",
           "option4": "viande",
-          "correct": "Crème glacÈe"
+          "correct": "Crème glacée"
         },
         {
           "title": "Question 9",
           "imageUri": "level3__star",
-          "option1": "Ètoiles",
+          "option1": "étoiles",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "Ètoiles"
+          "correct": "étoiles"
         },
         {
           "title": "Question 10",
           "imageUri": "level3__pharmacie",
-          "option1": "Ètoiles",
+          "option1": "étoiles",
           "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Pharmacie",
@@ -506,7 +506,7 @@
         {
           "title": "level4__box",
           "imageUri": "level4__box",
-          "frenchTranslation": "BoÓte",
+          "frenchTranslation": "Boîte",
           "englishTranslation": "Box",
           "tag": ""
         },
@@ -520,7 +520,7 @@
         {
           "title": "level4__church",
           "imageUri": "level4__church",
-          "frenchTranslation": "…glise",
+          "frenchTranslation": "église",
           "englishTranslation": "Church",
           "tag": "animal;zoo"
         },
@@ -587,18 +587,18 @@
           "imageUri": "level4__box",
           "option1": "monnaie",
           "option2": "Livre",
-          "option3": "BoÓte",
+          "option3": "Boîte",
           "option4": "Argent",
-          "correct": "BoÓte"
+          "correct": "Boîte"
         },
         {
           "title": "Question 3",
           "imageUri": "level4__church",
           "option1": "Livre",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Sac",
-          "option4": "…glise",
-          "correct": "…glise"
+          "option4": "église",
+          "correct": "église"
         },
         {
           "title": "Question 4",
@@ -670,7 +670,7 @@
           "option2": "Bonjour",
           "option3": "Bonjour",
           "option4": "Bonjour",
-          "correct": "BoÓte"
+          "correct": "Boîte"
         }
       ]
     },
@@ -722,7 +722,7 @@
         {
           "title": "level5__spinach",
           "imageUri": "level5__spinach",
-          "frenchTranslation": "Èpinard",
+          "frenchTranslation": "épinard",
           "englishTranslation": "Spinach",
           "tag": "food;supermarket,green"
         },
@@ -736,7 +736,7 @@
         {
           "title": "level5__mobile",
           "imageUri": "level5__mobile",
-          "frenchTranslation": "TÈlÈphone portable",
+          "frenchTranslation": "Téléphone portable",
           "englishTranslation": "Mobile",
           "tag": "bag;electronic"
         },
@@ -759,7 +759,7 @@
         "imageUri": "level5__bag",
         "option1": "Soleil",
         "option2": "Sac",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Sac"
       },
@@ -776,7 +776,7 @@
           "title": "Question 3",
           "imageUri": "level5__road",
           "option1": "Sac",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Sac",
           "option4": "Route",
           "correct": "Route"
@@ -785,10 +785,10 @@
           "title": "Question 4",
           "imageUri": "level5__mobile",
           "option1": "Sac",
-          "option2": "TÈlÈphone portable",
+          "option2": "Téléphone portable",
           "option3": "Confiturette",
           "option4": "Train",
-          "correct": "TÈlÈphone portable"
+          "correct": "Téléphone portable"
         },
         {
           "title": "Question 5",
@@ -829,16 +829,16 @@
         {
           "title": "Question 9",
           "imageUri": "level5__spinach",
-          "option1": "Èpinard",
+          "option1": "épinard",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "Èpinard"
+          "correct": "épinard"
         },
         {
           "title": "Question 10",
           "imageUri": "level5__duck",
-          "option1": "Èpinard",
+          "option1": "épinard",
           "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Confiture",
@@ -927,7 +927,7 @@
         {
           "title": "level6__lock",
           "imageUri": "level6__lock",
-          "frenchTranslation": "Fermer ‡ clÈ",
+          "frenchTranslation": "Fermer à  clé",
           "englishTranslation": "Lock",
           "tag": "home"
         },
@@ -983,14 +983,14 @@
         {
           "title": "level6__tea",
           "imageUri": "level6__tea",
-          "frenchTranslation": "ThÈ",
+          "frenchTranslation": "Thé",
           "englishTranslation": "Tea",
           "tag": "food;supermarket"
         },
         {
           "title": "level6__toothbrush",
           "imageUri": "level6__toothbrush",
-          "frenchTranslation": "Brosse ‡ dents",
+          "frenchTranslation": "Brosse à  dents",
           "englishTranslation": "Tooth brush",
           "tag": "home;vacation"
         },
@@ -1020,7 +1020,7 @@
         "imageUri": "level6__baguette",
         "option1": "Soleil",
         "option2": "Baguette",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Baguette"
       },
@@ -1037,7 +1037,7 @@
           "title": "Question 3",
           "imageUri": "level6__chair",
           "option1": "Baguette",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Baguette",
           "option4": "Chaise",
           "correct": "Chaise"
@@ -1046,10 +1046,10 @@
           "title": "Question 4",
           "imageUri": "level6__lock",
           "option1": "Baguette",
-          "option2": "Fermer ‡ clÈ",
+          "option2": "Fermer à  clé",
           "option3": "Pièce de monnaie",
           "option4": "Train",
-          "correct": "Fermer ‡ clÈ"
+          "correct": "Fermer à clé"
         },
         {
           "title": "Question 5",
@@ -1110,7 +1110,7 @@
           "imageUri": "level6__monkey",
           "option1": "Soleil",
           "option2": "Singe",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "lunettes",
           "correct": "Singe"
         },
@@ -1127,7 +1127,7 @@
           "title": "Question 13",
           "imageUri": "level6__rabbit",
           "option1": "Singe",
-          "option2": "ThÈ",
+          "option2": "Thé",
           "option3": "Baguette",
           "option4": "Lapin",
           "correct": "Lapin"
@@ -1155,16 +1155,16 @@
           "imageUri": "level6__toothbrush",
           "option1": "Chein",
           "option2": "Baguette",
-          "option3": "Brosse ‡ dents",
+          "option3": "Brosse à  dents",
           "option4": "Tarte",
-          "correct": "Brosse ‡ dents"
+          "correct": "Brosse à  dents"
         },
         {
           "title": "Question 17",
           "imageUri": "level6__shoes",
           "option1": "Chaussures",
           "option2": "cloche",
-          "option3": "Brosse ‡ dents",
+          "option3": "Brosse à  dents",
           "option4": "Casque",
           "correct": "Chaussures"
         },
@@ -1173,23 +1173,23 @@
           "imageUri": "level6__painting",
           "option1": "Chaussures",
           "option2": "La peinture",
-          "option3": "Brosse ‡ dents",
+          "option3": "Brosse à  dents",
           "option4": "viande",
           "correct": "La peinture"
         },
         {
           "title": "Question 19",
           "imageUri": "level6__tea",
-          "option1": "ThÈ",
+          "option1": "Thé",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "ThÈ"
+          "correct": "Thé"
         },
         {
           "title": "Question 20",
           "imageUri": "level6__shirt",
-          "option1": "ThÈ",
+          "option1": "Thé",
           "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Chemise",
@@ -1233,7 +1233,7 @@
         {
           "title": "level7__castle",
           "imageUri": "level7__castle",
-          "frenchTranslation": "Ch‚teau",
+          "frenchTranslation": "Château",
           "englishTranslation": "Castle",
           "tag": "building"
         },
@@ -1275,7 +1275,7 @@
         {
           "title": "level7__window",
           "imageUri": "level7__window",
-          "frenchTranslation": "FenÍtre",
+          "frenchTranslation": "Fenêtre",
           "englishTranslation": "Window",
           "tag": "office;home"
         },
@@ -1361,7 +1361,7 @@
         "imageUri": "level7__bear",
         "option1": "Soleil",
         "option2": "Ours",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "lFeuilleettes",
         "correct": "Ours"
       },
@@ -1380,8 +1380,8 @@
           "option1": "Ours",
           "option2": "Carnet",
           "option3": "Ours",
-          "option4": "Ch‚teau",
-          "correct": "Ch‚teau"
+          "option4": "Château",
+          "correct": "Château"
         },
         {
           "title": "Question 4",
@@ -1396,10 +1396,10 @@
           "title": "Question 5",
           "imageUri": "level7__window",
           "option1": "Ours",
-          "option2": "FenÍtre",
+          "option2": "Fenêtre",
           "option3": "Temps",
           "option4": "Train",
-          "correct": "FenÍtre"
+          "correct": "Fenêtre"
         },
         {
           "title": "Question 6",
@@ -1451,7 +1451,7 @@
           "imageUri": "level7__two",
           "option1": "Soleil",
           "option2": "Deux",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "lFeuilleettes",
           "correct": "Deux"
         },
@@ -3400,7 +3400,7 @@
         {
           "title": "level12__lunchbox",
           "imageUri": "level12__lunchbox",
-          "frenchTranslation": "BoÓte ‡ dÈjeuner",
+          "frenchTranslation": "Boîte à  déjeuner",
           "englishTranslation": "Lunch Box",
           "tag": "school"
         },
@@ -3456,7 +3456,7 @@
         {
           "title": "level12__remote",
           "imageUri": "level12__remote",
-          "frenchTranslation": "TÈlÈcommande",
+          "frenchTranslation": "Télécommande",
           "englishTranslation": "Remote controller",
           "tag": "electronic;home"
         },
@@ -3521,7 +3521,7 @@
         "imageUri": "level12__alien",
         "option1": "Soleil",
         "option2": "Extraterrestre",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Extraterrestre"
       },
@@ -3611,7 +3611,7 @@
           "imageUri": "level12__bull",
           "option1": "Soleil",
           "option2": "Taureau",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Taureau"
         },
@@ -3701,7 +3701,7 @@
           "imageUri": "level12__hook",
           "option1": "Soleil",
           "option2": "Crochet",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Crochet"
         },
@@ -3782,16 +3782,16 @@
           "imageUri": "level12__lunchbox",
           "option1": "Les cuisinier",
           "option2": "Infirmière",
-          "option3": "BoÓte ‡ dÈjeuner",
+          "option3": "Boîte à  déjeuner",
           "option4": "Mangue",
-          "correct": "BoÓte ‡ dÈjeuner"
+          "correct": "Boîte à  déjeuner"
         },
         {
           "title": "Question 31",
           "imageUri": "level12__projector",
           "option1": "Soleil",
           "option2": "Projecteur",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Projecteur"
         },
@@ -3853,10 +3853,10 @@
           "title": "Question 38",
           "imageUri": "level12__remote",
           "option1": "Costume",
-          "option2": "TÈlÈcommande",
+          "option2": "Télécommande",
           "option3": "Surfant",
           "option4": "viande",
-          "correct": "TÈlÈcommande"
+          "correct": "Télécommande"
         },
         {
           "title": "Question 39",
@@ -3990,7 +3990,7 @@
         {
           "title": "level13__fence",
           "imageUri": "level13__fence",
-          "frenchTranslation": "ClÙture",
+          "frenchTranslation": "Clôture",
           "englishTranslation": "Fence",
           "tag": "home"
         },
@@ -4039,7 +4039,7 @@
         {
           "title": "level13__handag",
           "imageUri": "level13__handag",
-          "frenchTranslation": "Sac ‡ main",
+          "frenchTranslation": "Sac à  main",
           "englishTranslation": "Handbag",
           "tag": ""
         },
@@ -4181,7 +4181,7 @@
         "imageUri": "level13__ac",
         "option1": "Soleil",
         "option2": "Climatisation",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Climatisation"
       },
@@ -4227,7 +4227,7 @@
           "option1": "Chein",
           "option2": "Climatisation",
           "option3": "Brique",
-          "option4": "ClÙture",
+          "option4": "Clôture",
           "correct": "Brique"
         },
         {
@@ -4271,7 +4271,7 @@
           "imageUri": "level13__coconuttree",
           "option1": "Soleil",
           "option2": "Cocotier",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Cocotier"
         },
@@ -4317,7 +4317,7 @@
           "option1": "Chein",
           "option2": "Climatisation",
           "option3": "Frigo",
-          "option4": "ClÙture",
+          "option4": "Clôture",
           "correct": "Frigo"
         },
         {
@@ -4353,15 +4353,15 @@
           "option1": "Pot de fleur",
           "option2": "Infirmière",
           "option3": "Poste",
-          "option4": "ClÙture",
-          "correct": "ClÙture"
+          "option4": "Clôture",
+          "correct": "Clôture"
         },
         {
           "title": "Question 21",
           "imageUri": "level13__gorilla",
           "option1": "Soleil",
           "option2": "Gorille",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Gorille"
         },
@@ -4370,9 +4370,9 @@
           "imageUri": "level13__handag",
           "option1": "monnaie",
           "option2": "Gorille",
-          "option3": "Sac ‡ main",
+          "option3": "Sac à  main",
           "option4": "Argent",
-          "correct": "Sac ‡ main"
+          "correct": "Sac à  main"
         },
         {
           "title": "Question 23",
@@ -4451,7 +4451,7 @@
           "imageUri": "level13__oil",
           "option1": "Soleil",
           "option2": "Huile",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Huile"
         },
@@ -4580,7 +4580,7 @@
         {
           "title": "level14__concert",
           "imageUri": "level14__concert",
-          "frenchTranslation": "ConcertÈ",
+          "frenchTranslation": "Concerté",
           "englishTranslation": "Concert",
           "tag": ""
         },
@@ -4608,14 +4608,14 @@
         {
           "title": "level14__helicoptor",
           "imageUri": "level14__helicoptor",
-          "frenchTranslation": "HÈlicoptère",
+          "frenchTranslation": "Hélicoptère",
           "englishTranslation": "Helicopter",
           "tag": "vehicle;transportation"
         },
         {
           "title": "level14__identitycard",
           "imageUri": "level14__identitycard",
-          "frenchTranslation": "Carte d'identitÈ",
+          "frenchTranslation": "Carte d'identité",
           "englishTranslation": "Identity Card",
           "tag": "school;office"
         },
@@ -4650,7 +4650,7 @@
         {
           "title": "level14__meditation",
           "imageUri": "level14__meditation",
-          "frenchTranslation": "MÈditation",
+          "frenchTranslation": "Méditation",
           "englishTranslation": "Meditation",
           "tag": ""
         },
@@ -4692,7 +4692,7 @@
         {
           "title": "level14__presentation",
           "imageUri": "level14__presentation",
-          "frenchTranslation": "PrÈsentation",
+          "frenchTranslation": "Présentation",
           "englishTranslation": "Presentation",
           "tag": "office"
         },
@@ -4713,7 +4713,7 @@
         {
           "title": "level14__rhino",
           "imageUri": "level14__rhino",
-          "frenchTranslation": "RhinocÈros",
+          "frenchTranslation": "Rhinocéros",
           "englishTranslation": "Rhinoceros",
           "tag": "animal;zoo"
         },
@@ -4727,7 +4727,7 @@
         {
           "title": "level14__rocket",
           "imageUri": "level14__rocket",
-          "frenchTranslation": "FusÈe",
+          "frenchTranslation": "Fusée",
           "englishTranslation": "Rocket",
           "tag": "vehicle;transportation"
         },
@@ -4776,7 +4776,7 @@
         {
           "title": "level14__stet",
           "imageUri": "level14__stet",
-          "frenchTranslation": "StÈthoscope",
+          "frenchTranslation": "Stéthoscope",
           "englishTranslation": "Stethoscope",
           "tag": "hospital"
         },
@@ -4790,7 +4790,7 @@
         {
           "title": "level14__toe",
           "imageUri": "level14__toe",
-          "frenchTranslation": "DÈpanneuse",
+          "frenchTranslation": "Dépanneuse",
           "englishTranslation": "Tow truck",
           "tag": "vehicle;transportation"
         },
@@ -4804,7 +4804,7 @@
         {
           "title": "level14__tusks",
           "imageUri": "level14__tusks",
-          "frenchTranslation": "DÈfenses",
+          "frenchTranslation": "Défenses",
           "englishTranslation": "Tusk",
           "tag": ""
         },
@@ -4841,7 +4841,7 @@
         "imageUri": "level14__accident",
         "option1": "Soleil",
         "option2": "Accident",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Accident"
       },
@@ -4867,10 +4867,10 @@
           "title": "Question 4",
           "imageUri": "level14__helicoptor",
           "option1": "Accident",
-          "option2": "HÈlicoptère",
+          "option2": "Hélicoptère",
           "option3": "Crocodile",
           "option4": "Train",
-          "correct": "HÈlicoptère"
+          "correct": "Hélicoptère"
         },
         {
           "title": "Question 5",
@@ -4887,7 +4887,7 @@
           "option1": "Chein",
           "option2": "Accident",
           "option3": "Empreintes de pieds",
-          "option4": "MÈditation",
+          "option4": "Méditation",
           "correct": "Empreintes de pieds"
         },
         {
@@ -4922,16 +4922,16 @@
           "imageUri": "level14__concert",
           "option1": "Les cuisinier",
           "option2": "Infirmière",
-          "option3": "ConcertÈ",
+          "option3": "Concerté",
           "option4": "Crocodile",
-          "correct": "ConcertÈ"
+          "correct": "Concerté"
         },
         {
           "title": "Question 11",
           "imageUri": "level14__judge",
           "option1": "Soleil",
           "option2": "Juge",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Juge"
         },
@@ -4977,7 +4977,7 @@
           "option1": "Chein",
           "option2": "Accident",
           "option3": "Remarques",
-          "option4": "MÈditation",
+          "option4": "Méditation",
           "correct": "Remarques"
         },
         {
@@ -5013,23 +5013,23 @@
           "option1": "Journal",
           "option2": "Infirmière",
           "option3": "Poste",
-          "option4": "MÈditation",
-          "correct": "MÈditation"
+          "option4": "Méditation",
+          "correct": "Méditation"
         },
         {
           "title": "Question 21",
           "imageUri": "level14__presentation",
           "option1": "Soleil",
-          "option2": "PrÈsentation",
-          "option3": "Cúur",
+          "option2": "Présentation",
+          "option3": "Cœur",
           "option4": "L'eau",
-          "correct": "PrÈsentation"
+          "correct": "Présentation"
         },
         {
           "title": "Question 22",
           "imageUri": "level14__radioactive",
           "option1": "monnaie",
-          "option2": "PrÈsentation",
+          "option2": "Présentation",
           "option3": "radioactif",
           "option4": "Argent",
           "correct": "radioactif"
@@ -5037,16 +5037,16 @@
         {
           "title": "Question 23",
           "imageUri": "level14__rhino",
-          "option1": "PrÈsentation",
-          "option2": "DÈfenses",
+          "option1": "Présentation",
+          "option2": "Défenses",
           "option3": "Pain",
-          "option4": "RhinocÈros",
-          "correct": "RhinocÈros"
+          "option4": "Rhinocéros",
+          "correct": "Rhinocéros"
         },
         {
           "title": "Question 24",
           "imageUri": "level14__share",
-          "option1": "PrÈsentation",
+          "option1": "Présentation",
           "option2": "Partager",
           "option3": "Collier",
           "option4": "Train",
@@ -5055,7 +5055,7 @@
         {
           "title": "Question 25",
           "imageUri": "level14__snake",
-          "option1": "PrÈsentation",
+          "option1": "Présentation",
           "option2": "Serpent",
           "option3": "Temps",
           "option4": "Train",
@@ -5065,19 +5065,19 @@
           "title": "Question 26",
           "imageUri": "level14__scientist",
           "option1": "Chein",
-          "option2": "PrÈsentation",
+          "option2": "Présentation",
           "option3": "Scientifique",
-          "option4": "DÈpanneuse",
+          "option4": "Dépanneuse",
           "correct": "Scientifique"
         },
         {
           "title": "Question 27",
           "imageUri": "level14__rocket",
-          "option1": "FusÈe",
-          "option2": "PrÈsentation",
+          "option1": "Fusée",
+          "option2": "Présentation",
           "option3": "Scientifique",
           "option4": "Les cuisinier",
-          "correct": "FusÈe"
+          "correct": "Fusée"
         },
         {
           "title": "Question 28",
@@ -5111,7 +5111,7 @@
           "imageUri": "level14__stationary",
           "option1": "Soleil",
           "option2": "Stationnaire",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Stationnaire"
         },
@@ -5128,8 +5128,8 @@
           "title": "Question 33",
           "imageUri": "level14__teach",
           "option1": "Stationnaire",
-          "option2": "DÈfenses",
-          "option3": "PrÈsentation",
+          "option2": "Défenses",
+          "option3": "Présentation",
           "option4": "Le professeur",
           "correct": "Le professeur"
         },
@@ -5155,16 +5155,16 @@
           "title": "Question 36",
           "imageUri": "level14__volcano",
           "option1": "Chein",
-          "option2": "PrÈsentation",
+          "option2": "Présentation",
           "option3": "Volcan",
-          "option4": "DÈpanneuse",
+          "option4": "Dépanneuse",
           "correct": "Volcan"
         },
         {
           "title": "Question 37",
           "imageUri": "level14__transmission",
           "option1": "Ligne de transmission",
-          "option2": "PrÈsentation",
+          "option2": "Présentation",
           "option3": "Volcan",
           "option4": "Les cuisinier",
           "correct": "Ligne de transmission"
@@ -5173,28 +5173,28 @@
           "title": "Question 38",
           "imageUri": "level14__stet",
           "option1": "Ligne de transmission",
-          "option2": "StÈthoscope",
+          "option2": "Stéthoscope",
           "option3": "Volcan",
           "option4": "viande",
-          "correct": "StÈthoscope"
+          "correct": "Stéthoscope"
         },
         {
           "title": "Question 39",
           "imageUri": "level14__tusks",
-          "option1": "DÈfenses",
+          "option1": "Défenses",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "DÈfenses"
+          "correct": "Défenses"
         },
         {
           "title": "Question 40",
           "imageUri": "level14__toe",
-          "option1": "DÈfenses",
+          "option1": "Défenses",
           "option2": "Infirmière",
           "option3": "Poste",
-          "option4": "DÈpanneuse",
-          "correct": "DÈpanneuse"
+          "option4": "Dépanneuse",
+          "correct": "Dépanneuse"
         },
         {
           "title": "congratulations",
@@ -5275,14 +5275,14 @@
         {
           "title": "level15__desert",
           "imageUri": "level15__desert",
-          "frenchTranslation": "DÈsert",
+          "frenchTranslation": "Désert",
           "englishTranslation": "Desert",
           "tag": "nature"
         },
         {
           "title": "level15__employee",
           "imageUri": "level15__employee",
-          "frenchTranslation": "EmployÈ",
+          "frenchTranslation": "Employé",
           "englishTranslation": "Employee",
           "tag": "office"
         },
@@ -5303,7 +5303,7 @@
         {
           "title": "level15__fishing",
           "imageUri": "level15__fishing",
-          "frenchTranslation": "PÍche",
+          "frenchTranslation": "Pêche",
           "englishTranslation": "Fishing",
           "tag": ""
         },
@@ -5380,7 +5380,7 @@
         {
           "title": "level15__pouppet",
           "imageUri": "level15__pouppet",
-          "frenchTranslation": "Marionnette ‡ doigt",
+          "frenchTranslation": "Marionnette à  doigt",
           "englishTranslation": "Finger Puppet",
           "tag": ""
         },
@@ -5485,7 +5485,7 @@
         {
           "title": "level15__writing",
           "imageUri": "level15__writing",
-          "frenchTranslation": "L'Ècriture",
+          "frenchTranslation": "L'écriture",
           "englishTranslation": "Writing",
           "tag": "action"
         },
@@ -5501,7 +5501,7 @@
         "imageUri": "level15__alarm",
         "option1": "Soleil",
         "option2": "Alarme",
-        "option3": "Cúur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Alarme"
       },
@@ -5536,10 +5536,10 @@
           "title": "Question 5",
           "imageUri": "level15__desert",
           "option1": "Alarme",
-          "option2": "DÈsert",
+          "option2": "Désert",
           "option3": "Temps",
           "option4": "Train",
-          "correct": "DÈsert"
+          "correct": "Désert"
         },
         {
           "title": "Question 6",
@@ -5590,16 +5590,16 @@
           "title": "Question 11",
           "imageUri": "level15__employee",
           "option1": "Soleil",
-          "option2": "EmployÈ",
-          "option3": "Cúur",
+          "option2": "Employé",
+          "option3": "Cœur",
           "option4": "L'eau",
-          "correct": "EmployÈ"
+          "correct": "Employé"
         },
         {
           "title": "Question 12",
           "imageUri": "level15__envolope",
           "option1": "monnaie",
-          "option2": "EmployÈ",
+          "option2": "Employé",
           "option3": "Enveloppe",
           "option4": "Argent",
           "correct": "Enveloppe"
@@ -5607,16 +5607,16 @@
         {
           "title": "Question 13",
           "imageUri": "level15__fishing",
-          "option1": "EmployÈ",
+          "option1": "Employé",
           "option2": "Graphique",
           "option3": "Alarme",
-          "option4": "PÍche",
-          "correct": "PÍche"
+          "option4": "Pêche",
+          "correct": "Pêche"
         },
         {
           "title": "Question 14",
           "imageUri": "level15__kayak",
-          "option1": "EmployÈ",
+          "option1": "Employé",
           "option2": "Tram",
           "option3": "Corbeautte",
           "option4": "Kayak",
@@ -5625,7 +5625,7 @@
         {
           "title": "Question 15",
           "imageUri": "level15__marriage",
-          "option1": "EmployÈ",
+          "option1": "Employé",
           "option2": "Mariage",
           "option3": "Temps",
           "option4": "Train",
@@ -5681,7 +5681,7 @@
           "imageUri": "level15__nurse",
           "option1": "Soleil",
           "option2": "Infirmière",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Infirmière"
         },
@@ -5762,16 +5762,16 @@
           "imageUri": "level15__pouppet",
           "option1": "Les cuisinier",
           "option2": "Infirmière",
-          "option3": "Marionnette ‡ doigt",
+          "option3": "Marionnette à  doigt",
           "option4": "Imprimante",
-          "correct": "Marionnette ‡ doigt"
+          "correct": "Marionnette à  doigt"
         },
         {
           "title": "Question 31",
           "imageUri": "level15__scarecrow",
           "option1": "Soleil",
           "option2": "…pouvantail",
-          "option3": "Cúur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "…pouvantail"
         },
@@ -5806,10 +5806,10 @@
           "title": "Question 35",
           "imageUri": "level15__writing",
           "option1": "…pouvantail",
-          "option2": "L'Ècriture",
+          "option2": "L'écriture",
           "option3": "Temps",
           "option4": "Train",
-          "correct": "L'Ècriture"
+          "correct": "L'écriture"
         },
         {
           "title": "Question 36",
