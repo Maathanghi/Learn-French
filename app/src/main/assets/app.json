@@ -5422,7 +5422,7 @@
         {
           "title": "level15__scarecrow",
           "imageUri": "level15__scarecrow",
-          "frenchTranslation": "…pouvantail",
+          "frenchTranslation": "épouvantail",
           "englishTranslation": "Scare crow",
           "tag": ""
         },
@@ -5770,16 +5770,16 @@
           "title": "Question 31",
           "imageUri": "level15__scarecrow",
           "option1": "Soleil",
-          "option2": "…pouvantail",
+          "option2": "épouvantail",
           "option3": "Cœur",
           "option4": "L'eau",
-          "correct": "…pouvantail"
+          "correct": "épouvantail"
         },
         {
           "title": "Question 32",
           "imageUri": "level15__seeds",
           "option1": "monnaie",
-          "option2": "…pouvantail",
+          "option2": "épouvantail",
           "option3": "Des graines",
           "option4": "Argent",
           "correct": "Des graines"
@@ -5787,7 +5787,7 @@
         {
           "title": "Question 33",
           "imageUri": "level15__strong",
-          "option1": "…pouvantail",
+          "option1": "épouvantail",
           "option2": "Tente",
           "option3": "Infirmière",
           "option4": "Fort",
@@ -5796,7 +5796,7 @@
         {
           "title": "Question 34",
           "imageUri": "level15__wizard",
-          "option1": "…pouvantail",
+          "option1": "épouvantail",
           "option2": "Tram",
           "option3": "Chemin suissette",
           "option4": "Sorcier",
@@ -5805,7 +5805,7 @@
         {
           "title": "Question 35",
           "imageUri": "level15__writing",
-          "option1": "…pouvantail",
+          "option1": "épouvantail",
           "option2": "L'écriture",
           "option3": "Temps",
           "option4": "Train",
