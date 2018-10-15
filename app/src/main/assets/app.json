@@ -144,7 +144,7 @@
         {
           "title": "level2__cash",
           "imageUri": "level2__cash",
-          "frenchTranslation": "EspËces",
+          "frenchTranslation": "Espèces",
           "englishTranslation": "Cash",
           "tag": "bank,bag"
         },
@@ -225,9 +225,9 @@
           "imageUri": "level2__cash",
           "option1": "monnaie",
           "option2": "Chat",
-          "option3": "EspËces",
+          "option3": "Espèces",
           "option4": "Argent",
-          "correct": "EspËces"
+          "correct": "Espèces"
         },
         {
           "title": "Question 3",
@@ -296,7 +296,7 @@
           "title": "Question 10",
           "imageUri": "level2__hospital",
           "option1": "Escaliers",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "l'hÙpital",
           "correct": "l'hÙpital"
@@ -308,7 +308,7 @@
           "option2": "Bonjour",
           "option3": "Bonjour",
           "option4": "Bonjour",
-          "correct": "EspËces"
+          "correct": "Espèces"
         }
       ]
     },
@@ -332,7 +332,7 @@
         {
           "title": "level3__icecream",
           "imageUri": "level3__icecream",
-          "frenchTranslation": "CrËme glacÈe",
+          "frenchTranslation": "Crème glacÈe",
           "englishTranslation": "IceCream",
           "tag": "food;supermarket"
         },
@@ -459,10 +459,10 @@
           "title": "Question 8",
           "imageUri": "level3__icecream",
           "option1": "Policier",
-          "option2": "CrËme glacÈe",
+          "option2": "Crème glacÈe",
           "option3": "Sucre",
           "option4": "viande",
-          "correct": "CrËme glacÈe"
+          "correct": "Crème glacÈe"
         },
         {
           "title": "Question 9",
@@ -477,7 +477,7 @@
           "title": "Question 10",
           "imageUri": "level3__pharmacie",
           "option1": "Ètoiles",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Pharmacie",
           "correct": "Pharmacie"
@@ -839,7 +839,7 @@
           "title": "Question 10",
           "imageUri": "level5__duck",
           "option1": "Èpinard",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Confiture",
           "correct": "Confiture"
@@ -906,7 +906,7 @@
         {
           "title": "level6__coin",
           "imageUri": "level6__coin",
-          "frenchTranslation": "PiËce de monnaie",
+          "frenchTranslation": "Pièce de monnaie",
           "englishTranslation": "Coin",
           "tag": "bank;bag;supermarket"
         },
@@ -1047,7 +1047,7 @@
           "imageUri": "level6__lock",
           "option1": "Baguette",
           "option2": "Fermer ‡ clÈ",
-          "option3": "PiËce de monnaie",
+          "option3": "Pièce de monnaie",
           "option4": "Train",
           "correct": "Fermer ‡ clÈ"
         },
@@ -1072,16 +1072,16 @@
         {
           "title": "Question 7",
           "imageUri": "level6__coin",
-          "option1": "PiËce de monnaie",
+          "option1": "Pièce de monnaie",
           "option2": "cloche",
           "option3": "Fourchette",
           "option4": "Casque",
-          "correct": "PiËce de monnaie"
+          "correct": "Pièce de monnaie"
         },
         {
           "title": "Question 8",
           "imageUri": "level6__car",
-          "option1": "PiËce de monnaie",
+          "option1": "Pièce de monnaie",
           "option2": "Voiture",
           "option3": "Fourchette",
           "option4": "viande",
@@ -1100,9 +1100,9 @@
           "title": "Question 10",
           "imageUri": "level6__cloud",
           "option1": "Oeuf",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Des nuages",
-          "option4": "PiËce de monnaie",
+          "option4": "Pièce de monnaie",
           "correct": "Des nuages"
         },
         {
@@ -1190,7 +1190,7 @@
           "title": "Question 20",
           "imageUri": "level6__shirt",
           "option1": "ThÈ",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Chemise",
           "correct": "Chemise"
@@ -1296,7 +1296,7 @@
         {
           "title": "level7__light",
           "imageUri": "level7__light",
-          "frenchTranslation": "la lumiËre",
+          "frenchTranslation": "la lumière",
           "englishTranslation": "Light",
           "tag": "home;electronic"
         },
@@ -1441,7 +1441,7 @@
           "title": "Question 10",
           "imageUri": "level7__drink",
           "option1": "Casque",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Boisson",
           "option4": "Poisson",
           "correct": "Boisson"
@@ -1513,10 +1513,10 @@
           "title": "Question 18",
           "imageUri": "level7__light",
           "option1": "la lune",
-          "option2": "la lumiËre",
+          "option2": "la lumière",
           "option3": "Pantalon",
           "option4": "viande",
-          "correct": "la lumiËre"
+          "correct": "la lumière"
         },
         {
           "title": "Question 19",
@@ -1531,7 +1531,7 @@
           "title": "Question 20",
           "imageUri": "level7__line",
           "option1": "Carnet",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Ligne",
           "correct": "Ligne"
@@ -3601,7 +3601,7 @@
           "title": "Question 10",
           "imageUri": "level12__basket",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Panier",
           "option4": "Plage",
           "correct": "Panier"
@@ -3691,7 +3691,7 @@
           "title": "Question 20",
           "imageUri": "level12__crab",
           "option1": "Porte",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Crabe",
           "correct": "Crabe"
@@ -3781,7 +3781,7 @@
           "title": "Question 30",
           "imageUri": "level12__lunchbox",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "BoÓte ‡ dÈjeuner",
           "option4": "Mangue",
           "correct": "BoÓte ‡ dÈjeuner"
@@ -3871,7 +3871,7 @@
           "title": "Question 40",
           "imageUri": "level12__sandals",
           "option1": "Lever du soleil",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Des sandales",
           "correct": "Des sandales"
@@ -3913,7 +3913,7 @@
         {
           "title": "level13__birdcage",
           "imageUri": "level13__birdcage",
-          "frenchTranslation": "VoliËre",
+          "frenchTranslation": "Volière",
           "englishTranslation": "Bird Cage",
           "tag": "home"
         },
@@ -3983,7 +3983,7 @@
         {
           "title": "level13__dumbles",
           "imageUri": "level13__dumbles",
-          "frenchTranslation": "HaltËres",
+          "frenchTranslation": "Haltères",
           "englishTranslation": "Dumbbells",
           "tag": "sport"
         },
@@ -4200,8 +4200,8 @@
           "option1": "Climatisation",
           "option2": "Pot de fleur",
           "option3": "Pain",
-          "option4": "VoliËre",
-          "correct": "VoliËre"
+          "option4": "Volière",
+          "correct": "Volière"
         },
         {
           "title": "Question 4",
@@ -4261,7 +4261,7 @@
           "title": "Question 10",
           "imageUri": "level13__blanket",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Couverture",
           "option4": "Myrtille",
           "correct": "Couverture"
@@ -4290,8 +4290,8 @@
           "option1": "Cocotier",
           "option2": "Pot de fleur",
           "option3": "Climatisation",
-          "option4": "HaltËres",
-          "correct": "HaltËres"
+          "option4": "Haltères",
+          "correct": "Haltères"
         },
         {
           "title": "Question 14",
@@ -4351,7 +4351,7 @@
           "title": "Question 20",
           "imageUri": "level13__fence",
           "option1": "Pot de fleur",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "ClÙture",
           "correct": "ClÙture"
@@ -4441,7 +4441,7 @@
           "title": "Question 30",
           "imageUri": "level13__kettle",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Bouilloire",
           "option4": "Collier",
           "correct": "Bouilloire"
@@ -4531,7 +4531,7 @@
           "title": "Question 40",
           "imageUri": "level13__pearl",
           "option1": "Parfum",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Perle",
           "correct": "Perle"
@@ -4608,7 +4608,7 @@
         {
           "title": "level14__helicoptor",
           "imageUri": "level14__helicoptor",
-          "frenchTranslation": "HÈlicoptËre",
+          "frenchTranslation": "HÈlicoptère",
           "englishTranslation": "Helicopter",
           "tag": "vehicle;transportation"
         },
@@ -4629,7 +4629,7 @@
         {
           "title": "level14__library",
           "imageUri": "level14__library",
-          "frenchTranslation": "BibliothËque",
+          "frenchTranslation": "Bibliothèque",
           "englishTranslation": "Library",
           "tag": "buildings"
         },
@@ -4867,10 +4867,10 @@
           "title": "Question 4",
           "imageUri": "level14__helicoptor",
           "option1": "Accident",
-          "option2": "HÈlicoptËre",
+          "option2": "HÈlicoptère",
           "option3": "Crocodile",
           "option4": "Train",
-          "correct": "HÈlicoptËre"
+          "correct": "HÈlicoptère"
         },
         {
           "title": "Question 5",
@@ -4921,7 +4921,7 @@
           "title": "Question 10",
           "imageUri": "level14__concert",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "ConcertÈ",
           "option4": "Crocodile",
           "correct": "ConcertÈ"
@@ -4940,9 +4940,9 @@
           "imageUri": "level14__library",
           "option1": "monnaie",
           "option2": "Juge",
-          "option3": "BibliothËque",
+          "option3": "Bibliothèque",
           "option4": "Argent",
-          "correct": "BibliothËque"
+          "correct": "Bibliothèque"
         },
         {
           "title": "Question 13",
@@ -5011,7 +5011,7 @@
           "title": "Question 20",
           "imageUri": "level14__meditation",
           "option1": "Journal",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "MÈditation",
           "correct": "MÈditation"
@@ -5101,7 +5101,7 @@
           "title": "Question 30",
           "imageUri": "level14__robot",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Robot",
           "option4": "Collier",
           "correct": "Robot"
@@ -5191,7 +5191,7 @@
           "title": "Question 40",
           "imageUri": "level14__toe",
           "option1": "DÈfenses",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "DÈpanneuse",
           "correct": "DÈpanneuse"
@@ -5352,7 +5352,7 @@
         {
           "title": "level15__nurse",
           "imageUri": "level15__nurse",
-          "frenchTranslation": "InfirmiËre",
+          "frenchTranslation": "Infirmière",
           "englishTranslation": "Nurse",
           "tag": "hospital"
         },
@@ -5415,7 +5415,7 @@
         {
           "title": "level15__river",
           "imageUri": "level15__river",
-          "frenchTranslation": "RiviËre",
+          "frenchTranslation": "Rivière",
           "englishTranslation": "River",
           "tag": "nature"
         },
@@ -5436,7 +5436,7 @@
         {
           "title": "level15__stopwatch",
           "imageUri": "level15__stopwatch",
-          "frenchTranslation": "ChronomËtre",
+          "frenchTranslation": "Chronomètre",
           "englishTranslation": "Stop watch",
           "tag": ""
         },
@@ -5581,7 +5581,7 @@
           "title": "Question 10",
           "imageUri": "level15__cd",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Disque compact",
           "option4": "Certificat",
           "correct": "Disque compact"
@@ -5671,7 +5671,7 @@
           "title": "Question 20",
           "imageUri": "level15__garden",
           "option1": "Graphique",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Jardin",
           "correct": "Jardin"
@@ -5680,16 +5680,16 @@
           "title": "Question 21",
           "imageUri": "level15__nurse",
           "option1": "Soleil",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Cúur",
           "option4": "L'eau",
-          "correct": "InfirmiËre"
+          "correct": "Infirmière"
         },
         {
           "title": "Question 22",
           "imageUri": "level15__path",
           "option1": "monnaie",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Chemin",
           "option4": "Argent",
           "correct": "Chemin"
@@ -5697,7 +5697,7 @@
         {
           "title": "Question 23",
           "imageUri": "level15__pot",
-          "option1": "InfirmiËre",
+          "option1": "Infirmière",
           "option2": "Tente",
           "option3": "Pain",
           "option4": "Pot",
@@ -5706,7 +5706,7 @@
         {
           "title": "Question 24",
           "imageUri": "level15__rip",
-          "option1": "InfirmiËre",
+          "option1": "Infirmière",
           "option2": "Pierre tombale",
           "option3": "Imprimante",
           "option4": "Train",
@@ -5715,17 +5715,17 @@
         {
           "title": "Question 25",
           "imageUri": "level15__river",
-          "option1": "InfirmiËre",
-          "option2": "RiviËre",
+          "option1": "Infirmière",
+          "option2": "Rivière",
           "option3": "Temps",
           "option4": "Train",
-          "correct": "RiviËre"
+          "correct": "Rivière"
         },
         {
           "title": "Question 26",
           "imageUri": "level15__resume",
           "option1": "Chein",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Curriculum vitae",
           "option4": "Tournesol",
           "correct": "Curriculum vitae"
@@ -5734,7 +5734,7 @@
           "title": "Question 27",
           "imageUri": "level15__printer",
           "option1": "Imprimante",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Curriculum vitae",
           "option4": "Les cuisinier",
           "correct": "Imprimante"
@@ -5761,7 +5761,7 @@
           "title": "Question 30",
           "imageUri": "level15__pouppet",
           "option1": "Les cuisinier",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Marionnette ‡ doigt",
           "option4": "Imprimante",
           "correct": "Marionnette ‡ doigt"
@@ -5789,7 +5789,7 @@
           "imageUri": "level15__strong",
           "option1": "…pouvantail",
           "option2": "Tente",
-          "option3": "InfirmiËre",
+          "option3": "Infirmière",
           "option4": "Fort",
           "correct": "Fort"
         },
@@ -5815,7 +5815,7 @@
           "title": "Question 36",
           "imageUri": "level15__wand",
           "option1": "Chein",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Baguette magique",
           "option4": "Tournesol",
           "correct": "Baguette magique"
@@ -5824,7 +5824,7 @@
           "title": "Question 37",
           "imageUri": "level15__surgeon",
           "option1": "Chirurgien",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Baguette magique",
           "option4": "Les cuisinier",
           "correct": "Chirurgien"
@@ -5833,10 +5833,10 @@
           "title": "Question 38",
           "imageUri": "level15__stopwatch",
           "option1": "Chirurgien",
-          "option2": "ChronomËtre",
+          "option2": "Chronomètre",
           "option3": "Baguette magique",
           "option4": "viande",
-          "correct": "ChronomËtre"
+          "correct": "Chronomètre"
         },
         {
           "title": "Question 39",
@@ -5851,7 +5851,7 @@
           "title": "Question 40",
           "imageUri": "level15__sunflower",
           "option1": "Tente",
-          "option2": "InfirmiËre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Tournesol",
           "correct": "Tournesol"
