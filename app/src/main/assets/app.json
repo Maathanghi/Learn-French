@@ -1564,8 +1564,8 @@
           "tag": "family"
         },
         {
-          "title": "level8__balloon",
-          "imageUri": "level8__balloon",
+          "title": "level8__baloon",
+          "imageUri": "level8__baloon",
           "frenchTranslation": "Le ballon",
           "englishTranslation": "Ballon",
           "tag": "party"
@@ -1657,7 +1657,7 @@
         {
           "title": "level8__safetypin",
           "imageUri": "level8__safetypin",
-          "frenchTranslation": "»pingle de s∞ret»",
+          "frenchTranslation": "épingle de s∞reté",
           "englishTranslation": "Safety pin",
           "tag": ""
         },
@@ -1685,7 +1685,7 @@
         {
           "title": "level8__student",
           "imageUri": "level8__student",
-          "frenchTranslation": "»tudiant",
+          "frenchTranslation": "étudiant",
           "englishTranslation": "Student",
           "tag": "school;profession"
         },
@@ -1701,7 +1701,7 @@
         "imageUri": "level8__avacado",
         "option1": "Soleil",
         "option2": "Avocat",
-        "option3": "C˙ur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Avocat"
       },
@@ -1753,16 +1753,16 @@
         {
           "title": "Question 7",
           "imageUri": "level8__cake",
-          "option1": "GÇteau",
+          "option1": "Gâteau",
           "option2": "cloche",
           "option3": "Piment rouge",
           "option4": "Les cuisinier",
-          "correct": "GÇteau"
+          "correct": "Gâteau"
         },
         {
           "title": "Question 8",
-          "imageUri": "level8__balloon",
-          "option1": "GÇteau",
+          "imageUri": "level8__baloon",
+          "option1": "Gâteau",
           "option2": "Le ballon",
           "option3": "Piment rouge",
           "option4": "viande",
@@ -1781,9 +1781,9 @@
           "title": "Question 10",
           "imageUri": "level8__burger",
           "option1": "Les cuisinier",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Burger",
-          "option4": "GÇteau",
+          "option4": "Gâteau",
           "correct": "Burger"
         },
         {
@@ -1791,7 +1791,7 @@
           "imageUri": "level8__drink",
           "option1": "Soleil",
           "option2": "Un verre",
-          "option3": "C˙ur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Un verre"
         },
@@ -1818,7 +1818,7 @@
           "imageUri": "level8__snowglobe",
           "option1": "Un verre",
           "option2": "Tram",
-          "option3": "»pingle de s∞ret»tte",
+          "option3": "Salade",
           "option4": "Boule á neige",
           "correct": "Boule á neige"
         },
@@ -1826,10 +1826,10 @@
           "title": "Question 15",
           "imageUri": "level8__student",
           "option1": "Un verre",
-          "option2": "»tudiant",
+          "option2": "étudiant",
           "option3": "Temps",
           "option4": "Train",
-          "correct": "»tudiant"
+          "correct": "étudiant"
         },
         {
           "title": "Question 16",
@@ -1843,16 +1843,16 @@
         {
           "title": "Question 17",
           "imageUri": "level8__safetypin",
-          "option1": "»pingle de s∞ret»",
+          "option1": "épingle de s∞reté",
           "option2": "cloche",
           "option3": "Feux de circulations",
           "option4": "Les cuisinier",
-          "correct": "»pingle de s∞ret»"
+          "correct": "épingle de s∞reté"
         },
         {
           "title": "Question 18",
           "imageUri": "level8__olives",
-          "option1": "»pingle de s∞ret»",
+          "option1": "épingle de s∞reté",
           "option2": "Olive",
           "option3": "Feux de circulations",
           "option4": "viande",
@@ -1871,7 +1871,7 @@
           "title": "Question 20",
           "imageUri": "level8__pie",
           "option1": "Salade",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Tarte",
           "correct": "Tarte"
@@ -1920,28 +1920,28 @@
         {
           "title": "level9__christmastree",
           "imageUri": "level9__christmastree",
-          "frenchTranslation": "Arbre de NoŒl",
+          "frenchTranslation": "Arbre de Noël",
           "englishTranslation": "Christmas tree",
           "tag": "party"
         },
         {
           "title": "level9__cupcake",
           "imageUri": "level9__cupcake",
-          "frenchTranslation": "Petite GÇteau",
+          "frenchTranslation": "Petite Gâteau",
           "englishTranslation": "Cup cakes",
           "tag": "food;supermarket;bakery"
         },
         {
           "title": "level9__doctor",
           "imageUri": "level9__doctor",
-          "frenchTranslation": "Le m»decin",
+          "frenchTranslation": "Le médecin",
           "englishTranslation": "Doctor",
           "tag": "profession"
         },
         {
           "title": "level9__doordecor",
           "imageUri": "level9__doordecor",
-          "frenchTranslation": "Guirlande de NoŒl",
+          "frenchTranslation": "Guirlande de Noël",
           "englishTranslation": "Christmas wreath",
           "tag": "party;christmas"
         },
@@ -1997,7 +1997,7 @@
         {
           "title": "level9__lips",
           "imageUri": "level9__lips",
-          "frenchTranslation": "lÀvres",
+          "frenchTranslation": "lèvres",
           "englishTranslation": "Lips",
           "tag": "body"
         },
@@ -2011,7 +2011,7 @@
         {
           "title": "level9__santa",
           "imageUri": "level9__santa",
-          "frenchTranslation": "PÀre NoŒl",
+          "frenchTranslation": "Père Noël",
           "englishTranslation": "Santa clause",
           "tag": "christmas"
         },
@@ -2041,7 +2041,7 @@
         "imageUri": "level9__bell",
         "option1": "Soleil",
         "option2": "Cloche",
-        "option3": "C˙ur",
+        "option3": "Cœur",
         "option4": "L'eau",
         "correct": "Cloche"
       },
@@ -2068,7 +2068,7 @@
           "imageUri": "level9__dress",
           "option1": "Cloche",
           "option2": "Robe",
-          "option3": "Petite GÇteau",
+          "option3": "Petite Gâteau",
           "option4": "Train",
           "correct": "Robe"
         },
@@ -2086,52 +2086,52 @@
           "imageUri": "level9__doordecor",
           "option1": "Chein",
           "option2": "Cloche",
-          "option3": "Guirlande de NoŒl",
+          "option3": "Guirlande de Noël",
           "option4": "Roi",
-          "correct": "Guirlande de NoŒl"
+          "correct": "Guirlande de Noël"
         },
         {
           "title": "Question 7",
           "imageUri": "level9__cupcake",
-          "option1": "Petite GÇteau",
+          "option1": "Petite Gâteau",
           "option2": "cloche",
-          "option3": "Guirlande de NoŒl",
+          "option3": "Guirlande de Noël",
           "option4": "Les cuisinier",
-          "correct": "Petite GÇteau"
+          "correct": "Petite Gâteau"
         },
         {
           "title": "Question 8",
           "imageUri": "level9__cheese",
-          "option1": "Petite GÇteau",
+          "option1": "Petite Gâteau",
           "option2": "Fromage",
-          "option3": "Guirlande de NoŒl",
+          "option3": "Guirlande de Noël",
           "option4": "viande",
           "correct": "Fromage"
         },
         {
           "title": "Question 9",
           "imageUri": "level9__doctor",
-          "option1": "Le m»decin",
+          "option1": "Le médecin",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "Le m»decin"
+          "correct": "Le médecin"
         },
         {
           "title": "Question 10",
           "imageUri": "level9__christmastree",
           "option1": "Les cuisinier",
-          "option2": "InfirmiÀre",
-          "option3": "Arbre de NoŒl",
-          "option4": "Petite GÇteau",
-          "correct": "Arbre de NoŒl"
+          "option2": "Infirmière",
+          "option3": "Arbre de Noël",
+          "option4": "Petite Gâteau",
+          "correct": "Arbre de Noël"
         },
         {
           "title": "Question 11",
           "imageUri": "level9__fries",
           "option1": "Soleil",
           "option2": "Frites",
-          "option3": "C˙ur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Frites"
         },
@@ -2158,7 +2158,7 @@
           "imageUri": "level9__sock",
           "option1": "Frites",
           "option2": "Tram",
-          "option3": "lÀvrestte",
+          "option3": "lèvrestte",
           "option4": "Chaussette",
           "correct": "Chaussette"
         },
@@ -2176,25 +2176,25 @@
           "imageUri": "level9__santa",
           "option1": "Chein",
           "option2": "Cloche",
-          "option3": "PÀre NoŒl",
+          "option3": "Père Noël",
           "option4": "Roi",
-          "correct": "PÀre NoŒl"
+          "correct": "Père Noël"
         },
         {
           "title": "Question 17",
           "imageUri": "level9__lips",
-          "option1": "lÀvres",
+          "option1": "lèvres",
           "option2": "cloche",
-          "option3": "PÀre NoŒl",
+          "option3": "Père Noël",
           "option4": "Les cuisinier",
-          "correct": "lÀvres"
+          "correct": "lèvres"
         },
         {
           "title": "Question 18",
           "imageUri": "level9__horse",
-          "option1": "lÀvres",
+          "option1": "lèvres",
           "option2": "Cheval",
-          "option3": "PÀre NoŒl",
+          "option3": "Père Noël",
           "option4": "viande",
           "correct": "Cheval"
         },
@@ -2211,7 +2211,7 @@
           "title": "Question 20",
           "imageUri": "level9__king",
           "option1": "Nuit",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Roi",
           "correct": "Roi"
@@ -2232,7 +2232,7 @@
       "lesson": [{
         "title": "level10__airport",
         "imageUri": "level10__airport",
-        "frenchTranslation": "A»roport",
+        "frenchTranslation": "Aéroport",
         "englishTranslation": "Airport",
         "tag": "building"
       },
@@ -2253,7 +2253,7 @@
         {
           "title": "level10__detective",
           "imageUri": "level10__detective",
-          "frenchTranslation": "D»tective",
+          "frenchTranslation": "Détective",
           "englishTranslation": "Detective",
           "tag": "profession"
         },
@@ -2323,7 +2323,7 @@
         {
           "title": "level10__supermarket",
           "imageUri": "level10__supermarket",
-          "frenchTranslation": "supermarch»",
+          "frenchTranslation": "supermarché",
           "englishTranslation": "Super market",
           "tag": "building;city"
         },
@@ -2344,14 +2344,14 @@
         {
           "title": "level10__vegetables",
           "imageUri": "level10__vegetables",
-          "frenchTranslation": "des l»gumes",
+          "frenchTranslation": "des légumes",
           "englishTranslation": "Vegetables",
           "tag": "vegetable"
         },
         {
           "title": "level10__watermelon",
           "imageUri": "level10__watermelon",
-          "frenchTranslation": "PastÀque",
+          "frenchTranslation": "Pastèque",
           "englishTranslation": "Watermelon",
           "tag": "fruit"
         },
@@ -2380,16 +2380,16 @@
         "title": "Question 1",
         "imageUri": "level10__airport",
         "option1": "Soleil",
-        "option2": "A»roport",
-        "option3": "C˙ur",
+        "option2": "Aéroport",
+        "option3": "Cœur",
         "option4": "L'eau",
-        "correct": "A»roport"
+        "correct": "Aéroport"
       },
         {
           "title": "Question 2",
           "imageUri": "level10__ambulance",
           "option1": "monnaie",
-          "option2": "A»roport",
+          "option2": "Aéroport",
           "option3": "Ambulance",
           "option4": "Argent",
           "correct": "Ambulance"
@@ -2397,16 +2397,16 @@
         {
           "title": "Question 3",
           "imageUri": "level10__detective",
-          "option1": "A»roport",
-          "option2": "des l»gumes",
+          "option1": "Aéroport",
+          "option2": "des légumes",
           "option3": "Pain",
-          "option4": "D»tective",
-          "correct": "D»tective"
+          "option4": "Détective",
+          "correct": "Détective"
         },
         {
           "title": "Question 4",
           "imageUri": "level10__mailbox",
-          "option1": "A»roport",
+          "option1": "Aéroport",
           "option2": "Boites aux lettres",
           "option3": "Sapeur pompier",
           "option4": "Train",
@@ -2415,7 +2415,7 @@
         {
           "title": "Question 5",
           "imageUri": "level10__park",
-          "option1": "A»roport",
+          "option1": "Aéroport",
           "option2": "Parc",
           "option3": "Temps",
           "option4": "Train",
@@ -2425,7 +2425,7 @@
           "title": "Question 6",
           "imageUri": "level10__lighthouse",
           "option1": "Chein",
-          "option2": "A»roport",
+          "option2": "Aéroport",
           "option3": "Le phare",
           "option4": "Robinet",
           "correct": "Le phare"
@@ -2434,7 +2434,7 @@
           "title": "Question 7",
           "imageUri": "level10__firefighter",
           "option1": "Sapeur pompier",
-          "option2": "A»roport",
+          "option2": "Aéroport",
           "option3": "Le phare",
           "option4": "Les cuisinier",
           "correct": "Sapeur pompier"
@@ -2461,7 +2461,7 @@
           "title": "Question 10",
           "imageUri": "level10__farm",
           "option1": "Les cuisinier",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Ferme",
           "option4": "Sapeur pompier",
           "correct": "Ferme"
@@ -2471,7 +2471,7 @@
           "imageUri": "level10__pilot",
           "option1": "Soleil",
           "option2": "Pilote",
-          "option3": "C˙ur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Pilote"
         },
@@ -2488,10 +2488,10 @@
           "title": "Question 13",
           "imageUri": "level10__supermarket",
           "option1": "Pilote",
-          "option2": "des l»gumes",
-          "option3": "A»roport",
-          "option4": "supermarch»",
-          "correct": "supermarch»"
+          "option2": "des légumes",
+          "option3": "Aéroport",
+          "option4": "supermarché",
+          "correct": "supermarché"
         },
         {
           "title": "Question 14",
@@ -2515,17 +2515,17 @@
           "title": "Question 16",
           "imageUri": "level10__watermelon",
           "option1": "Chein",
-          "option2": "A»roport",
-          "option3": "PastÀque",
+          "option2": "Aéroport",
+          "option3": "Pastèque",
           "option4": "Robinet",
-          "correct": "PastÀque"
+          "correct": "Pastèque"
         },
         {
           "title": "Question 17",
           "imageUri": "level10__teacher",
           "option1": "Enseignants",
-          "option2": "A»roport",
-          "option3": "PastÀque",
+          "option2": "Aéroport",
+          "option3": "Pastèque",
           "option4": "Les cuisinier",
           "correct": "Enseignants"
         },
@@ -2534,24 +2534,24 @@
           "imageUri": "level10__ship",
           "option1": "Enseignants",
           "option2": "Navire",
-          "option3": "PastÀque",
+          "option3": "Pastèque",
           "option4": "viande",
           "correct": "Navire"
         },
         {
           "title": "Question 19",
           "imageUri": "level10__vegetables",
-          "option1": "des l»gumes",
+          "option1": "des légumes",
           "option2": "Positif",
           "option3": "Pas",
           "option4": "viande",
-          "correct": "des l»gumes"
+          "correct": "des légumes"
         },
         {
           "title": "Question 20",
           "imageUri": "level10__tap",
-          "option1": "des l»gumes",
-          "option2": "InfirmiÀre",
+          "option1": "des légumes",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Robinet",
           "correct": "Robinet"
@@ -2572,7 +2572,7 @@
       "lesson": [{
         "title": "level11__angry",
         "imageUri": "level11__angry",
-        "frenchTranslation": "En colÀre",
+        "frenchTranslation": "En colère",
         "englishTranslation": "Angry",
         "tag": "emotion"
       },
@@ -2586,7 +2586,7 @@
         {
           "title": "level11__arrow",
           "imageUri": "level11__arrow",
-          "frenchTranslation": "FlÀche",
+          "frenchTranslation": "Flèche",
           "englishTranslation": "Arrow",
           "tag": "symbol"
         },
@@ -2642,7 +2642,7 @@
         {
           "title": "level11__dart",
           "imageUri": "level11__dart",
-          "frenchTranslation": "Jeu de fl»chettes",
+          "frenchTranslation": "Jeu de fléchettes",
           "englishTranslation": "Dart",
           "tag": "sport"
         },
@@ -2691,7 +2691,7 @@
         {
           "title": "level11__goat",
           "imageUri": "level11__goat",
-          "frenchTranslation": "ChÀvre",
+          "frenchTranslation": "Chèvre",
           "englishTranslation": "Goat",
           "tag": "animal"
         },
@@ -2831,7 +2831,7 @@
         {
           "title": "level11__Throne",
           "imageUri": "level11__Throne",
-          "frenchTranslation": "TrŸne",
+          "frenchTranslation": "Trône",
           "englishTranslation": "Throne",
           "tag": ""
         },
@@ -2860,16 +2860,16 @@
         "title": "Question 1",
         "imageUri": "level11__angry",
         "option1": "Soleil",
-        "option2": "En colÀre",
-        "option3": "C˙ur",
+        "option2": "En colère",
+        "option3": "Cœur",
         "option4": "L'eau",
-        "correct": "En colÀre"
+        "correct": "En colère"
       },
         {
           "title": "Question 2",
           "imageUri": "level11__ant",
           "option1": "monnaie",
-          "option2": "En colÀre",
+          "option2": "En colère",
           "option3": "Fourmi",
           "option4": "Argent",
           "correct": "Fourmi"
@@ -2877,7 +2877,7 @@
         {
           "title": "Question 3",
           "imageUri": "level11__Balancing",
-          "option1": "En colÀre",
+          "option1": "En colère",
           "option2": "Fichier",
           "option3": "Pain",
           "option4": "Öquilibrage",
@@ -2886,7 +2886,7 @@
         {
           "title": "Question 4",
           "imageUri": "level11__compass",
-          "option1": "En colÀre",
+          "option1": "En colère",
           "option2": "compas",
           "option3": "Punaise",
           "option4": "Train",
@@ -2895,7 +2895,7 @@
         {
           "title": "Question 5",
           "imageUri": "level11__cry",
-          "option1": "En colÀre",
+          "option1": "En colère",
           "option2": "Pleurs",
           "option3": "Temps",
           "option4": "Train",
@@ -2905,7 +2905,7 @@
           "title": "Question 6",
           "imageUri": "level11__caution",
           "option1": "Chein",
-          "option2": "En colÀre",
+          "option2": "En colère",
           "option3": "Attention",
           "option4": "Famille",
           "correct": "Attention"
@@ -2914,7 +2914,7 @@
           "title": "Question 7",
           "imageUri": "level11__bug",
           "option1": "Punaise",
-          "option2": "En colÀre",
+          "option2": "En colère",
           "option3": "Attention",
           "option4": "Les cuisinier",
           "correct": "Punaise"
@@ -2923,10 +2923,10 @@
           "title": "Question 8",
           "imageUri": "level11__arrow",
           "option1": "Punaise",
-          "option2": "FlÀche",
+          "option2": "Flèche",
           "option3": "Attention",
           "option4": "viande",
-          "correct": "FlÀche"
+          "correct": "Flèche"
         },
         {
           "title": "Question 9",
@@ -2941,7 +2941,7 @@
           "title": "Question 10",
           "imageUri": "level11__bomb",
           "option1": "Les cuisinier",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Bombe",
           "option4": "Punaise",
           "correct": "Bombe"
@@ -2950,16 +2950,16 @@
           "title": "Question 11",
           "imageUri": "level11__dart",
           "option1": "Soleil",
-          "option2": "Jeu de fl»chettes",
-          "option3": "C˙ur",
+          "option2": "Jeu de fléchettes",
+          "option3": "Cœur",
           "option4": "L'eau",
-          "correct": "Jeu de fl»chettes"
+          "correct": "Jeu de fléchettes"
         },
         {
           "title": "Question 12",
           "imageUri": "level11__diamond",
           "option1": "monnaie",
-          "option2": "Jeu de fl»chettes",
+          "option2": "Jeu de fléchettes",
           "option3": "Diamant",
           "option4": "Argent",
           "correct": "Diamant"
@@ -2967,16 +2967,16 @@
         {
           "title": "Question 13",
           "imageUri": "level11__emergency",
-          "option1": "Jeu de fl»chettes",
+          "option1": "Jeu de fléchettes",
           "option2": "Fichier",
-          "option3": "En colÀre",
+          "option3": "En colère",
           "option4": "Urgence",
           "correct": "Urgence"
         },
         {
           "title": "Question 14",
           "imageUri": "level11__guitar",
-          "option1": "Jeu de fl»chettes",
+          "option1": "Jeu de fléchettes",
           "option2": "Tram",
           "option3": "Agriculteurtte",
           "option4": "guitare",
@@ -2985,7 +2985,7 @@
         {
           "title": "Question 15",
           "imageUri": "level11__helmet",
-          "option1": "Jeu de fl»chettes",
+          "option1": "Jeu de fléchettes",
           "option2": "Casque",
           "option3": "Temps",
           "option4": "Train",
@@ -2995,17 +2995,17 @@
           "title": "Question 16",
           "imageUri": "level11__goat",
           "option1": "Chein",
-          "option2": "En colÀre",
-          "option3": "ChÀvre",
+          "option2": "En colère",
+          "option3": "Chèvre",
           "option4": "Famille",
-          "correct": "ChÀvre"
+          "correct": "Chèvre"
         },
         {
           "title": "Question 17",
           "imageUri": "level11__farmer",
           "option1": "Agriculteur",
-          "option2": "En colÀre",
-          "option3": "ChÀvre",
+          "option2": "En colère",
+          "option3": "Chèvre",
           "option4": "Les cuisinier",
           "correct": "Agriculteur"
         },
@@ -3014,7 +3014,7 @@
           "imageUri": "level11__ear",
           "option1": "Agriculteur",
           "option2": "Oreille",
-          "option3": "ChÀvre",
+          "option3": "Chèvre",
           "option4": "viande",
           "correct": "Oreille"
         },
@@ -3031,7 +3031,7 @@
           "title": "Question 20",
           "imageUri": "level11__family",
           "option1": "Fichier",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Famille",
           "correct": "Famille"
@@ -3041,7 +3041,7 @@
           "imageUri": "level11__ketchup",
           "option1": "Soleil",
           "option2": "Ketchup",
-          "option3": "C˙ur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Ketchup"
         },
@@ -3121,7 +3121,7 @@
           "title": "Question 30",
           "imageUri": "level11__nails",
           "option1": "Les cuisinier",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Clouer",
           "option4": "Collier",
           "correct": "Clouer"
@@ -3131,7 +3131,7 @@
           "imageUri": "level11__rifle",
           "option1": "Soleil",
           "option2": "Fusil",
-          "option3": "C˙ur",
+          "option3": "Cœur",
           "option4": "L'eau",
           "correct": "Fusil"
         },
@@ -3176,16 +3176,16 @@
           "imageUri": "level11__Throne",
           "option1": "Chein",
           "option2": "Ketchup",
-          "option3": "TrŸne",
+          "option3": "Trône",
           "option4": "Soupe",
-          "correct": "TrŸne"
+          "correct": "Trône"
         },
         {
           "title": "Question 37",
           "imageUri": "level11__swissarmyknife",
           "option1": "Couteau suisse",
           "option2": "Ketchup",
-          "option3": "TrŸne",
+          "option3": "Trône",
           "option4": "Les cuisinier",
           "correct": "Couteau suisse"
         },
@@ -3194,7 +3194,7 @@
           "imageUri": "level11__sick",
           "option1": "Couteau suisse",
           "option2": "Malade",
-          "option3": "TrŸne",
+          "option3": "Trône",
           "option4": "viande",
           "correct": "Malade"
         },
@@ -3211,7 +3211,7 @@
           "title": "Question 40",
           "imageUri": "level11__soup",
           "option1": "Dent",
-          "option2": "InfirmiÀre",
+          "option2": "Infirmière",
           "option3": "Poste",
           "option4": "Soupe",
           "correct": "Soupe"
