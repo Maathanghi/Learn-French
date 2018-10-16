@@ -534,8 +534,8 @@
         {
           "title": "level4__flag",
           "imageUri": "level4__flag",
-          "frenchTranslation": "Vache",
-          "englishTranslation": "Cow",
+          "frenchTranslation": "Drapeau",
+          "englishTranslation": "Flag",
           "tag": "animal"
         },
         {
@@ -553,15 +553,15 @@
           "tag": "food;supermarket"
         },
         {
-          "title": "level4__table",
-          "imageUri": "level4__table",
-          "frenchTranslation": "Table",
-          "englishTranslation": "Table",
+          "title": "level4__tv",
+          "imageUri": "level4__tv",
+          "frenchTranslation": "Télévision",
+          "englishTranslation": "Television",
           "tag": "home"
         },
         {
-          "title": "level3__wallet",
-          "imageUri": "level3__wallet",
+          "title": "level4__snow",
+          "imageUri": "level4__snow",
           "frenchTranslation": "Neige",
           "englishTranslation": "Snow",
           "tag": "nature"
@@ -578,7 +578,7 @@
         "imageUri": "level4__book",
         "option1": "Soleil",
         "option2": "Livre",
-        "option3": "Csur",
+        "option3": "Cœur",
         "option4": "lunettes",
         "correct": "Livre"
       },
@@ -602,16 +602,16 @@
         },
         {
           "title": "Question 4",
-          "imageUri": "level4__snow",
+          "imageUri": "level4__tv",
           "option1": "Livre",
           "option2": "Tram",
           "option3": "Vachette",
-          "option4": "Train",
-          "correct": "Train"
+          "option4": "Télévision",
+          "correct": "Télévision"
         },
         {
           "title": "Question 5",
-          "imageUri": "level3__wallet",
+          "imageUri": "level4__snow",
           "option1": "Livre",
           "option2": "Neige",
           "option3": "Temps",
@@ -630,11 +630,11 @@
         {
           "title": "Question 7",
           "imageUri": "level4__flag",
-          "option1": "Vache",
+          "option1": "Drapeau",
           "option2": "cloche",
           "option3": "Lait",
           "option4": "Casque",
-          "correct": "Vache"
+          "correct": "Drapeau"
         },
         {
           "title": "Question 8",
@@ -708,7 +708,7 @@
         {
           "title": "level5__duck",
           "imageUri": "level5__duck",
-          "frenchTranslation": "Confiture",
+          "frenchTranslation": "Canard",
           "englishTranslation": "Duck",
           "tag": "animals"
         },
@@ -841,8 +841,8 @@
           "option1": "épinard",
           "option2": "Infirmière",
           "option3": "Poste",
-          "option4": "Confiture",
-          "correct": "Confiture"
+          "option4": "Canard",
+          "correct": "Canard"
         },
         {
           "title": "congratulations",
@@ -1038,7 +1038,7 @@
           "imageUri": "level6__chair",
           "option1": "Baguette",
           "option2": "Thé",
-          "option3": "Baguette",
+          "option3": "Canard",
           "option4": "Chaise",
           "correct": "Chaise"
         },
@@ -1046,7 +1046,7 @@
           "title": "Question 4",
           "imageUri": "level6__lock",
           "option1": "Baguette",
-          "option2": "Fermer à  clé",
+          "option2": "Fermer à clé",
           "option3": "Pièce de monnaie",
           "option4": "Train",
           "correct": "Fermer à clé"
@@ -1338,7 +1338,7 @@
         {
           "title": "level7__pasta",
           "imageUri": "level7__pasta",
-          "frenchTranslation": "P‚tes",
+          "frenchTranslation": "Pâtes",
           "englishTranslation": "Pasta",
           "tag": "food;supermarket;restuarent"
         },
@@ -1479,8 +1479,8 @@
           "option1": "Deux",
           "option2": "Tram",
           "option3": "la lunette",
-          "option4": "P‚tes",
-          "correct": "P‚tes"
+          "option4": "Pâtes",
+          "correct": "Pâtes"
         },
         {
           "title": "Question 15",
@@ -1573,7 +1573,7 @@
         {
           "title": "level8__boy",
           "imageUri": "level8__boy",
-          "frenchTranslation": "Garcon",
+          "frenchTranslation": "Garçon",
           "englishTranslation": "Boy",
           "tag": "family"
         },
@@ -1720,8 +1720,8 @@
           "option1": "Avocat",
           "option2": "Salade",
           "option3": "Pain",
-          "option4": "Gar¡on",
-          "correct": "Gar¡on"
+          "option4": "garçon",
+          "correct": "garçon"
         },
         {
           "title": "Question 4",
@@ -2591,9 +2591,9 @@
           "tag": "symbol"
         },
         {
-          "title": "level11__Balancing",
-          "imageUri": "level11__Balancing",
-          "frenchTranslation": "Öquilibrage",
+          "title": "level11__balancing",
+          "imageUri": "level11__balancing",
+          "frenchTranslation": "équilibrage",
           "englishTranslation": "Balancing",
           "tag": ""
         },
@@ -2829,8 +2829,8 @@
           "tag": "body;white"
         },
         {
-          "title": "level11__Throne",
-          "imageUri": "level11__Throne",
+          "title": "level11__throne",
+          "imageUri": "level11__throne",
           "frenchTranslation": "Trône",
           "englishTranslation": "Throne",
           "tag": ""
@@ -2876,12 +2876,12 @@
         },
         {
           "title": "Question 3",
-          "imageUri": "level11__Balancing",
+          "imageUri": "level11__balancing",
           "option1": "En colère",
           "option2": "Fichier",
           "option3": "Pain",
-          "option4": "Öquilibrage",
-          "correct": "Öquilibrage"
+          "option4": "équilibrage",
+          "correct": "équilibrage"
         },
         {
           "title": "Question 4",
@@ -3083,7 +3083,7 @@
         },
         {
           "title": "Question 26",
-          "imageUri": "Pizzalevel11__plaster",
+          "imageUri": "level11__plaster",
           "option1": "Chein",
           "option2": "Ketchup",
           "option3": "Pansements",
@@ -3173,7 +3173,7 @@
         },
         {
           "title": "Question 36",
-          "imageUri": "level11__Throne",
+          "imageUri": "level11__throne",
           "option1": "Chein",
           "option2": "Ketchup",
           "option3": "Trône",
@@ -3496,8 +3496,8 @@
           "tag": "action"
         },
         {
-          "title": "level12__toothpaste",
-          "imageUri": "level12__toothpaste",
+          "title": "level12__tooth_paste",
+          "imageUri": "level12__tooth_paste",
           "frenchTranslation": "Dentifrice",
           "englishTranslation": "Tooth Paste",
           "tag": "home;vacation"
@@ -3815,7 +3815,7 @@
         },
         {
           "title": "Question 34",
-          "imageUri": "level12__toothpaste",
+          "imageUri": "level12__tooth_paste",
           "option1": "Projecteur",
           "option2": "Tram",
           "option3": "Lac suissette",
