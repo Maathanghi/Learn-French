@@ -777,7 +777,7 @@
           "imageUri": "level5__road",
           "option1": "Sac",
           "option2": "Thé",
-          "option3": "Sac",
+          "option3": "Ramp",
           "option4": "Route",
           "correct": "Route"
         },
@@ -1657,7 +1657,7 @@
         {
           "title": "level8__safetypin",
           "imageUri": "level8__safetypin",
-          "frenchTranslation": "épingle de s∞reté",
+          "frenchTranslation": "épingle de sûreté",
           "englishTranslation": "Safety pin",
           "tag": ""
         },
@@ -1728,7 +1728,7 @@
           "imageUri": "level8__coconut",
           "option1": "Avocat",
           "option2": "La noix de coco",
-          "option3": "GÇteau",
+          "option3": "Gâteau",
           "option4": "Train",
           "correct": "La noix de coco"
         },
@@ -1843,16 +1843,16 @@
         {
           "title": "Question 17",
           "imageUri": "level8__safetypin",
-          "option1": "épingle de s∞reté",
+          "option1": "épingle de sûreté",
           "option2": "cloche",
           "option3": "Feux de circulations",
           "option4": "Les cuisinier",
-          "correct": "épingle de s∞reté"
+          "correct": "épingle de sûreté"
         },
         {
           "title": "Question 18",
           "imageUri": "level8__olives",
-          "option1": "épingle de s∞reté",
+          "option1": "épingle de sûreté",
           "option2": "Olive",
           "option3": "Feux de circulations",
           "option4": "viande",
@@ -4413,11 +4413,11 @@
         {
           "title": "Question 27",
           "imageUri": "level13__sand",
-          "option1": "Collier",
+          "option1": "Le sable",
           "option2": "Gorille",
           "option3": "Microphone",
           "option4": "Les cuisinier",
-          "correct": "Collier"
+          "correct": "Le sable"
         },
         {
           "title": "Question 28",
