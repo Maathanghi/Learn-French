@@ -1,8 +1,10 @@
 package com.french.flash_cards;
 
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -13,7 +15,9 @@ import android.transition.Slide;
 import android.view.Gravity;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LayoutAnimationController;
+import android.widget.ImageView;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.french.flash_cards.model.translation.*;
 import com.french.flash_cards.model.translation.App;
 import com.raywenderlich.favoritemovies.AppHelper;
@@ -25,6 +29,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private List<Sample> samples;
     SharedPreferences sharedpreferences;
+    ObjectAnimator objectanimator;
     public static final String MyPREFERENCES = "MyPrefs" ;
 
 
@@ -32,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        LottieAnimationView cycleAnim = (LottieAnimationView) findViewById(R.id.cycle_anim);
+        objectanimator = ObjectAnimator.ofFloat(cycleAnim,"x",300);
+        objectanimator.setDuration(4000);
+        objectanimator.start();
     }
 
     @Override
@@ -41,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         setupSamples();
         setupToolbar();
         setupLayout();
+        objectanimator.start();
         super.onResume();
     }
 
