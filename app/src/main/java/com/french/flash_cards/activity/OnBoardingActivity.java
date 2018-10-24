@@ -49,7 +49,7 @@ public class OnBoardingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(front.getText().equals("Finish")){
-                    Intent mainIntent = new Intent(OnBoardingActivity.this,MainActivity.class);
+                    Intent mainIntent = new Intent(OnBoardingActivity.this, com.french.flash_cards.activity.MainActivity.class);
                     OnBoardingActivity.this.startActivity(mainIntent);
                     OnBoardingActivity.this.finish();
                 }

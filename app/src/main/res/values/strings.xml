@@ -18,4 +18,10 @@
     <string name="reveal_body4">Circular Reveal Animation from top with nested animations on end</string>
     <string name="front">FRONT</string>
     <string name="back">BACK</string>
+
+
+    <string name="tab1">Home</string>
+    <string name="tab2">Categories</string>
+    <string name="tab3">Bookmark</string>
+    <string name="tab4">Share</string>
 </resources>
