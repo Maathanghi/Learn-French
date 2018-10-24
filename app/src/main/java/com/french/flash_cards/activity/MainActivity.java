@@ -3,23 +3,19 @@ package com.french.flash_cards.activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.MenuItem;
 
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
-import com.french.flash_cards.fragment.CallsFragment;
 import com.french.flash_cards.fragment.ChatFragment;
 import com.french.flash_cards.fragment.ContactsFragment;
+import com.french.flash_cards.fragment.HomeFragment;
+import com.french.flash_cards.utils.BottomNavigationBehavior;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     //Fragments
 
     ChatFragment chatFragment;
-    CallsFragment callsFragment;
+    HomeFragment homeFragment;
     ContactsFragment contactsFragment;
     MenuItem prevMenuItem;
 
@@ -47,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         //Initializing the bottomNavigationView
         bottomNavigationView = (BottomNavigationView)findViewById(R.id.bottom_navigation);
+        // attaching bottom sheet behaviour - hide / show on scroll
+        CoordinatorLayout.LayoutParams layoutParams = (CoordinatorLayout.LayoutParams) bottomNavigationView.getLayoutParams();
+        layoutParams.setBehavior(new BottomNavigationBehavior());
 
         bottomNavigationView.setOnNavigationItemSelectedListener(
                 new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -112,10 +111,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        callsFragment=new CallsFragment();
+        homeFragment =new HomeFragment();
         chatFragment=new ChatFragment();
         contactsFragment=new ContactsFragment();
-        adapter.addFragment(callsFragment);
+        adapter.addFragment(homeFragment);
         adapter.addFragment(chatFragment);
         adapter.addFragment(contactsFragment);
         viewPager.setAdapter(adapter);
