@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.cooltechworks.views.shimmer;
+package com.learnfrench.views.shimmer;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -26,6 +26,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
+
 public class ShimmerRecyclerView extends RecyclerView {
 
     public enum LayoutMangerType {
@@ -33,7 +34,7 @@ public class ShimmerRecyclerView extends RecyclerView {
     }
 
     private Adapter mActualAdapter;
-    private ShimmerAdapter mShimmerAdapter;
+    private com.learnfrench.views.shimmer.ShimmerAdapter mShimmerAdapter;
 
     private LayoutManager mShimmerLayoutManager;
     private LayoutManager mActualLayoutManager;

@@ -172,7 +172,9 @@ class LessonFragment : Fragment() , View.OnClickListener{
       mCardBackLayout.visibility= View.GONE
       mCardFrontLayout.visibility= View.GONE
       mCongratzContainer.visibility= View.VISIBLE
-      txtLevel.text = args.getString(AppHelper.KEY_LEVEL)
+      if (args != null) {
+        txtLevel.text = args.getString(AppHelper.KEY_LEVEL)
+      }
     }else{
       // Download the image and display it using Picasso
       if (args != null) {
@@ -183,7 +185,9 @@ class LessonFragment : Fragment() , View.OnClickListener{
         mFrenchText.text = args.getString(AppHelper.KEY_FRENCH_TRANSLATION)
       }
     }
-      iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
+      if (args != null) {
+        iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
+      }
       mImageFrechTtoSpeech.setOnClickListener(this)
       mImageEnglishtoSpeech.setOnClickListener(this)
 

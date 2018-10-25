@@ -12,10 +12,10 @@ import android.util.Log;
 
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
-import com.french.flash_cards.fragment.ChatFragment;
 import com.french.flash_cards.fragment.ContactsFragment;
 import com.french.flash_cards.fragment.HomeFragment;
 import com.french.flash_cards.utils.BottomNavigationBehavior;
+import com.learnfrench.views.shimmer.fragment.CategoryFragment;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Fragments
 
-    ChatFragment chatFragment;
+    CategoryFragment chatFragment;
     HomeFragment homeFragment;
     ContactsFragment contactsFragment;
     MenuItem prevMenuItem;
@@ -111,8 +111,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        homeFragment =new HomeFragment();
-        chatFragment=new ChatFragment();
+        homeFragment = new HomeFragment();
+        chatFragment = new CategoryFragment();
         contactsFragment=new ContactsFragment();
         adapter.addFragment(homeFragment);
         adapter.addFragment(chatFragment);

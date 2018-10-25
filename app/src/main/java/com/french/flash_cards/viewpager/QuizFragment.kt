@@ -136,7 +136,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
 
     findViews(view)
 
-    prefs = context.getSharedPreferences(PREFS_FILENAME, 0)
+    prefs = context!!.getSharedPreferences(PREFS_FILENAME, 0)
 
     if(args!!.getString(AppHelper.KEY_TITLE).equals("congratulations"))
     {

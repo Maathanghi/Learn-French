@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.cooltechworks.views.shimmer;
+package com.learnfrench.views.shimmer;
 
 import android.graphics.drawable.Drawable;
 import android.os.Build;
