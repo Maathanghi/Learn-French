@@ -2,7 +2,7 @@
 
 
     <style name="MaterialAnimations" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="android:fontFamily">@font/comic</item>
+        <item name="android:fontFamily">@font/sansationregular</item>
         <item name="android:typeface">monospace</item>
         <item name="android:colorPrimary">@color/material_animations_primary</item>
         <item name="android:colorPrimaryDark">@color/material_animations_primary_dark</item>
@@ -98,8 +98,8 @@
     </style>
 
     <style name="MaterialAnimations.Icon.Small">
-        <item name="android:layout_width">48dp</item>
-        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
     </style>
 
     <style name="MaterialAnimations.Button" parent="Base.Widget.AppCompat.Button">

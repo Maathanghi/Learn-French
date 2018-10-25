@@ -83,11 +83,15 @@
 
 
 
-    <color name="app_color_1">#258b8f</color>
+    <!--<color name="app_color_1">#258b8f</color>-->
+    <color name="app_color_1">#23304d</color>
     <color name="app_color_2">#77e6e2</color>
     <color name="app_color_3">#e3b24f</color>
     <color name="app_color_4">#a35d24</color>
     <color name="app_color_5">#e9f5f3</color>
+    <color name="app_color_line">#717a8f</color>
+    <color name="app_color_text">#ffffff</color>
+    <color name="app_color_list_circle">#f8d668</color>
 
 
 

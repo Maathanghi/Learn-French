@@ -34,13 +34,18 @@
 
     </LinearLayout>
 
+<View
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/app_color_line"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"></View>
 
     <android.support.v7.widget.RecyclerView
-        android:layout_marginTop="10dp"
         android:id="@+id/sample_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/app_color_1"
         android:scrollbars="vertical" />
 
 </LinearLayout>

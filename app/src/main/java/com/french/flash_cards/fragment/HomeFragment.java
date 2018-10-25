@@ -102,6 +102,6 @@ public class HomeFragment extends Fragment {
         recyclerView.setAdapter(samplesRecyclerAdapter);
         int resId = R.anim.layout_animation_fall_down;
         LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(getContext(), resId);
-        recyclerView.setLayoutAnimation(animation);
+        recyclerView.setLayoutAnimation(null);
     }
 }

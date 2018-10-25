@@ -83,7 +83,7 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                     RecyclerView.LayoutParams.MATCH_PARENT,
                     RecyclerView.LayoutParams.WRAP_CONTENT
             );
-            params.setMargins(convertDPtoPX(10), convertDPtoPX(25), convertDPtoPX(10), convertDPtoPX(0));
+            //params.setMargins(convertDPtoPX(10), convertDPtoPX(25), convertDPtoPX(10), convertDPtoPX(0));
             viewHolder.binding.cardView.setLayoutParams(params);
             //viewHolder.binding.cardView.setBackgroundColor(R.color.app_color_1);
             viewHolder.binding.sampleLayout.setVisibility(View.GONE);

@@ -11,40 +11,42 @@
             type="com.french.flash_cards.Sample" />
     </data>
 
-    <android.support.v7.widget.CardView
+    <RelativeLayout
+        android:background="@color/app_color_1"
+        android:layout_margin="0dp"
         card_view:cardElevation="3dp"
-        android:layout_margin="10dp"
         android:id="@+id/card_view"
         android:layout_gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="70dp"
         card_view:cardCornerRadius="5dp">
-<TextView
-    android:textStyle="bold"
-    android:textSize="20dp"
-    android:gravity="center"
-    android:textColor="@color/theme_yellow_text"
-    android:id="@+id/header"
-    android:layout_marginLeft="10dp"
-    android:layout_marginTop="10dp"
-    android:layout_marginBottom="10dp"
-    android:text="Header"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:textColor="@color/app_color_list_circle"
+        android:id="@+id/header"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
     <RelativeLayout
         android:visibility="gone"
         android:id="@+id/sample_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:gravity="center"
         android:layout_gravity="center"
+        android:layout_centerVertical="true"
         android:clipToPadding="false"
         android:orientation="horizontal"
-        android:padding="@dimen/spacing_double">
+        android:padding="10dp">
 
         <Button
-            android:textColor="#ffffff"
-            android:layout_alignParentLeft="true"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
             android:text="@{sample.index}"
             android:background="@drawable/texview_round"
             android:id="@+id/sample_icon"
@@ -52,16 +54,27 @@
              />
 
         <TextView
-            android:textSize="20dp"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@+id/sample_icon"
+            android:layout_marginLeft="20dp"
             android:id="@+id/sample_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{sample.name}"
-            tools:text="View " />
+            android:textColor="@color/app_color_text"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            tools:text="View" />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/app_color_text"
+            android:textSize="14dp"
+            android:layout_below="@+id/sample_name"
+            android:id="@+id/sample_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 words"
+            tools:text="Words" />
 
-        <ImageView
+        <!--<ImageView
             android:visibility="@{sample.isProgress ? View.VISIBLE : View.GONE}"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
@@ -81,9 +94,9 @@
             android:layout_alignParentRight="true"
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:src="@drawable/locked" />
+            android:src="@drawable/locked" />-->
 
 
     </RelativeLayout>
-    </android.support.v7.widget.CardView>
+    </RelativeLayout>
 </layout>
