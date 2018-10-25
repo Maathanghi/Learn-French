@@ -53,10 +53,9 @@ public class ItemHolder extends RecyclerView.ViewHolder {
 
     public void bind(ItemCard card) {
         mTitleView.setText(card.getTitle());
-        mDescView.setText(card.getDescription());
-        mSummaryView.setText(card.getSummaryText());
+        mThumbnailView.setImageResource(R.drawable.shopping_basket);
 
-        Glide.with(itemView.getContext()).load(card.getThumbnailUrl()).into(mThumbnailView);
+       // Glide.with(itemView.getContext()).load(card.getThumbnailUrl()).into(mThumbnailView);
     }
 
     private static int getLayoutResourceId(int type) {

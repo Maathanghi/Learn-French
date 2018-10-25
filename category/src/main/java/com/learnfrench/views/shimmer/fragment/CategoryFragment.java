@@ -71,7 +71,16 @@ public class CategoryFragment extends Fragment {
         return rootView;
     }
 
-
+    @Override
+    public void onResume() {
+        super.onResume();
+        shimmerRecycler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                loadCards();
+            }
+        }, 3000);
+    }
 
     private void loadCards() {
 

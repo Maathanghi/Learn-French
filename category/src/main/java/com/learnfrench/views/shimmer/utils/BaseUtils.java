@@ -17,6 +17,7 @@ package com.learnfrench.views.shimmer.utils;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.support.annotation.DrawableRes;
 import android.support.annotation.StringRes;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -52,25 +53,58 @@ public class BaseUtils {
     }
 
     private static List<ItemCard> getGridCards(Resources resources) {
-        ItemCard on7 = createItemCard(resources, R.string.on7_titletext, R.string.on7_image_url,
+        ItemCard on7 = createItemCard(resources, R.string.on7_titletext,R.drawable.shopping_basket,
                 R.string.on7_subtext, R.string.on7_summarytext);
 
-        ItemCard note5 = createItemCard(resources, R.string.note5_titletext, R.string.note5_image_url,
+        ItemCard note5 = createItemCard(resources, R.string.note5_titletext, R.drawable.shopping_basket,
                 R.string.note5_subtext, R.string.note5_summarytext);
 
-        ItemCard pixel = createItemCard(resources, R.string.pix_titletext, R.string.pix_image_url,
+        ItemCard pixel = createItemCard(resources, R.string.pix_titletext, R.drawable.shopping_basket,
                 R.string.pix_subtext, R.string.pix_summarytext);
 
-        ItemCard iphone6 = createItemCard(resources, R.string.i6_titletext, R.string.i6_image_url,
+        ItemCard iphone6 = createItemCard(resources, R.string.i6_titletext, R.drawable.shopping_basket,
                 R.string.i6_subtext, R.string.i6_summarytext);
 
-        ItemCard moto = createItemCard(resources, R.string.moto_titletext, R.string.moto_image_url,
+        ItemCard moto = createItemCard(resources, R.string.moto_titletext, R.drawable.shopping_basket,
                 R.string.moto_subtext, R.string.moto_summarytext);
 
-        ItemCard s7 = createItemCard(resources, R.string.s7_titletext, R.string.s7_image_url,
+        ItemCard s7 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+        ItemCard s8 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
                 R.string.s7_subtext, R.string.s7_summarytext);
 
-        return Arrays.asList(on7, note5, pixel, iphone6, s7, moto);
+        ItemCard s9 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s10 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s11 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s12 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s13 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+        ItemCard s14 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+        ItemCard s15 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+        ItemCard s16 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s17 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+        ItemCard s18 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
+                R.string.s7_subtext, R.string.s7_summarytext);
+
+
+
+
+
+        return Arrays.asList(on7, note5, pixel, iphone6, s7, moto,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8);
     }
 
     public static List<ItemCard> getCards(Resources resources, int type) {
@@ -132,14 +166,14 @@ public class BaseUtils {
         return demoConfiguration;
     }
 
-    private static ItemCard createItemCard(Resources resources, @StringRes int title, @StringRes int imageUrl,
+
+
+    private static ItemCard createItemCard(Resources resources, @StringRes int title, int imageUrl,
                                            @StringRes int description, @StringRes int summary) {
         ItemCard itemCard = new ItemCard();
 
         itemCard.setTitle(resources.getString(title));
         itemCard.setThumbnailUrl(resources.getString(imageUrl));
-        itemCard.setDescription(resources.getString(description));
-        itemCard.setSummaryText(resources.getString(summary));
 
         return itemCard;
     }
