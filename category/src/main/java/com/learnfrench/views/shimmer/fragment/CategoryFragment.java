@@ -74,6 +74,7 @@ public class CategoryFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+        shimmerRecycler.showShimmerAdapter();
         shimmerRecycler.postDelayed(new Runnable() {
             @Override
             public void run() {
