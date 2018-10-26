@@ -8,9 +8,9 @@ android {
     signingConfigs {
         ananth {
             keyAlias 'ananth'
-            keyPassword 'ananth12345'
+            keyPassword 'ananth123456'
             storeFile file('/Users/anand/Documents/french/Learn-french/keystore_new')
-            storePassword 'ananth12345'
+            storePassword 'ananth123456'
         }
     }
     compileSdkVersion 27
@@ -27,6 +27,13 @@ android {
             shrinkResources true // This must be first
             minifyEnabled true   // This must be after shrinkResources
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.ananth
+            ext.betaDistributionReleaseNotes="Learn French"
+            ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
+        }
+        debug{
+            ext.betaDistributionReleaseNotes="Learn French 1"
+            ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
         }
     }
     dataBinding {
