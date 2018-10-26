@@ -71,8 +71,8 @@
             android:id="@+id/sample_total"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="20 words"
-            tools:text="Words" />
+            android:text="20 words"/>
+
 
         <!--<ImageView
             android:visibility="@{sample.isProgress ? View.VISIBLE : View.GONE}"

@@ -3,7 +3,10 @@ package com.french.flash_cards;
 import android.app.Application;
 import android.content.Context;
 
+import com.crashlytics.android.Crashlytics;
 import com.french.flash_cards.utils.TypefaceUtil;
+
+import io.fabric.sdk.android.Fabric;
 
 
 /**
@@ -20,6 +23,8 @@ public class App  extends Application {
         TypefaceUtil.setDefaultFont(this, "MONOSPACE", "fonts/sansationregular.ttf");
         TypefaceUtil.setDefaultFont(this, "SERIF", "fonts/sansationregular.ttf");
         TypefaceUtil.setDefaultFont(this, "SANS_SERIF", "fonts/sansationregular.ttf");
+
+        Fabric.with(this, new Crashlytics());
     }
 
 

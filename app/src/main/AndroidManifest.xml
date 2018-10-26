@@ -55,6 +55,10 @@
         <activity
             android:name=".RevealActivity"
             android:theme="@style/MaterialAnimations.Yellow" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="be196f6fea8b189212c4349e78cc5e3589b8c993"
+            />
     </application>
 
 </manifest>
