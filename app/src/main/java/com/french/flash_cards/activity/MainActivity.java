@@ -2,6 +2,7 @@ package com.french.flash_cards.activity;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ViewPager;
@@ -10,27 +11,35 @@ import android.view.MenuItem;
 
 import android.util.Log;
 
+import com.example.common.fulldialog.contracts.FullScreenDialogFragment;
+import com.example.common.fulldialog.fragment.SurnameFragment;
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
+import com.french.flash_cards.fragment.ChatFragment;
 import com.french.flash_cards.fragment.ContactsFragment;
 import com.french.flash_cards.fragment.HomeFragment;
 import com.french.flash_cards.utils.BottomNavigationBehavior;
 import com.learnfrench.views.shimmer.fragment.CategoryFragment;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements  FullScreenDialogFragment.OnConfirmListener,
+        FullScreenDialogFragment.OnDiscardListener,
+        FullScreenDialogFragment.OnDiscardFromExtraActionListener{
 
     BottomNavigationView bottomNavigationView;
 
     //This is our viewPager
     private ViewPager viewPager;
+    final String dialogTag = "dialog";
 
 
     //Fragments
 
+    FullScreenDialogFragment dialogFragment;
     CategoryFragment chatFragment;
     HomeFragment homeFragment;
     ContactsFragment contactsFragment;
+    ChatFragment chatFragment1;
     MenuItem prevMenuItem;
 
     @Override
@@ -60,6 +69,30 @@ public class MainActivity extends AppCompatActivity {
                                 break;
                             case R.id.action_contact:
                                 viewPager.setCurrentItem(2);
+                                break;
+                            case R.id.action_category:
+
+                                dialogFragment =
+                                        (FullScreenDialogFragment) getSupportFragmentManager().findFragmentByTag(dialogTag);
+                                if (dialogFragment != null) {
+                                    dialogFragment.setOnConfirmListener(MainActivity.this);
+                                    dialogFragment.setOnDiscardListener(MainActivity.this);
+                                    dialogFragment.setOnDiscardFromExtraActionListener(MainActivity.this);
+                                }
+                                final Bundle args = new Bundle();
+
+                                dialogFragment = new FullScreenDialogFragment.Builder(MainActivity.this)
+                                        .setTitle(com.example.common.R.string.insert_surname)
+                                        .setConfirmButton(com.example.common.R.string.dialog_positive_button)
+                                        .setOnConfirmListener(MainActivity.this)
+                                        .setOnDiscardListener(MainActivity.this)
+                                        .setContent(SurnameFragment.class, args)
+                                        .setExtraActions(com.example.common.R.menu.extra_items)
+                                        .setOnDiscardFromActionListener(MainActivity.this)
+                                        .build();
+
+                                dialogFragment.show(getSupportFragmentManager(), dialogTag);
+                                //viewPager.setCurrentItem(3);
                                 break;
                         }
                         return false;
@@ -114,9 +147,25 @@ public class MainActivity extends AppCompatActivity {
         homeFragment = new HomeFragment();
         chatFragment = new CategoryFragment();
         contactsFragment=new ContactsFragment();
+        chatFragment1=new ChatFragment();
         adapter.addFragment(homeFragment);
         adapter.addFragment(chatFragment);
         adapter.addFragment(contactsFragment);
-        viewPager.setAdapter(adapter);
+        //adapter.addFragment(chatFragment1);
+    }
+
+    @Override
+    public void onConfirm(@Nullable Bundle result) {
+
+    }
+
+    @Override
+    public void onDiscard() {
+
+    }
+
+    @Override
+    public void onDiscardFromExtraAction(int actionId, @Nullable Bundle result) {
+
     }
 }
