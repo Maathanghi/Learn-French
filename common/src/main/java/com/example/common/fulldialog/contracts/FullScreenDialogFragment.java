@@ -82,7 +82,7 @@ public class FullScreenDialogFragment extends DialogFragment {
         return f;
     }
 
-    private static Bundle mapBuilderToArguments(Builder builder) {
+    public static Bundle mapBuilderToArguments(Builder builder) {
         Bundle builderData = new Bundle();
         builderData.putString(BUILDER_TITLE, builder.title);
         builderData.putString(BUILDER_POSITIVE_BUTTON, builder.confirmButton);
@@ -106,7 +106,7 @@ public class FullScreenDialogFragment extends DialogFragment {
 
     private FullScreenDialogController dialogController;
 
-    private void setContent(Fragment content) {
+    public void setContent(Fragment content) {
         this.content = content;
     }
 
@@ -428,16 +428,16 @@ public class FullScreenDialogFragment extends DialogFragment {
     }
 
     public static class Builder {
-        private Context context;
-        private String title;
-        private String confirmButton;
-        private int extraActionsMenuResId;
-        private boolean fullScreen;
-        private Class<? extends Fragment> contentClass;
-        private Bundle contentArguments;
-        private OnConfirmListener onConfirmListener;
-        private OnDiscardListener onDiscardListener;
-        private OnDiscardFromExtraActionListener onDiscardFromActionListener;
+        public Context context;
+        public String title;
+        public String confirmButton;
+        public int extraActionsMenuResId;
+        public boolean fullScreen;
+        public Class<? extends Fragment> contentClass;
+        public Bundle contentArguments;
+        public OnConfirmListener onConfirmListener;
+        public OnDiscardListener onDiscardListener;
+        public OnDiscardFromExtraActionListener onDiscardFromActionListener;
 
 
         /**

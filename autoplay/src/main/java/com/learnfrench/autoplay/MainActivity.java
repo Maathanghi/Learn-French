@@ -13,7 +13,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.autoplay.R;
 
 import java.util.ArrayList;
 import java.util.List;
