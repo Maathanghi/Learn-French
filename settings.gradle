@@ -1,1 +1,1 @@
-include ':app', ':category', ':common'
+include ':app', ':category', ':common', ':autoplay'

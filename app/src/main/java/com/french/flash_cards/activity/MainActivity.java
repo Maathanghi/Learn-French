@@ -61,16 +61,16 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                     @Override
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         switch (item.getItemId()) {
-                            case R.id.action_call:
+                            case R.id.action_home:
                                 viewPager.setCurrentItem(0);
                                 break;
-                            case R.id.action_chat:
+                            case R.id.action_categories:
                                 viewPager.setCurrentItem(1);
                                 break;
-                            case R.id.action_contact:
+                            case R.id.action_bookmark:
                                 viewPager.setCurrentItem(2);
                                 break;
-                            case R.id.action_category:
+                            case R.id.action_share:
 
                                 dialogFragment =
                                         (FullScreenDialogFragment) getSupportFragmentManager().findFragmentByTag(dialogTag);
@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
         adapter.addFragment(homeFragment);
         adapter.addFragment(chatFragment);
         adapter.addFragment(contactsFragment);
-        //adapter.addFragment(chatFragment1);
+        viewPager.setAdapter(adapter);
     }
 
     @Override
