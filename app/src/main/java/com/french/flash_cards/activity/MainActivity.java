@@ -19,6 +19,7 @@ import com.french.flash_cards.fragment.ChatFragment;
 import com.french.flash_cards.fragment.ContactsFragment;
 import com.french.flash_cards.fragment.HomeFragment;
 import com.french.flash_cards.utils.BottomNavigationBehavior;
+import com.learnfrench.autoplay.AutoPlayFragment;
 import com.learnfrench.views.shimmer.fragment.CategoryFragment;
 
 
@@ -86,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                         .setConfirmButton(com.example.common.R.string.dialog_positive_button)
                                         .setOnConfirmListener(MainActivity.this)
                                         .setOnDiscardListener(MainActivity.this)
-                                        .setContent(SurnameFragment.class, args)
+                                        .setContent(AutoPlayFragment.class, args)
                                         .setExtraActions(com.example.common.R.menu.extra_items)
                                         .setOnDiscardFromActionListener(MainActivity.this)
                                         .build();

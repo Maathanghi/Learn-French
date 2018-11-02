@@ -32,7 +32,7 @@ android {
             ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
         }
         debug{
-            ext.betaDistributionReleaseNotes="Learn French new :)"
+            ext.betaDistributionReleaseNotes="Learn French"
             ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
         }
     }

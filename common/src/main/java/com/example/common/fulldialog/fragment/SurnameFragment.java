@@ -50,7 +50,6 @@ public class SurnameFragment extends Fragment implements FullScreenDialogContent
         TextView name = (TextView) getView().findViewById(R.id.name);
         name.setText(getString(R.string.hi_name, getArguments().getString(EXTRA_NAME)));
 
-        surname = (EditText) getView().findViewById(R.id.surnameField);
 
 
         dialogController.setConfirmButtonEnabled(!surname.getText().toString().isEmpty());
