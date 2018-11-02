@@ -42,7 +42,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.common.R;
 import com.example.common.fulldialog.contracts.FullScreenDialogContent;
 import com.example.common.fulldialog.contracts.FullScreenDialogController;
 
@@ -57,7 +56,7 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.surname_fragment, container, false);
+        return inflater.inflate(R.layout.fragment_autoplay, container, false);
     }
 
     @Override
@@ -69,8 +68,6 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        TextView name = (TextView) getView().findViewById(R.id.name);
-        name.setText(getString(R.string.hi_name, getArguments().getString(EXTRA_NAME)));
 
 
     }
