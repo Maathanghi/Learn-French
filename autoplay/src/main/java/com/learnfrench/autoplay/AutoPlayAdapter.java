@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.List;
 import java.util.Locale;
 
-public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyViewHolder> implements TextToSpeech.OnInitListener, TextToSpeech.OnUtteranceCompletedListener {
+public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyViewHolder> {
 
     private List<AutoPlay> moviesList;
     private int focusedItem = 0;
@@ -69,12 +69,11 @@ public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyView
     }
 
 
-    public AutoPlayAdapter(List<AutoPlay> moviesList, Context context, PlayControl playControl) {
+    public AutoPlayAdapter(List<AutoPlay> moviesList, Context context, PlayControl playControl,TextToSpeech tts) {
         this.moviesList = moviesList;
         this.ctx = context;
         this.mPlayControl = playControl;
-        mTts = new TextToSpeech(ctx, AutoPlayAdapter.this);
-
+        mTts = tts;
     }
 
     @Override
@@ -156,20 +155,7 @@ public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyView
         }
     }
 
-    @Override
-    public void onInit(int status) {
-        if(status == TextToSpeech.SUCCESS) {
-            mTts.setOnUtteranceCompletedListener(this);
-        }
-        if (status != TextToSpeech.ERROR) {
-            mTts.setLanguage(Locale.ENGLISH);
-        }
-    }
 
-    @Override
-    public void onUtteranceCompleted(String s) {
-        Log.i("onUtteranceCompleted ", "onUtteranceCompleted "+s); //utteranceId == "SOME MESSAGE"
-    }
 }
 
 

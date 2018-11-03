@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                 final Bundle args = new Bundle();
 
                                 dialogFragment = new FullScreenDialogFragment.Builder(MainActivity.this)
-                                        .setTitle(com.example.common.R.string.insert_surname)
-                                        .setConfirmButton(com.example.common.R.string.dialog_positive_button)
+                                        .setTitle(com.example.common.R.string.Title)
+                                        .setConfirmButton(null)
                                         .setOnConfirmListener(MainActivity.this)
                                         .setOnDiscardListener(MainActivity.this)
                                         .setContent(AutoPlayFragment.class, args)

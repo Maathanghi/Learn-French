@@ -12,6 +12,7 @@ import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.speech.tts.TextToSpeech;
 import android.support.annotation.MenuRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -38,6 +39,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -54,9 +56,10 @@ import com.example.common.fulldialog.contracts.FullScreenDialogController;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 
-public class AutoPlayFragment extends Fragment implements FullScreenDialogContent ,AutoPlayAdapter.PlayControl{
+public class AutoPlayFragment extends Fragment implements FullScreenDialogContent ,AutoPlayAdapter.PlayControl, TextToSpeech.OnUtteranceCompletedListener{
 
     public static final String EXTRA_NAME = "EXTRA_NAME";
     public static final String RESULT_FULL_NAME = "RESULT_FULL_NAME";
@@ -69,6 +72,8 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     private FloatingActionButton mFab;
     private boolean isPlaying = false;
 
+    private TextToSpeech mTts;
+
     private FullScreenDialogController dialogController;
 
     @Nullable
@@ -76,14 +81,12 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_autoplay, container, false);
 
-
-        Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
-        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
-
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
         bottomAppBar = view.findViewById(R.id.bottom_appbar);
         mFab = view.findViewById(R.id.fab);
         bottomAppBar.replaceMenu(R.menu.menu_main);
+
+        mTts = getTts();
 
         return view;
     }
@@ -100,7 +103,7 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
 
 
 
-        mAdapter = new AutoPlayAdapter(movieList,getContext(),  this);
+        mAdapter = new AutoPlayAdapter(movieList,getContext(),  this,mTts);
 
         recyclerView.setHasFixedSize(true);
 
@@ -323,6 +326,31 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     }
 
 
+    private TextToSpeech getTts() {
+        if (mTts == null) {
+            // Implement Text to speech feature
+            mTts = new TextToSpeech(getContext(), new TextToSpeech.OnInitListener() {
+
+                @Override
+                public void onInit(int status) {
+                    Log.d("LOOK AT ME!!!", "ttsInitListener - onInit");
+
+                    if (status == TextToSpeech.SUCCESS) {
+                        mTts.setLanguage(Locale.ENGLISH);
+                    } else {
+                        mTts = null;
+                        mTts.setLanguage(Locale.ENGLISH);
+                        Toast.makeText(getContext(),
+                                "Failed to initialize TTS engine.",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                }
+            });
+        }
+        return mTts;
+    }
+
+
     @Override
     public boolean isPlaying() {
         return false;
@@ -332,5 +360,39 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     public void playClicked(boolean isPlay, int currentPos) {
         isPlaying = isPlay;
         autoScroll(currentPos);
+    }
+
+
+    @Override
+    public void onDestroy() {
+        if (mTts != null)
+        {
+            mTts.stop();
+            mTts.shutdown();
+        }
+        super.onDestroy();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if(mTts != null){
+            mTts.shutdown();
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d("LOOK AT ME!!!", "onResume");
+
+        //if (mTts == null) {
+            mTts = getTts();
+        //}
+    }
+
+    @Override
+    public void onUtteranceCompleted(String s) {
+        Log.i("onUtteranceCompleted ", "onUtteranceCompleted "+s); //utteranceId == "SOME MESSAGE"
     }
 }

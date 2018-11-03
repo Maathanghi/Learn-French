@@ -2,6 +2,7 @@ package com.learnfrench.autoplay;
 
 import android.os.Bundle;
 import android.os.Handler;
+import android.speech.tts.TextToSpeech;
 import android.support.design.bottomappbar.BottomAppBar;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity implements AutoPlayAdapter.P
     private BottomAppBar bottomAppBar;
     private FloatingActionButton mFab;
     private boolean isPlaying = false;
+    private TextToSpeech mTts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,7 +39,9 @@ public class MainActivity extends AppCompatActivity implements AutoPlayAdapter.P
         mFab = findViewById(R.id.fab);
         bottomAppBar.replaceMenu(R.menu.menu_main);
 
-        mAdapter = new AutoPlayAdapter(movieList,this,  this);
+        mTts = new TextToSpeech(getApplicationContext(), null);
+
+        mAdapter = new AutoPlayAdapter(movieList,this,  this, mTts);
 
         recyclerView.setHasFixedSize(true);
 
