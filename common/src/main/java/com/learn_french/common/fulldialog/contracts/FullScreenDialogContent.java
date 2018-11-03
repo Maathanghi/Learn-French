@@ -1,4 +1,4 @@
-package com.example.common.fulldialog.contracts;
+package com.learn_french.common.fulldialog.contracts;
 
 import android.view.MenuItem;
 

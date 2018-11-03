@@ -1,4 +1,4 @@
-package com.example.common.fulldialog.fragment;
+package com.learn_french.common.fulldialog.fragment;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -15,9 +15,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.common.R;
-import com.example.common.fulldialog.contracts.FullScreenDialogContent;
-import com.example.common.fulldialog.contracts.FullScreenDialogController;
+import com.learn_french.common.R;
+import com.learn_french.common.fulldialog.contracts.FullScreenDialogContent;
+import com.learn_french.common.fulldialog.contracts.FullScreenDialogController;
 
 
 /**

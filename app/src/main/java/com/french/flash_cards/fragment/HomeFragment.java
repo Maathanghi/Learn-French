@@ -6,7 +6,6 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -21,7 +20,7 @@ import android.view.animation.LayoutAnimationController;
 import com.airbnb.lottie.LottieAnimationView;
 import com.french.flash_cards.R;
 import com.french.flash_cards.Sample;
-import com.french.flash_cards.SamplesRecyclerAdapter;
+import com.french.flash_cards.HomeRecyclerAdapter;
 import com.french.flash_cards.model.translation.App;
 import com.raywenderlich.favoritemovies.AppHelper;
 
@@ -50,7 +49,7 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onResume() {
-        setupWindowAnimations();
+        //setupWindowAnimations();
         setupSamples();
         setupToolbar();
         setupLayout();
@@ -62,7 +61,7 @@ public class HomeFragment extends Fragment {
         // Re-enter transition is executed when returning to this activity
         Slide slideTransition = new Slide();
         slideTransition.setSlideEdge(Gravity.LEFT);
-        slideTransition.setDuration(getResources().getInteger(R.integer.anim_duration_long));
+        slideTransition.setDuration(getResources().getInteger(R.integer.anim_duration_medium));
         getActivity().getWindow().setReenterTransition(slideTransition);
         getActivity().getWindow().setExitTransition(slideTransition);
     }
@@ -98,8 +97,8 @@ public class HomeFragment extends Fragment {
         RecyclerView recyclerView = (RecyclerView) getActivity().findViewById(R.id.sample_list);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        SamplesRecyclerAdapter samplesRecyclerAdapter = new SamplesRecyclerAdapter(getActivity(), samples);
-        recyclerView.setAdapter(samplesRecyclerAdapter);
+        HomeRecyclerAdapter homeRecyclerAdapter = new HomeRecyclerAdapter(getActivity(), samples);
+        recyclerView.setAdapter(homeRecyclerAdapter);
         int resId = R.anim.layout_animation_fall_down;
         LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(getContext(), resId);
         recyclerView.setLayoutAnimation(null);

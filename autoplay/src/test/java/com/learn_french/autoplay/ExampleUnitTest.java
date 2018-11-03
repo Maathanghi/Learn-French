@@ -1,4 +1,4 @@
-package com.example.common;
+package com.learn_french.autoplay;
 
 import org.junit.Test;
 

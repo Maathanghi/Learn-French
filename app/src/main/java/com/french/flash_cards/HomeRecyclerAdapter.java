@@ -9,27 +9,27 @@ import android.databinding.DataBindingUtil;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
 
 
+import com.learn_french.common.fulldialog.activity.CardOverviewActivity;
+import com.learn_french.common.fulldialog.utils.Utils;
 import com.french.flash_cards.databinding.RowSampleBinding;
 
 import java.util.List;
 
-public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecyclerAdapter.SamplesViewHolder> {
+public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapter.SamplesViewHolder> {
 
     private static final int TYPE_HEADER = 0;
     private static final int TYPE_ITEM = 1;
     private final Activity activity;
     private final List<Sample> samples;
 
-    public SamplesRecyclerAdapter(Activity activity, List<Sample> samples) {
+    public HomeRecyclerAdapter(Activity activity, List<Sample> samples) {
         this.activity = activity;
         this.samples = samples;
     }
@@ -122,12 +122,12 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
                     preSample = samples.get(position);
                 }
                 if (sample.status == 0 && preSample.getName().contains("Header")) {
-                    transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
+                    transitionToActivity(viewHolder.binding.sampleLayout,CardOverviewActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 } else if (sample.status == 0 && (preSample.status == 0 || preSample.status == 1)) {
                     showInfo();
                     //transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);//DELETE
                 } else {
-                    transitionToActivity(RevealActivity.class, viewHolder, sample, R.string.transition_reveal1);
+                    transitionToActivity(viewHolder.binding.sampleLayout,CardOverviewActivity.class, viewHolder, sample, R.string.transition_reveal1);
                 }
             }
         });
@@ -152,10 +152,12 @@ public class SamplesRecyclerAdapter extends RecyclerView.Adapter<SamplesRecycler
     }
 
 
-    private void transitionToActivity(Class target, SamplesViewHolder viewHolder, Sample sample, int transitionName) {
-        final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(activity, false,
-                new Pair<>(viewHolder.binding.sampleIcon, activity.getString(transitionName)));
-        startActivity(target, pairs, sample);
+    private void transitionToActivity(View view, Class target, SamplesViewHolder viewHolder, Sample sample, int transitionName) {
+        //final Pair<View, String>[] pairs = TransitionHelper.createSafeTransitionParticipants(activity, false,
+        //        new Pair<>(viewHolder.binding.sampleIcon, activity.getString(transitionName)));
+        //startActivity(target, pairs, sample);
+
+        Utils.animateIntent(view, activity,activity.getString(R.string.transition_string),target );
     }
 
     private void transitionToActivity(Class target, SamplesViewHolder viewHolder, Sample sample) {

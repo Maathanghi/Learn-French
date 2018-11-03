@@ -1,5 +1,5 @@
 
-package com.example.common.fulldialog.contracts;
+package com.learn_french.common.fulldialog.contracts;
 
 
 import android.annotation.SuppressLint;
@@ -35,7 +35,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 
-import com.example.common.R;
+import com.learn_french.common.R;
 
 
 public class FullScreenDialogFragment extends DialogFragment {

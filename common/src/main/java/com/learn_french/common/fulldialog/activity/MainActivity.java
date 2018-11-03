@@ -1,4 +1,4 @@
-package com.example.common.fulldialog.activity;
+package com.learn_french.common.fulldialog.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,9 +9,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.common.R;
-import com.example.common.fulldialog.contracts.FullScreenDialogFragment;
-import com.example.common.fulldialog.fragment.SurnameFragment;
+import com.learn_french.common.R;
+import com.learn_french.common.fulldialog.contracts.FullScreenDialogFragment;
+import com.learn_french.common.fulldialog.fragment.SurnameFragment;
 
 
 public class MainActivity extends AppCompatActivity

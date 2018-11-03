@@ -12,4 +12,6 @@
     <string name="discard_confirmation_title">Are you sure?</string>
     <string name="discard_confirmation_message">Please confirm that you want to exit?</string>
     <string name="Title">Auto Play</string>
+
+    <string name="transition_string">hello</string>
 </resources>

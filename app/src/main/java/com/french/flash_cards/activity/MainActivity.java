@@ -11,8 +11,7 @@ import android.view.MenuItem;
 
 import android.util.Log;
 
-import com.example.common.fulldialog.contracts.FullScreenDialogFragment;
-import com.example.common.fulldialog.fragment.SurnameFragment;
+import com.learn_french.common.fulldialog.contracts.FullScreenDialogFragment;
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
 import com.french.flash_cards.fragment.ChatFragment;
@@ -83,12 +82,12 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                 final Bundle args = new Bundle();
 
                                 dialogFragment = new FullScreenDialogFragment.Builder(MainActivity.this)
-                                        .setTitle(com.example.common.R.string.Title)
+                                        .setTitle(com.learn_french.common.R.string.Title)
                                         .setConfirmButton(null)
                                         .setOnConfirmListener(MainActivity.this)
                                         .setOnDiscardListener(MainActivity.this)
                                         .setContent(AutoPlayFragment.class, args)
-                                        .setExtraActions(com.example.common.R.menu.extra_items)
+                                        .setExtraActions(com.learn_french.common.R.menu.extra_items)
                                         .setOnDiscardFromActionListener(MainActivity.this)
                                         .build();
 

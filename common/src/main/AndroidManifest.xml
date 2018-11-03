@@ -1,2 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.common" />
+    package="com.learn_french.common">
+    <application>
+    <activity
+        android:name=".fulldialog.activity.CardOverviewActivity"
+        android:label="@string/app_name">
+    </activity>
+    </application>
+</manifest>

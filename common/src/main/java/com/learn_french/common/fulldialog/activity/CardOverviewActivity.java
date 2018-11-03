@@ -1,11 +1,11 @@
-package com.example.common.fulldialog.activity;
+package com.learn_french.common.fulldialog.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.common.R;
+import com.learn_french.common.R;
 
-public class CardOverviewActivity  extends AppCompatActivity {
+public class CardOverviewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

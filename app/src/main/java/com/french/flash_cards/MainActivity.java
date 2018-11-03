@@ -4,9 +4,7 @@ import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
-import android.media.Image;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -15,15 +13,12 @@ import android.transition.Slide;
 import android.view.Gravity;
 import android.view.animation.AnimationUtils;
 import android.view.animation.LayoutAnimationController;
-import android.widget.ImageView;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.french.flash_cards.model.translation.*;
 import com.french.flash_cards.model.translation.App;
 import com.raywenderlich.favoritemovies.AppHelper;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -93,8 +88,8 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.sample_list);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        SamplesRecyclerAdapter samplesRecyclerAdapter = new SamplesRecyclerAdapter(this, samples);
-        recyclerView.setAdapter(samplesRecyclerAdapter);
+        HomeRecyclerAdapter homeRecyclerAdapter = new HomeRecyclerAdapter(this, samples);
+        recyclerView.setAdapter(homeRecyclerAdapter);
         int resId = R.anim.layout_animation_fall_down;
         LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(getApplicationContext(), resId);
         recyclerView.setLayoutAnimation(animation);
