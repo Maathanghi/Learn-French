@@ -51,6 +51,7 @@
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
         app:itemBackground="@color/app_color_1"
+        android:background="@drawable/bottombar_bg"
         app:itemIconTint="@drawable/bottom_navigation_color_selector"
         app:itemTextColor="@drawable/bottom_navigation_color_selector"
         app:menu="@menu/menu_bottom_navigation" />
