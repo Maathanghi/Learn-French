@@ -4,5 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="year">#999999</color>
-    <color name="title">#222222</color>
+    <color name="title">#cccccc</color>
+    <color name="bottomAppbar">#303e5d</color>
+    <color name="fabIcon">#ea1ea0</color>
+    <color name="selectedRow">#556589</color>
 </resources>

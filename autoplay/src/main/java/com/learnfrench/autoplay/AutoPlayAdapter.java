@@ -80,7 +80,7 @@ public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyView
     public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.movie_list_row, parent, false);
-        handler=new Handler();
+        handler = new Handler();
         return new MyViewHolder(itemView);
     }
 
@@ -88,31 +88,35 @@ public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyView
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
         // Here I am just highlighting the background
         isPlaying = true;
-        holder.itemView.setBackgroundColor(focusedItem == position ? Color.LTGRAY : Color.TRANSPARENT);
-        if(focusedItem == position){
-            holder.progress.setVisibility(View.VISIBLE);
-            holder.playButton.setVisibility(View.VISIBLE);
-            holder.playButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    isStart = false;
-                    if(isPlaying){
-                        isPlaying = false;
-                        holder.playButton.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_stop));
-                        holder.progress.setVisibility(View.GONE);
-                        mPlayControl.playClicked(isPlaying,position);
-                    }else{
-                        isPlaying = true;
-                        holder.playButton.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_play));
-                        holder.progress.setVisibility(View.VISIBLE);
-                        mPlayControl.playClicked(isPlaying,position);
+        holder.itemView.setBackgroundColor(focusedItem == position ? ctx.getResources().getColor(R.color.selectedRow) : Color.TRANSPARENT);
+            if(focusedItem == position){
+                holder.english.setTextColor(ctx.getResources().getColor(R.color.app_color_3));
+                holder.french.setTextColor(ctx.getResources().getColor(R.color.app_color_3));
+                holder.progress.setVisibility(View.VISIBLE);
+                holder.playButton.setVisibility(View.VISIBLE);
+                holder.playButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        isStart = false;
+                        if(isPlaying){
+                            isPlaying = false;
+                            holder.playButton.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_stop));
+                            holder.progress.setVisibility(View.GONE);
+                            mPlayControl.playClicked(isPlaying,position);
+                        }else{
+                            isPlaying = true;
+                            holder.playButton.setImageDrawable(ctx.getResources().getDrawable(R.drawable.ic_play));
+                            holder.progress.setVisibility(View.VISIBLE);
+                            mPlayControl.playClicked(isPlaying,position);
+                        }
                     }
-                }
-            });
-        }else{
-            holder.progress.setVisibility(View.GONE);
-            holder.playButton.setVisibility(View.GONE);
-        }
+                });
+            }else{
+                holder.english.setTextColor(ctx.getResources().getColor(R.color.title));
+                holder.french.setTextColor(ctx.getResources().getColor(R.color.title));
+                holder.progress.setVisibility(View.GONE);
+                holder.playButton.setVisibility(View.GONE);
+            }
         AutoPlay movie = moviesList.get(position);
         holder.english.setText(movie.getTitle());
         holder.french.setText(movie.getGenre());

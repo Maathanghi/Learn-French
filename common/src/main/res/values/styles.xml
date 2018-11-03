@@ -8,7 +8,7 @@
     </style>
 
     <style name="FullScreenDialogToolbar">
-        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:background">@color/app_color_1</item>
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
     </style>
 </resources>

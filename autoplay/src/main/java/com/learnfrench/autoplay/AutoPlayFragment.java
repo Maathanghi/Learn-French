@@ -100,9 +100,6 @@ public class AutoPlayFragment extends Fragment implements FullScreenDialogConten
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-
-
-
         mAdapter = new AutoPlayAdapter(movieList,getContext(),  this,mTts);
 
         recyclerView.setHasFixedSize(true);
