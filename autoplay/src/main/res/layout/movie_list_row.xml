@@ -39,7 +39,9 @@
         android:layout_alignParentRight="true"
         android:textColor="@color/year" />
     <ProgressBar
-        android:indeterminate="false"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/app_color_3"
         android:secondaryProgress="100"
         android:visibility="gone"
         android:layout_centerVertical="true"

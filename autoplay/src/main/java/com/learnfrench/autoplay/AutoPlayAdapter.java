@@ -88,6 +88,7 @@ public class AutoPlayAdapter extends RecyclerView.Adapter<AutoPlayAdapter.MyView
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
         // Here I am just highlighting the background
         isPlaying = true;
+
         holder.itemView.setBackgroundColor(focusedItem == position ? ctx.getResources().getColor(R.color.selectedRow) : Color.TRANSPARENT);
             if(focusedItem == position){
                 holder.english.setTextColor(ctx.getResources().getColor(R.color.app_color_3));
