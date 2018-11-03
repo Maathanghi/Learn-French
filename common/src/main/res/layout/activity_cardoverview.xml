@@ -29,5 +29,64 @@
 
         </android.support.design.widget.AppBarLayout>
 
+        <RelativeLayout
+            android:id="@+id/reveal_status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangle"
+                android:id="@+id/lesson"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:background="@color/app_color_1"
+                    android:id="@+id/imgLesson"
+                    app:lottie_fileName="loading_book.json"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/app_color_3"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/imgLesson"
+                    android:text="Lesson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle"
+                android:id="@+id/exam"
+                android:layout_width="150dp"
+                android:layout_toRightOf="@+id/lesson"
+                android:layout_height="150dp">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/imgQuiz"
+                    app:lottie_fileName="success.json"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/app_color_3"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/imgQuiz"
+                    android:text="Quiz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
     </android.support.design.widget.CoordinatorLayout>
 </RelativeLayout>

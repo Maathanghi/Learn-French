@@ -36,14 +36,18 @@ public class MainActivity extends AppCompatActivity {
         objectanimator = ObjectAnimator.ofFloat(cycleAnim,"x",300);
         objectanimator.setDuration(4000);
         objectanimator.start();
+
+        setupToolbar();
+        setupSamples();
+        setupLayout();
     }
 
     @Override
     protected void onResume() {
-        setupWindowAnimations();
-        setupSamples();
-        setupToolbar();
-        setupLayout();
+        //setupWindowAnimations();
+        //setupSamples();
+        //setupToolbar();
+        //setupLayout();
         objectanimator.start();
         super.onResume();
     }
