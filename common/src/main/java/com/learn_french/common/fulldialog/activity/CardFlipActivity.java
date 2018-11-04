@@ -8,6 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.animation.AccelerateDecelerateInterpolator;
@@ -51,6 +52,22 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
         final Intent intent = getIntent();
 
         rootLayout = findViewById(R.id.root_layout);
+
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        if (isLesson) {
+            toolbar.setTitle(selectedLevel+" - Lesson");
+        } else {
+            toolbar.setTitle(selectedLevel+" - Quiz");
+        }
+        toolbar.setTitle(selectedLevel);
+        setSupportActionBar(toolbar);
+        // add back arrow to toolbar
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+
 
         if (savedInstanceState == null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP &&
                 intent.hasExtra(EXTRA_CIRCULAR_REVEAL_X) &&
