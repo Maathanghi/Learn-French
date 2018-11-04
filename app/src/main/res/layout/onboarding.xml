@@ -36,7 +36,7 @@
     <Button
         android:textColor="#fff"
         android:text="Next"
-        android:background="@color/app_color_1"
+        android:background="@color/transparent"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="24dp"
