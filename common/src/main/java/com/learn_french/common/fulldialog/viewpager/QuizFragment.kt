@@ -15,6 +15,13 @@ import android.view.animation.AlphaAnimation
 import com.learn_french.common.R
 import com.learn_french.common.fulldialog.contracts.IListeners
 import com.learn_french.common.fulldialog.model.app.Quiz
+import android.databinding.adapters.SeekBarBindingAdapter.setProgress
+import android.animation.ValueAnimator
+import com.airbnb.lottie.LottieAnimationView
+
+
+
+
 
 
 class QuizFragment : Fragment() , View.OnClickListener {
@@ -101,12 +108,14 @@ class QuizFragment : Fragment() , View.OnClickListener {
     buttonNext = view.findViewById(R.id.buttonNext)
     txtLevel = view.findViewById(R.id.txtLevel)
 
+
     option1.setOnClickListener(this)
     option2.setOnClickListener(this)
     option3.setOnClickListener(this)
     option4.setOnClickListener(this)
     buttonSubmit.setOnClickListener(this)
     buttonNext.setOnClickListener(this)
+
 
     alphaUp.fillAfter = true
     buttonNext.isEnabled=false

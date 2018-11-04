@@ -3,6 +3,7 @@ package com.learn_french.common.fulldialog.viewpager
 
 import android.animation.AnimatorInflater
 import android.animation.AnimatorSet
+import android.animation.ValueAnimator
 import android.os.Bundle
 import android.speech.tts.TextToSpeech
 import android.support.v4.app.Fragment
@@ -10,21 +11,28 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import com.airbnb.lottie.LottieAnimationView
 import com.learn_french.common.R
 import com.learn_french.common.fulldialog.contracts.IListeners
 import com.learn_french.common.fulldialog.model.app.Lesson
 
 import com.squareup.picasso.Picasso
 import java.util.*
+import android.support.design.widget.Snackbar
+
+
 
 
 class LessonFragment : Fragment() , View.OnClickListener{
   override fun onClick(v: View) {
     val item_id = v.id
     when (item_id) {
-      R.id.rootlayout -> flipCard(v)
+      //R.id.rootlayout -> flipCard(v)
+      R.id.card_back -> flipCard(v)
+      R.id.card_front -> flipCard(v)
       R.id.imgFrench -> textToSpeech(v)
       R.id.imgEnglish -> textToSpeech(v)
+      R.id.ic_fav -> startCheckAnimation()
       R.id.buttonQuiz -> iListner.quizClickListener()
     }
   }
@@ -47,12 +55,45 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var txtLevel: TextView
   private lateinit var root: View
   private lateinit var iListner: IListeners
+  private lateinit var favIcon : LottieAnimationView
+  private var isBookmarked : Boolean = false
+
   private fun changeCameraDistance() {
     val distance = 8000
     val scale = resources.displayMetrics.density * distance
     mCardFrontLayout.setCameraDistance(scale)
     mCardBackLayout.setCameraDistance(scale)
   }
+
+  private fun startCheckAnimation() {
+    val animator = ValueAnimator.ofFloat(0f, 1f).setDuration(500)
+    animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
+
+    if (favIcon.getProgress() === 0f) {
+      enableBookMark()
+    } else {
+      disableBookMark()
+    }
+  }
+
+  private fun enableBookMark() {
+    val animator = ValueAnimator.ofFloat(0f, 1f).setDuration(500)
+    animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
+    animator.start()
+    showSnackBar("Added to Bookmark")
+  }
+
+  private fun disableBookMark() {
+    favIcon.setProgress(0f)
+    showSnackBar("Removed from Bookmark")
+  }
+
+  private fun showSnackBar(msg: String){
+    val snackbar = Snackbar
+            .make(root, msg, Snackbar.LENGTH_SHORT)
+    snackbar.show()
+  }
+
 
   private fun loadAnimations() {
     mSetRightOut = AnimatorInflater.loadAnimator(context, R.animator.out_animation) as AnimatorSet
@@ -69,12 +110,16 @@ class LessonFragment : Fragment() , View.OnClickListener{
     mImage = mIncludeFront.findViewById(R.id.cardImage)
     mImageFrechTtoSpeech = mIncludeBack.findViewById(R.id.imgFrench)
     mImageEnglishtoSpeech = mIncludeBack.findViewById(R.id.imgEnglish)
+    favIcon = view.findViewById(R.id.ic_fav)
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
     buttonQuiz = view.findViewById(R.id.buttonQuiz)
     txtLevel = view.findViewById(R.id.txtLevel)
 
     buttonQuiz.setOnClickListener(this)
+    mCardBackLayout.setOnClickListener(this)
+    mCardFrontLayout.setOnClickListener(this)
+    favIcon.setOnClickListener(this)
   }
 
   fun flipCard(view: View) {
@@ -136,11 +181,18 @@ class LessonFragment : Fragment() , View.OnClickListener{
     loadAnimations()
     changeCameraDistance()
 
+      if(isBookmarked){
+        enableBookMark()
+      }else{
+        disableBookMark()
+      }
+
 
     if(args?.getString(AppHelper.KEY_TITLE).equals("congratulations"))
     {
       mCardBackLayout.visibility= View.GONE
       mCardFrontLayout.visibility= View.GONE
+      favIcon.visibility= View.GONE
       mCongratzContainer.visibility= View.VISIBLE
       if (args != null) {
         txtLevel.text = args.getString(AppHelper.KEY_LEVEL)
