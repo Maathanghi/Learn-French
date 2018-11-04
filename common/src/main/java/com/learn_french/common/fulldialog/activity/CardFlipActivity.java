@@ -152,7 +152,13 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onPageSelected(int position) {
-
+        progressBar.setProgress(position);
+        if(app.getLesson().size() - 1 == position)
+        {
+            progressBar.setVisibility(View.VISIBLE);
+        }else{
+            progressBar.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
@@ -177,11 +183,11 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void nextQuestionListener() {
-
+        viewPager.setCurrentItem(progressBar.getProgress() + 1);
     }
 
     @Override
     public ViewPager getViewPagerListener() {
-        return null;
+        return viewPager;
     }
 }
