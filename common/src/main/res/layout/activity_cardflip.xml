@@ -25,7 +25,6 @@
 
     <ProgressBar
         android:layout_below="@+id/appbar"
-        android:progressDrawable="@drawable/custom_progressbar"
         android:layout_marginTop="0px"
         android:paddingTop="0px"
         android:id="@+id/progressBar"
