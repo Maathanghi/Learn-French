@@ -54,21 +54,6 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
         rootLayout = findViewById(R.id.root_layout);
 
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        if (isLesson) {
-            toolbar.setTitle(selectedLevel+" - Lesson");
-        } else {
-            toolbar.setTitle(selectedLevel+" - Quiz");
-        }
-        toolbar.setTitle(selectedLevel);
-        setSupportActionBar(toolbar);
-        // add back arrow to toolbar
-        if (getSupportActionBar() != null){
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setDisplayShowHomeEnabled(true);
-        }
-
-
         if (savedInstanceState == null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP &&
                 intent.hasExtra(EXTRA_CIRCULAR_REVEAL_X) &&
                 intent.hasExtra(EXTRA_CIRCULAR_REVEAL_Y) &&
@@ -96,7 +81,28 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
         }
 
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        if (isLesson) {
+            toolbar.setTitle(selectedLevel+" - Lesson");
+        } else {
+            toolbar.setTitle(selectedLevel+" - Quiz");
+        }
+        setSupportActionBar(toolbar);
+        // add back arrow to toolbar
+        if (getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
+
+
+
         initiateLevelViewPager(isLesson);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
     }
 
 

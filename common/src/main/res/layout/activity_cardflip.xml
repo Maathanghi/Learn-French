@@ -8,6 +8,7 @@
     android:background="@color/app_color_1"
     android:fitsSystemWindows="true"
     tools:context=".fulldialog.activity.CardFlipActivity">
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_height="wrap_content"
