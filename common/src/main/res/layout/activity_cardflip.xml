@@ -5,15 +5,43 @@
     android:id="@+id/root_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="32dp"
     android:background="@color/app_color_1"
     android:fitsSystemWindows="true"
     tools:context=".fulldialog.activity.CardFlipActivity">
-
-    <TextView
-        android:text="It works!"
-        android:layout_width="wrap_content"
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" />
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/app_color_1" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ProgressBar
+        android:layout_below="@+id/appbar"
+        android:progressDrawable="@drawable/custom_progressbar"
+        android:visibility="gone"
+        android:layout_marginTop="0px"
+        android:paddingTop="0px"
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:minHeight="50dp"
+        android:minWidth="200dp"
+        android:progress="1" />
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/progressBar"
+        android:id="@+id/viewPager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
 
 </RelativeLayout>

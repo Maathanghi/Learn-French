@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
+import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.view.View;
@@ -15,13 +16,15 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
 import com.learn_french.common.R;
+import com.learn_french.common.fulldialog.activity.CardOverviewActivity;
 
 public class Utils {
 
-    public static void animateIntent(View viewStart, Activity activity, String transitionName, Class toActivity) {
+    public static void animateIntent(View viewStart, Activity activity, String transitionName, Class toActivity, String selectedLevel) {
 
         // Ordinary Intent for launching a new activity
         Intent intent = new Intent(activity, toActivity);
+        intent.putExtra(CardOverviewActivity.EXTRA_SELECTED_LEVEL, selectedLevel);
 
         ActivityOptionsCompat options = ActivityOptionsCompat.makeSceneTransitionAnimation(activity,
                         viewStart,   // Starting view

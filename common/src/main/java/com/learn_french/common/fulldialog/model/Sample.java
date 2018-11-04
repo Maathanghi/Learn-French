@@ -24,12 +24,6 @@ public class Sample implements Serializable {
         this.status = iconStatus;
     }
 
-    @BindingAdapter("bind:colorTint")
-    public static void setColorTint(ImageView view,  int color) {
-        DrawableCompat.setTint(view.getDrawable(), color);
-        //view.setColorFilter(color, PorterDuff.Mode.SRC_IN);
-    }
-
     public String getName() {
         return name;
     }

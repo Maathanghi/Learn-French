@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:background="@drawable/rectangle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/frenchTitle"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:text="French"
+            android:textColor="@color/sample_blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/frenchText"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frenchTitle"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Apple"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgFrench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/frenchText"
+            android:paddingTop="12dp"
+            android:src="@drawable/volume" />
+
+        <TextView
+            android:id="@+id/englishTitle"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgFrench"
+            android:layout_marginTop="20dp"
+            android:paddingRight="10dp"
+            android:paddingTop="30dp"
+            android:text="English"
+            android:textColor="@color/sample_blue"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/englishText"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/englishTitle"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="Apple"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgEnglish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/englishText"
+            android:paddingTop="5dp"
+            android:src="@drawable/volume" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

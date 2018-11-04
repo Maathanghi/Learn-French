@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/app_color_5"
+    xmlns:components="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootlayout"
+    tools:context="com.raywenderlich.favoritemovies.LessonFragment">
+
+    <RelativeLayout
+        android:id="@+id/quizContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgQuiz"
+            android:layout_margin="50dp"
+            android:background="@drawable/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/level1_lesson2_elephant"/>
+
+
+        <RelativeLayout
+            android:id="@+id/optionGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonNext">
+
+            <LinearLayout
+                android:id="@+id/optionGroup1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
+
+                <Button
+                    android:id="@+id/option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/optionGroup2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/optionGroup1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
+
+                <Button
+                    android:id="@+id/option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/curved_button"
+                    android:text="Option 1" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:enabled="false"
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/curved_button"
+            android:text="Next"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/app_color_3" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/congratzContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imgCongrats"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/trophy"></ImageView>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtCongratys"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgCongrats"
+                android:gravity="center"
+                android:text="Congratulations!!!" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txtSuccessCompleted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtCongratys"
+                android:text="You have successfully completed" />
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/txtLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtSuccessCompleted"
+                android:text="Level 1" />
+        </LinearLayout>
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_alignParentBottom="true"
+                android:layout_margin="10dp"
+                android:background="@drawable/curved_button"
+                android:id="@+id/buttonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Finish"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/app_color_3" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

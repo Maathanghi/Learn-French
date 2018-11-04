@@ -63,6 +63,7 @@
             android:progress="1" />
 
         <RelativeLayout
+            android:visibility="gone"
             android:id="@+id/reveal_status"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -112,7 +113,7 @@
 
         </RelativeLayout>
         <RelativeLayout
-            android:visibility="gone"
+            android:visibility="visible"
             android:id="@+id/reveal_root"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
