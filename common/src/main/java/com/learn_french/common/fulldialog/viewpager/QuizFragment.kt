@@ -37,10 +37,10 @@ class QuizFragment : Fragment() , View.OnClickListener {
   }
 
   fun changeButtonColor(view: View) {
-    option1.setBackgroundResource(R.drawable.curved_button)
-    option2.setBackgroundResource(R.drawable.curved_button)
-    option3.setBackgroundResource(R.drawable.curved_button)
-    option4.setBackgroundResource(R.drawable.curved_button)
+    option1.setBackgroundResource(R.drawable.button_normal)
+    option2.setBackgroundResource(R.drawable.button_normal)
+    option3.setBackgroundResource(R.drawable.button_normal)
+    option4.setBackgroundResource(R.drawable.button_normal)
     option1.setTextColor(Color.parseColor("#000000"))
     option2.setTextColor(Color.parseColor("#000000"))
     option3.setTextColor(Color.parseColor("#000000"))
@@ -56,12 +56,12 @@ class QuizFragment : Fragment() , View.OnClickListener {
     alphaUp.fillAfter = true
 
     if(buttonText.equals(correctAnswer)){
-      view.setBackgroundResource(R.drawable.dotted_correct_button)
+      view.setBackgroundResource(R.drawable.button_green)
       view.setTextColor(Color.parseColor("#ffffff"))
       buttonNext.isEnabled=true
       buttonNext.startAnimation(alphaDown)
     }else{
-      view.setBackgroundResource(R.drawable.dotted_wrong_button)
+      view.setBackgroundResource(R.drawable.button_red)
       view.setTextColor(Color.parseColor("#ffffff"))
       buttonNext.isEnabled=false
       buttonNext.startAnimation(alphaUp)

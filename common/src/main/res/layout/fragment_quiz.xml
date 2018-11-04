@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/curved_button"
+                    android:background="@drawable/button_normal"
                     android:text="Option 1" />
 
                 <Button
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/curved_button"
+                    android:background="@drawable/button_normal"
                     android:text="Option 1" />
 
             </LinearLayout>
@@ -62,7 +62,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/optionGroup1"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="00dp"
                 android:orientation="horizontal"
                 android:weightSum="2">
 
@@ -72,7 +72,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/curved_button"
+                    android:background="@drawable/button_normal"
                     android:text="Option 1" />
 
                 <Button
@@ -81,7 +81,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:layout_weight="1"
-                    android:background="@drawable/curved_button"
+                    android:background="@drawable/button_normal"
                     android:text="Option 1" />
 
             </LinearLayout>
@@ -95,10 +95,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_margin="10dp"
-            android:background="@drawable/curved_button"
+            android:background="@drawable/button_yellow"
             android:text="Next"
-            android:textColor="@color/white"
-            app:backgroundTint="@color/app_color_3" />
+            android:textColor="@color/white" />
     </RelativeLayout>
 
 
