@@ -167,12 +167,12 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void quizClickListener() {
-
+        initiateLevelViewPager(false);
     }
 
     @Override
     public void takeHomeListener() {
-
+        onBackPressed();
     }
 
     @Override
