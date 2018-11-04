@@ -22,7 +22,7 @@
     <item
         android:id="@+id/action_share"
         android:checked="false"
-        android:icon="@drawable/ic_bottombar_share"
+        android:icon="@drawable/ic_bottombar_more"
         android:title="@string/tab4"
         app:showAsAction="ifRoom" />
 </menu>

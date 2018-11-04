@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import android.util.Log;
 
+import com.french.flash_cards.fragment.BottomSheetFragment;
 import com.learn_french.common.fulldialog.contracts.FullScreenDialogFragment;
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                 break;
                             case R.id.action_share:
 
-                                dialogFragment =
+                              /*  dialogFragment =
                                         (FullScreenDialogFragment) getSupportFragmentManager().findFragmentByTag(dialogTag);
                                 if (dialogFragment != null) {
                                     dialogFragment.setOnConfirmListener(MainActivity.this);
@@ -92,7 +93,10 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                         .build();
 
                                 dialogFragment.show(getSupportFragmentManager(), dialogTag);
-                                //viewPager.setCurrentItem(3);
+                                //viewPager.setCurrentItem(3);*/
+
+                                BottomSheetFragment bottomSheetFragment = new BottomSheetFragment();
+                                bottomSheetFragment.show(getSupportFragmentManager(), bottomSheetFragment.getTag());
                                 break;
                         }
                         return false;
