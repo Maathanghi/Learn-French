@@ -4,12 +4,14 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.BottomSheetDialog;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import android.util.Log;
+import android.view.View;
 
 import com.french.flash_cards.fragment.BottomSheetFragment;
 import com.learn_french.common.fulldialog.contracts.FullScreenDialogFragment;
@@ -95,8 +97,11 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
                                 dialogFragment.show(getSupportFragmentManager(), dialogTag);
                                 //viewPager.setCurrentItem(3);*/
 
-                                BottomSheetFragment bottomSheetFragment = new BottomSheetFragment();
-                                bottomSheetFragment.show(getSupportFragmentManager(), bottomSheetFragment.getTag());
+                                View view = getLayoutInflater().inflate(R.layout.fragment_bottom_sheet_dialog, null);
+
+                                BottomSheetDialog dialog = new BottomSheetDialog(MainActivity.this);
+                                dialog.setContentView(view);
+                                dialog.show();
                                 break;
                         }
                         return false;
