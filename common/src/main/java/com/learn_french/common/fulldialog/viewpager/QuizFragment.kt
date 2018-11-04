@@ -49,7 +49,7 @@ class QuizFragment : Fragment() , View.OnClickListener {
     val buttonText = b.text.toString()
 
     textToSpeech.setLanguage(Locale.FRANCE)
-    Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
+    //Toast.makeText(context, buttonText, Toast.LENGTH_SHORT).show()
     textToSpeech.speak(buttonText, TextToSpeech.QUEUE_FLUSH, null)
 
 
@@ -108,6 +108,8 @@ class QuizFragment : Fragment() , View.OnClickListener {
     buttonSubmit.setOnClickListener(this)
     buttonNext.setOnClickListener(this)
 
+    alphaUp.fillAfter = true
+    buttonNext.isEnabled=false
     buttonNext.startAnimation(alphaUp)
 
   }
