@@ -22,12 +22,16 @@ import android.support.annotation.StringRes;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 
+import com.learn_french.common.fulldialog.model.app.AppDataUtil;
+import com.learn_french.common.fulldialog.model.app.Lesson;
 import com.learnfrench.views.shimmer.R;
 import com.learnfrench.views.shimmer.models.ItemCard;
 import com.learnfrench.views.shimmer.utils.view.CardPaddingItemDecoration;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class BaseUtils {
 
@@ -52,62 +56,18 @@ public class BaseUtils {
         return Arrays.asList(ndtvCard, opCard, gotCard, jetCard);
     }
 
-    private static List<ItemCard> getGridCards(Resources resources) {
-        ItemCard on7 = createItemCard(resources, R.string.on7_titletext,R.drawable.shopping_basket,
-                R.string.on7_subtext, R.string.on7_summarytext);
-
-        ItemCard note5 = createItemCard(resources, R.string.note5_titletext, R.drawable.shopping_basket,
-                R.string.note5_subtext, R.string.note5_summarytext);
-
-        ItemCard pixel = createItemCard(resources, R.string.pix_titletext, R.drawable.shopping_basket,
-                R.string.pix_subtext, R.string.pix_summarytext);
-
-        ItemCard iphone6 = createItemCard(resources, R.string.i6_titletext, R.drawable.shopping_basket,
-                R.string.i6_subtext, R.string.i6_summarytext);
-
-        ItemCard moto = createItemCard(resources, R.string.moto_titletext, R.drawable.shopping_basket,
-                R.string.moto_subtext, R.string.moto_summarytext);
-
-        ItemCard s7 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-        ItemCard s8 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s9 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s10 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s11 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s12 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s13 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-        ItemCard s14 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-        ItemCard s15 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-        ItemCard s16 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s17 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-        ItemCard s18 = createItemCard(resources, R.string.s7_titletext, R.drawable.shopping_basket,
-                R.string.s7_subtext, R.string.s7_summarytext);
-
-
-
-
-
-        return Arrays.asList(on7, note5, pixel, iphone6, s7, moto,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8,s8);
+    private static List<ItemCard> getGridCards(Resources resources, Context ctx) {
+        List<ItemCard> catogoryList = new ArrayList<>();
+        Map<String, List<Lesson>> category =  AppDataUtil.getInstance().getMyCategoryList(ctx);
+        for (Map.Entry<String, List<Lesson>> entry : category.entrySet())
+        {
+             ItemCard card = createItemCard(resources, entry.getKey(),R.drawable.shopping_basket,entry.getValue());
+            catogoryList.add(card);
+        }
+        return catogoryList;
     }
 
-    public static List<ItemCard> getCards(Resources resources, int type) {
+    public static List<ItemCard> getCards(Resources resources, int type,Context ctx) {
         List<ItemCard> itemCards;
 
         switch (type) {
@@ -117,7 +77,7 @@ public class BaseUtils {
                 break;
             case TYPE_GRID:
             case TYPE_SECOND_GRID:
-                itemCards = getGridCards(resources);
+                itemCards = getGridCards(resources,ctx);
                 break;
             default:
                 itemCards = null;
@@ -174,6 +134,16 @@ public class BaseUtils {
 
         itemCard.setTitle(resources.getString(title));
         itemCard.setThumbnailUrl(resources.getString(imageUrl));
+
+        return itemCard;
+    }
+
+    private static ItemCard createItemCard(Resources resources, String title, int imageUrl,List<Lesson> lessons) {
+        ItemCard itemCard = new ItemCard();
+
+        itemCard.setTitle(title);
+        itemCard.setThumbnailUrl(resources.getString(imageUrl));
+        itemCard.setLessons(lessons);
 
         return itemCard;
     }

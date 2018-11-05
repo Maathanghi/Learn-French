@@ -15,10 +15,15 @@
  */
 package com.learnfrench.views.shimmer.models;
 
+import com.learn_french.common.fulldialog.model.app.Lesson;
+
+import java.util.List;
+
 public class ItemCard {
 
     private String mTitle;
     private String mThumbnailUrl;
+    List<Lesson> mLessons;
 
     public String getTitle() {
         return mTitle;
@@ -34,6 +39,14 @@ public class ItemCard {
 
     public void setThumbnailUrl(String mThumbnailUrl) {
         this.mThumbnailUrl = mThumbnailUrl;
+    }
+
+    public List<Lesson> getLessons() {
+        return mLessons;
+    }
+
+    public void setLessons(List<Lesson> lesson) {
+        this.mLessons = lesson;
     }
 
 }
