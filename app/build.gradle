@@ -32,13 +32,18 @@ android {
             ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
         }
         debug{
-            ext.betaDistributionReleaseNotes="Sunday Special"
+            ext.betaDistributionReleaseNotes="Monday work with fever :("
             ext.betaDistributionEmails="cmaathanghi@gmail.com,anan.busyguy007@gmail.com"
         }
     }
     dataBinding {
         enabled = true
     }
+}
+
+ext {
+    roomVersion = '1.1.1'
+    archLifecycleVersion = '1.1.1'
 }
 
 dependencies {
@@ -58,4 +63,6 @@ dependencies {
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.5@aar') {
         transitive = true;
     }
+
+
 }
