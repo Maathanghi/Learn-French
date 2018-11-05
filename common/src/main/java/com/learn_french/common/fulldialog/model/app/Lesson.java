@@ -18,6 +18,9 @@ public class Lesson {
     @SerializedName("englishTranslation")
     @Expose
     private String englishTranslation;
+    @SerializedName("tag")
+    @Expose
+    private String tag;
 
     public String getTitle() {
         return title;
@@ -49,6 +52,14 @@ public class Lesson {
 
     public void setEnglishTranslation(String englishTranslation) {
         this.englishTranslation = englishTranslation;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
     }
 
 }
