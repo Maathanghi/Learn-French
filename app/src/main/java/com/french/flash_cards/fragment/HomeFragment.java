@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
@@ -100,8 +101,11 @@ public class HomeFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         HomeRecyclerAdapter homeRecyclerAdapter = new HomeRecyclerAdapter(getActivity(), samples);
         recyclerView.setAdapter(homeRecyclerAdapter);
-        int resId = R.anim.layout_animation_fall_down;
-        LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(getContext(), resId);
-        recyclerView.setLayoutAnimation(null);
+        //int resId = R.anim.layout_animation_fall_down;
+        //LayoutAnimationController animation = AnimationUtils.loadLayoutAnimation(getContext(), resId);
+        //recyclerView.setLayoutAnimation(null);
+        DividerItemDecoration decoration = new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL);
+        decoration.setDrawable(getContext().getResources().getDrawable(R.drawable.line));
+        recyclerView.addItemDecoration(decoration);
     }
 }

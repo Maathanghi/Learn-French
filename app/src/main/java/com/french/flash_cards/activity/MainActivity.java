@@ -13,15 +13,13 @@ import android.view.MenuItem;
 import android.util.Log;
 import android.view.View;
 
-import com.french.flash_cards.fragment.BottomSheetFragment;
 import com.learn_french.common.fulldialog.contracts.FullScreenDialogFragment;
 import com.french.flash_cards.R;
 import com.french.flash_cards.adapter.ViewPagerAdapter;
 import com.french.flash_cards.fragment.ChatFragment;
-import com.french.flash_cards.fragment.ContactsFragment;
+import com.french.flash_cards.fragment.BookmarkFragment;
 import com.french.flash_cards.fragment.HomeFragment;
 import com.french.flash_cards.utils.BottomNavigationBehavior;
-import com.learnfrench.autoplay.AutoPlayFragment;
 import com.learnfrench.views.shimmer.fragment.CategoryFragment;
 
 
@@ -41,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
     FullScreenDialogFragment dialogFragment;
     CategoryFragment chatFragment;
     HomeFragment homeFragment;
-    ContactsFragment contactsFragment;
+    BookmarkFragment bookmarkFragment;
     ChatFragment chatFragment1;
     MenuItem prevMenuItem;
 
@@ -155,11 +153,11 @@ public class MainActivity extends AppCompatActivity implements  FullScreenDialog
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         homeFragment = new HomeFragment();
         chatFragment = new CategoryFragment();
-        contactsFragment=new ContactsFragment();
+        bookmarkFragment =new BookmarkFragment();
         chatFragment1=new ChatFragment();
         adapter.addFragment(homeFragment);
         adapter.addFragment(chatFragment);
-        adapter.addFragment(contactsFragment);
+        adapter.addFragment(bookmarkFragment);
         viewPager.setAdapter(adapter);
     }
 
