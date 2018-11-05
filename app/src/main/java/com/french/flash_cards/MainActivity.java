@@ -15,7 +15,8 @@ import android.view.animation.AnimationUtils;
 import android.view.animation.LayoutAnimationController;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.french.flash_cards.model.translation.App;
+import com.learn_french.common.fulldialog.model.app.App;
+import com.learn_french.common.fulldialog.model.app.AppDataUtil;
 import com.raywenderlich.favoritemovies.AppHelper;
 
 import java.util.ArrayList;
@@ -62,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupSamples() {
-        ArrayList<App> appData = AppHelper.getAppDataFromJson("app.json", this);
+        ArrayList<App> appData = AppDataUtil.getInstance().getAppList(getApplicationContext());
         samples = new ArrayList<>();
         int i =0;
         for(App level : appData) {

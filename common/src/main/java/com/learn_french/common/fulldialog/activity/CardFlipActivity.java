@@ -21,6 +21,7 @@ import android.widget.ProgressBar;
 import com.learn_french.common.R;
 import com.learn_french.common.fulldialog.contracts.IListeners;
 import com.learn_french.common.fulldialog.model.app.App;
+import com.learn_french.common.fulldialog.model.app.AppDataUtil;
 import com.learn_french.common.fulldialog.utils.Utils;
 import com.learn_french.common.fulldialog.viewpager.AppHelper;
 import com.learn_french.common.fulldialog.viewpager.LessonPagerAdapter;
@@ -120,9 +121,9 @@ public class CardFlipActivity extends AppCompatActivity implements View.OnClickL
 
     private void initiateLevelViewPager(boolean isLesson){
         // Get the list of movies from the JSON file
-        ArrayList<App> appData = AppHelper.getAppDataFromJson("app.json", this);
+        ArrayList<App> appData = AppDataUtil.getInstance().getAppList(getApplicationContext());
 
-        app = getLesson(selectedLevel,appData);
+        app = AppDataUtil.getInstance().getLesson(selectedLevel,appData);
 
         viewPager = (ViewPager)findViewById(R.id.viewPager);
         progressBar = (ProgressBar)findViewById(R.id.progressBar);

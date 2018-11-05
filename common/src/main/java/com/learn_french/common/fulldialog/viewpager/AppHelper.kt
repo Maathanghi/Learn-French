@@ -23,19 +23,24 @@ object AppHelper {
   val KEY_OPTION_4 = "KEY_OPTION_4"
   val KEY_CORRECT_ANSWER = "KEY_CORRECT_ANSWER"
   val KEY_LISTENER = "KEY_LISTENER"
+  var app = ArrayList<App>()
 
 
   @JvmStatic
   fun getAppDataFromJson(fileName: String, context: Context): ArrayList<App> {
-    var app = ArrayList<App>()
-    var appData: AppData
+    if(app.size == 0) {
+      var app = ArrayList<App>()
+      var appData: AppData
 
-    // Load the JSONArray from the file
-    val jsonString = loadJsonFromFile(fileName, context)
-    appData =  parseAppDataJSON(jsonString);
-    app = appData.app
+      // Load the JSONArray from the file
+      val jsonString = loadJsonFromFile(fileName, context)
+      appData = parseAppDataJSON(jsonString);
+      app = appData.app
 
-    return app
+      return app
+    }else{
+      return app
+    }
   }
 
 

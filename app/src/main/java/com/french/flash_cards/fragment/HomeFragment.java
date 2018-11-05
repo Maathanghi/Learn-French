@@ -21,7 +21,8 @@ import com.airbnb.lottie.LottieAnimationView;
 import com.french.flash_cards.R;
 import com.french.flash_cards.Sample;
 import com.french.flash_cards.HomeRecyclerAdapter;
-import com.french.flash_cards.model.translation.App;
+import com.learn_french.common.fulldialog.model.app.App;
+import com.learn_french.common.fulldialog.model.app.AppDataUtil;
 import com.raywenderlich.favoritemovies.AppHelper;
 
 import java.util.ArrayList;
@@ -67,7 +68,7 @@ public class HomeFragment extends Fragment {
     }
 
     private void setupSamples() {
-        ArrayList<App> appData = AppHelper.getAppDataFromJson("app.json", getContext());
+        ArrayList<App> appData = AppDataUtil.getInstance().getAppList(getContext());
         samples = new ArrayList<>();
         int i =0;
         for(App level : appData) {
