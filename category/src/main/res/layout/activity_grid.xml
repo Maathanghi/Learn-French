@@ -21,7 +21,7 @@ limitations under the License.
     android:id="@+id/shimmer_recycler_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="10dp"
+    android:paddingBottom="0dp"
     android:paddingTop="0dp"
     app:shimmer_demo_layout="@layout/layout_demo_grid"
     app:shimmer_demo_layout_manager_type="grid"
