@@ -79,7 +79,7 @@ public class HomeFragment extends Fragment {
 
             // Do something with the value
             int color = Color.parseColor(level.getColor());
-            samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle()),level.getLesson().size()+" words"));
+            samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle()),level.getLesson().size() -1 +" words"));
         }
     }
 
