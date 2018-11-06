@@ -17,7 +17,7 @@ public class SlideAdapter extends PagerAdapter {
     Context context;
     LayoutInflater inflater;
 
-    public String[] slideImages ={"cycle_animation.json","trophy.json","loading_book.json","like.json","favourite_app_icon.json"};
+    public String[] slideImages ={"cycle_animation.json","trophy.json","books.json","favourite_app_icon.json","play_button.json"};
     public String[] slideHeadings ={"Levels","Quiz","Catagories","Bookmark","Auto Play"};
     public String[] slideDescriptions =
             {"Test ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim.",
