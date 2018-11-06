@@ -17,16 +17,18 @@ public class Sample implements Serializable {
     final int color;
     int index = 0;
     int status = 0;
+    String total;
     private final String name;
     private static int LOCKED = 0;
     private static int INPROGRESS = 1;
     private static int DONE = 2;
 
-    public Sample(int color, String name,int index, int iconStatus) {
+    public Sample(int color, String name,int index, int iconStatus, String total) {
         this.color = color;
         this.name = name;
         this.index = index;
         this.status = iconStatus;
+        this.total = total;
     }
 
     @BindingAdapter("bind:colorTint")
@@ -38,6 +40,11 @@ public class Sample implements Serializable {
     public String getName() {
         return name;
     }
+
+    public String getTotal() {
+        return total;
+    }
+
     public String getIndex() {
         return index+"";
     }

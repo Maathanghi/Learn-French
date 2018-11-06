@@ -94,6 +94,7 @@ public class HomeRecyclerAdapter extends RecyclerView.Adapter<HomeRecyclerAdapte
             viewHolder.binding.header.setVisibility(View.GONE);
         }
 
+
         viewHolder.binding.sampleLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

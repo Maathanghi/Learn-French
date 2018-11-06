@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
             // Do something with the value
             int color = Color.parseColor(level.getColor());
-            samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle())));
+            samples.add(new Sample(color, level.getTitle(),i,getLevelStatus(level.getTitle()),level.getLesson().size()+" words"));
         }
     }
 
