@@ -32,6 +32,14 @@ public class AppDataUtil {
         return myCategory;
     }
 
+    public ArrayList<Lesson> getMyCategoryListByName(Context ctx, String category){
+        if(null == myCategory){
+            myCategory = getCategoryList(ctx);
+        }
+        ArrayList<Lesson> list = (ArrayList<Lesson>) myCategory.get(category);
+        return list;
+    }
+
     private Map<String, List<Lesson>> getCategoryList(Context ctx){
         myCategory = new HashMap<>();
         for(App currentX : getAppList(ctx)) {
@@ -47,6 +55,8 @@ public class AppDataUtil {
         }
         return myCategory;
     }
+
+
 
     private void addCategory(String name[], Lesson lesson){
         for (String s: name) {

@@ -24,6 +24,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.learnfrench.views.shimmer.R;
+import com.learnfrench.views.shimmer.adapters.CardAdapter;
 import com.learnfrench.views.shimmer.models.ItemCard;
 import com.learnfrench.views.shimmer.utils.BaseUtils;
 
@@ -51,12 +52,19 @@ public class ItemHolder extends RecyclerView.ViewHolder {
         mThumbnailView = itemView.findViewById(R.id.card_image);
     }
 
-    public void bind(ItemCard card) {
+    public void bind(final ItemCard card, final CardAdapter.OnItemClickListener listener) {
         mTitleView.setText(card.getTitle());
         mThumbnailView.setImageResource(R.drawable.shopping_basket);
-
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                listener.onItemClick(card);
+            }
+        });
        // Glide.with(itemView.getContext()).load(card.getThumbnailUrl()).into(mThumbnailView);
     }
+
+
 
     private static int getLayoutResourceId(int type) {
         int selectedLayoutResource;

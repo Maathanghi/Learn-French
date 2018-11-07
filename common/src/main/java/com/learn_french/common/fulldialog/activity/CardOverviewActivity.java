@@ -1,7 +1,6 @@
 package com.learn_french.common.fulldialog.activity;
 
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -119,7 +118,7 @@ public class CardOverviewActivity extends AppCompatActivity implements View.OnCl
         intent.putExtra(CardFlipActivity.EXTRA_CIRCULAR_REVEAL_X, revealX);
         intent.putExtra(CardFlipActivity.EXTRA_CIRCULAR_REVEAL_Y, revealY);
         intent.putExtra(CardFlipActivity.EXTRA_SELECTED_LEVEL, selectedLevel);
-        intent.putExtra(CardFlipActivity.EXTRA_CATEGORY, isLesson);
+        intent.putExtra(CardFlipActivity.EXTRA_Is_LESSON, isLesson);
 
         ActivityCompat.startActivity(this, intent, options.toBundle());
     }

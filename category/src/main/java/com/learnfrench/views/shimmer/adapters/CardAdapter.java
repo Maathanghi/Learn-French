@@ -30,6 +30,11 @@ public class CardAdapter extends RecyclerView.Adapter<ItemHolder> {
 
     private List<ItemCard> mCards = new ArrayList<>();
     private int mType = BaseUtils.TYPE_LIST;
+    private final OnItemClickListener listener;
+
+    public CardAdapter(OnItemClickListener listener) {
+        this.listener = listener;
+    }
 
     @Override
     public ItemHolder onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -38,7 +43,7 @@ public class CardAdapter extends RecyclerView.Adapter<ItemHolder> {
 
     @Override
     public void onBindViewHolder(ItemHolder holder, int position) {
-        holder.bind(mCards.get(position));
+        holder.bind(mCards.get(position),listener);
     }
 
     @Override
@@ -56,5 +61,9 @@ public class CardAdapter extends RecyclerView.Adapter<ItemHolder> {
 
     public void setType(int type) {
         this.mType = type;
+    }
+
+    public interface OnItemClickListener {
+        void onItemClick(ItemCard item);
     }
 }
