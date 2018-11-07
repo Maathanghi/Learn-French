@@ -96,10 +96,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
   }
 
   private fun removeBookMark() {
-    val animator = ValueAnimator.ofFloat(1f, 0f).setDuration(500)
-    animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
-    animator.start()
-    favIcon.setProgress(0f)
+    favIcon.progress= 0F
   }
 
   private fun showSnackBar(msg: String){
