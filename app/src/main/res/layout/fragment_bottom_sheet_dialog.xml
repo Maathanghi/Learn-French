@@ -53,6 +53,34 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginRight="32dp"
+            android:src="@drawable/ic_bottombar_bookmark"
+            android:tint="#737373" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Clear All Bookmarks"
+            android:textColor="@color/app_color_3"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="8dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="32dp"
             android:src="@drawable/ic_bottombar_share"
             android:tint="#737373" />
 
@@ -93,6 +121,7 @@
             android:textSize="16sp" />
 
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
