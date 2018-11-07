@@ -9,6 +9,7 @@ import com.learn_french.common.fulldialog.model.app.Lesson;
 import com.learn_french.common.fulldialog.roomdatabse.database.AppDatabase;
 import com.learn_french.common.fulldialog.roomdatabse.entity.BookmarkedLesson;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseInitializer {
@@ -47,6 +48,21 @@ public class DatabaseInitializer {
 
         List<BookmarkedLesson> lessonList = db.userDao().getAll();
         Log.d(DatabaseInitializer.TAG, "Rows Count: " + lessonList.size());
+    }
+
+    public static ArrayList<Lesson> getAllBookmark(AppDatabase db) {
+        List<BookmarkedLesson> lessonList = db.userDao().getAll();
+        ArrayList<Lesson> lessons = new ArrayList<>();
+        for (BookmarkedLesson obj : lessonList){
+            Lesson lesson = new Lesson();
+            lesson.setEnglishTranslation(obj.getEnglishTranslation());
+            lesson.setFrenchTranslation(obj.getFrenchTranslation());
+            lesson.setImageUri(obj.getImageUri());
+            lesson.setTag(obj.getTag());
+            lesson.setTitle(obj.getTitle());
+            lessons.add(lesson);
+        }
+            return lessons;
     }
 
     public static void bookmarkALesson(AppDatabase db, Lesson lesson) {
