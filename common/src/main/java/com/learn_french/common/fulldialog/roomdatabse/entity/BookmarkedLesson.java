@@ -5,7 +5,7 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
 @Entity(tableName = "lesson")
-public class Lesson {
+public class BookmarkedLesson {
 
     @PrimaryKey(autoGenerate = true)
     private int uid;
@@ -71,3 +71,4 @@ public class Lesson {
     }
 
 }
+

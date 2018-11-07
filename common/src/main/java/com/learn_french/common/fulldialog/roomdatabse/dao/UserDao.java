@@ -7,7 +7,7 @@ import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
 
-import com.learn_french.common.fulldialog.roomdatabse.entity.Lesson;
+import com.learn_french.common.fulldialog.roomdatabse.entity.BookmarkedLesson;
 
 import java.util.List;
 
@@ -15,10 +15,10 @@ import java.util.List;
 public interface UserDao {
 
     @Query("SELECT * FROM lesson")
-    List<Lesson> getAll();
+    List<BookmarkedLesson> getAll();
 
     @Query("SELECT * FROM Lesson where title LIKE  :title")
-    Lesson findByName(String title);
+    BookmarkedLesson findByName(String title);
 
     @Query("SELECT COUNT(*) FROM Lesson where title LIKE  :title")
     int countByName(String title);
@@ -30,8 +30,8 @@ public interface UserDao {
     int countUsers();
 
     @Insert
-    void insertAll(Lesson... lessons);
+    void insertAll(BookmarkedLesson... lessons);
 
     @Delete
-    void delete(Lesson lesson);
+    void delete(BookmarkedLesson lesson);
 }

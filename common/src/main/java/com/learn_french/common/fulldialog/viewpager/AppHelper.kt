@@ -23,6 +23,7 @@ object AppHelper {
   val KEY_OPTION_4 = "KEY_OPTION_4"
   val KEY_CORRECT_ANSWER = "KEY_CORRECT_ANSWER"
   val KEY_LISTENER = "KEY_LISTENER"
+  val KEY_LESSON = "KEY_LESSON"
   var app = ArrayList<App>()
 
 

@@ -6,10 +6,10 @@ import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
 
 import com.learn_french.common.fulldialog.roomdatabse.dao.UserDao;
-import com.learn_french.common.fulldialog.roomdatabse.entity.Lesson;
+import com.learn_french.common.fulldialog.roomdatabse.entity.BookmarkedLesson;
 
 
-@Database(entities = {Lesson.class}, version = 2)
+@Database(entities = {BookmarkedLesson.class}, version = 2)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static AppDatabase INSTANCE;

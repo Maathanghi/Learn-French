@@ -19,8 +19,9 @@ import com.learn_french.common.fulldialog.model.app.Lesson
 import com.squareup.picasso.Picasso
 import java.util.*
 import android.support.design.widget.Snackbar
-
-
+import android.widget.TextView
+import com.learn_french.common.fulldialog.roomdatabse.database.AppDatabase
+import com.learn_french.common.fulldialog.roomdatabse.utils.DatabaseInitializer
 
 
 class LessonFragment : Fragment() , View.OnClickListener{
@@ -55,8 +56,8 @@ class LessonFragment : Fragment() , View.OnClickListener{
   private lateinit var txtLevel: TextView
   private lateinit var root: View
   private lateinit var iListner: IListeners
+  private lateinit var lesson: Lesson
   private lateinit var favIcon : LottieAnimationView
-  private var isBookmarked : Boolean = false
 
   private fun changeCameraDistance() {
     val distance = 8000
@@ -70,9 +71,21 @@ class LessonFragment : Fragment() , View.OnClickListener{
     animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
 
     if (favIcon.getProgress() === 0f) {
+      DatabaseInitializer.bookmarkALesson(AppDatabase.getAppDatabase(context), lesson);
       enableBookMark()
+      showSnackBar("Added to Bookmark")
     } else {
-      disableBookMark()
+      DatabaseInitializer.removeBookmark(AppDatabase.getAppDatabase(context),lesson.title)
+      removeBookMark()
+      showSnackBar("Removed from Bookmark")
+    }
+  }
+
+  private fun isBookmarked() {
+    if(DatabaseInitializer.isBookmarked(AppDatabase.getAppDatabase(context),lesson.title)){
+      enableBookMark()
+    }else{
+      removeBookMark()
     }
   }
 
@@ -80,17 +93,21 @@ class LessonFragment : Fragment() , View.OnClickListener{
     val animator = ValueAnimator.ofFloat(0f, 1f).setDuration(500)
     animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
     animator.start()
-    showSnackBar("Added to Bookmark")
   }
 
-  private fun disableBookMark() {
+  private fun removeBookMark() {
+    val animator = ValueAnimator.ofFloat(1f, 0f).setDuration(500)
+    animator.addUpdateListener { valueAnimator -> favIcon.setProgress(valueAnimator.animatedValue as Float) }
+    animator.start()
     favIcon.setProgress(0f)
-    showSnackBar("Removed from Bookmark")
   }
 
   private fun showSnackBar(msg: String){
-    val snackbar = Snackbar
-            .make(root, msg, Snackbar.LENGTH_SHORT)
+    val snackbar = Snackbar.make(root, msg, Snackbar.LENGTH_SHORT)
+    val snackBarView = snackbar.view
+    snackBarView.setBackgroundColor(resources.getColor(R.color.app_color_3))
+    val textView = snackBarView.findViewById<View>(android.support.design.R.id.snackbar_text) as TextView
+    textView.setTextColor(resources.getColor(R.color.white))
     snackbar.show()
   }
 
@@ -111,6 +128,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
     mImageFrechTtoSpeech = mIncludeBack.findViewById(R.id.imgFrench)
     mImageEnglishtoSpeech = mIncludeBack.findViewById(R.id.imgEnglish)
     favIcon = view.findViewById(R.id.ic_fav)
+    favIcon.setProgress(0f)
 
     mCongratzContainer = view.findViewById(R.id.congratzContainer)
     buttonQuiz = view.findViewById(R.id.buttonQuiz)
@@ -181,11 +199,6 @@ class LessonFragment : Fragment() , View.OnClickListener{
     loadAnimations()
     changeCameraDistance()
 
-      if(isBookmarked){
-        enableBookMark()
-      }else{
-        disableBookMark()
-      }
 
 
     if(args?.getString(AppHelper.KEY_TITLE).equals("congratulations"))
@@ -209,6 +222,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
     }
       if (args != null) {
         iListner = args.getSerializable(AppHelper.KEY_LISTENER) as IListeners
+        lesson = args.getSerializable(AppHelper.KEY_LESSON) as Lesson
       }
       mImageFrechTtoSpeech.setOnClickListener(this)
       mImageEnglishtoSpeech.setOnClickListener(this)
@@ -218,6 +232,8 @@ class LessonFragment : Fragment() , View.OnClickListener{
           textToSpeech.setLanguage(Locale.ENGLISH)
         }
       })
+
+      isBookmarked()
 
     return view
   }
@@ -243,6 +259,7 @@ class LessonFragment : Fragment() , View.OnClickListener{
       args.putString(AppHelper.KEY_TITLE, lesson.title)
       args.putString(AppHelper.KEY_LEVEL, level)
       args.putSerializable(AppHelper.KEY_LISTENER, listner)
+      args.putSerializable(AppHelper.KEY_LESSON, lesson)
       //args.putString(AppHelper.KEY_OVERVIEW, lesson.overview)
 
       // Create a new LessonFragment and set the Bundle as the arguments

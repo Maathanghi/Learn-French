@@ -4,7 +4,9 @@ package com.learn_french.common.fulldialog.model.app;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Lesson {
+import java.io.Serializable;
+
+public class Lesson implements Serializable {
 
     @SerializedName("title")
     @Expose

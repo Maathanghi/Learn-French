@@ -5,8 +5,9 @@ import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
+import com.learn_french.common.fulldialog.model.app.Lesson;
 import com.learn_french.common.fulldialog.roomdatabse.database.AppDatabase;
-import com.learn_french.common.fulldialog.roomdatabse.entity.Lesson;
+import com.learn_french.common.fulldialog.roomdatabse.entity.BookmarkedLesson;
 
 import java.util.List;
 
@@ -31,25 +32,46 @@ public class DatabaseInitializer {
         populateWithTestData(db);
     }
 
-    private static Lesson addUser(final AppDatabase db, Lesson lesson) {
+    private static BookmarkedLesson addUser(final AppDatabase db, BookmarkedLesson lesson) {
         db.userDao().insertAll(lesson);
         return lesson;
     }
 
     private static void populateWithTestData(AppDatabase db) {
-        Lesson lesson = new Lesson();
+        BookmarkedLesson lesson = new BookmarkedLesson();
         lesson.setTitle("test 6");
         lesson.setEnglishTranslation("English");
         lesson.setFrenchTranslation("French");
         lesson.setTag("tags");
         addUser(db, lesson);
 
-        List<Lesson> lessonList = db.userDao().getAll();
+        List<BookmarkedLesson> lessonList = db.userDao().getAll();
         Log.d(DatabaseInitializer.TAG, "Rows Count: " + lessonList.size());
     }
 
-    private static void bookmarALesson(AppDatabase db, Lesson lesson) {
-        addUser(db, lesson);
+    public static void bookmarkALesson(AppDatabase db, Lesson lesson) {
+        BookmarkedLesson bookmarkedLesson = new BookmarkedLesson();
+        bookmarkedLesson.setTitle(lesson.getTitle());
+        bookmarkedLesson.setEnglishTranslation(lesson.getEnglishTranslation());
+        bookmarkedLesson.setFrenchTranslation(lesson.getFrenchTranslation());
+        bookmarkedLesson.setTag(lesson.getTag());
+        bookmarkedLesson.setImageUri(lesson.getImageUri());
+        addUser(db, bookmarkedLesson);
+    }
+    public static void removeBookmark(AppDatabase db, String title) {
+        db.userDao().deleteByName(title);
+    }
+
+
+        private static BookmarkedLesson getBookMarkByName(AppDatabase db, String title) {
+        return db.userDao().findByName(title);
+    }
+
+    public static boolean isBookmarked(AppDatabase db, String title){
+        if(null != getBookMarkByName(db, title)){
+            return true;
+        }
+        return false;
     }
 
     private static class PopulateDbAsync extends AsyncTask<Void, Void, Void> {
