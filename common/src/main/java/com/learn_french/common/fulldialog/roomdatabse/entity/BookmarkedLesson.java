@@ -4,8 +4,10 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
+import java.io.Serializable;
+
 @Entity(tableName = "lesson")
-public class BookmarkedLesson {
+public class BookmarkedLesson implements Serializable {
 
     @PrimaryKey(autoGenerate = true)
     private int uid;
