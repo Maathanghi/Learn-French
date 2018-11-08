@@ -5876,6 +5876,4923 @@
       "quiz": [
 
       ]
+    },
+    {
+      "color": "#228c8e",
+      "title": "Level 16",
+      "lesson": [{
+        "title": "level16__bathrobe",
+        "imageUri": "level16__bathrobe",
+        "frenchTranslation": "un peignoir",
+        "englishTranslation": "Bathrobe",
+        "tag": "dress"
+      },
+        {
+          "title": "level16__bubble",
+          "imageUri": "level16__bubble",
+          "frenchTranslation": "Bulle",
+          "englishTranslation": "Bubble",
+          "tag": ""
+        },
+        {
+          "title": "level16__camera",
+          "imageUri": "level16__camera",
+          "frenchTranslation": "La caméra",
+          "englishTranslation": "Camera",
+          "tag": "travel;home;electronic;bag"
+        },
+        {
+          "title": "level16__camping",
+          "imageUri": "level16__camping",
+          "frenchTranslation": "Camp",
+          "englishTranslation": "Camp",
+          "tag": "travel"
+        },
+        {
+          "title": "level16__caughing",
+          "imageUri": "level16__caughing",
+          "frenchTranslation": "Tousser",
+          "englishTranslation": "Caughing",
+          "tag": "action"
+        },
+        {
+          "title": "level16__chimney",
+          "imageUri": "level16__chimney",
+          "frenchTranslation": "Cheminée",
+          "englishTranslation": "Chimney",
+          "tag": "home;kitchen"
+        },
+        {
+          "title": "level16__crown",
+          "imageUri": "level16__crown",
+          "frenchTranslation": "Couronne",
+          "englishTranslation": "Crown",
+          "tag": "party"
+        },
+        {
+          "title": "level16__crying",
+          "imageUri": "level16__crying",
+          "frenchTranslation": "Pleurs",
+          "englishTranslation": "Crying",
+          "tag": "emotion"
+        },
+        {
+          "title": "level16__dancing",
+          "imageUri": "level16__dancing",
+          "frenchTranslation": "Danse",
+          "englishTranslation": "Dance",
+          "tag": "action"
+        },
+        {
+          "title": "level16__deforestation",
+          "imageUri": "level16__deforestation",
+          "frenchTranslation": "Déforestation",
+          "englishTranslation": "Deforestation",
+          "tag": "city"
+        },
+        {
+          "title": "level16__drowning",
+          "imageUri": "level16__drowning",
+          "frenchTranslation": "Noyade",
+          "englishTranslation": "Drowning",
+          "tag": "action"
+        },
+        {
+          "title": "level16__excercise",
+          "imageUri": "level16__excercise",
+          "frenchTranslation": "Exercice",
+          "englishTranslation": "Excercise",
+          "tag": "home;bag"
+        },
+        {
+          "title": "level16__extinguisher",
+          "imageUri": "level16__extinguisher",
+          "frenchTranslation": "extincteur d'incendie",
+          "englishTranslation": "Fire Extinguisher",
+          "tag": "office"
+        },
+        {
+          "title": "level16__fall",
+          "imageUri": "level16__fall",
+          "frenchTranslation": "la baisse",
+          "englishTranslation": "Fall",
+          "tag": "action"
+        },
+        {
+          "title": "level16__fireplace",
+          "imageUri": "level16__fireplace",
+          "frenchTranslation": "le foyer",
+          "englishTranslation": "Fire place",
+          "tag": "action"
+        },
+        {
+          "title": "level16__grass",
+          "imageUri": "level16__grass",
+          "frenchTranslation": "l' herbe",
+          "englishTranslation": "Grass",
+          "tag": "city;home"
+        },
+        {
+          "title": "level16__headache",
+          "imageUri": "level16__headache",
+          "frenchTranslation": "l' mal à la tête",
+          "englishTranslation": "Headache",
+          "tag": "emotion"
+        },
+        {
+          "title": "level16__help",
+          "imageUri": "level16__help",
+          "frenchTranslation": "Aide",
+          "englishTranslation": "Help",
+          "tag": "office;action"
+        },
+        {
+          "title": "level16__hit",
+          "imageUri": "level16__hit",
+          "frenchTranslation": "Renversé",
+          "englishTranslation": "Hit",
+          "tag": "home"
+        },
+        {
+          "title": "level16__icecube",
+          "imageUri": "level16__icecube",
+          "frenchTranslation": "Glaçon",
+          "englishTranslation": "Ice cube",
+          "tag": "home"
+        },
+        {
+          "title": "level16__immigration",
+          "imageUri": "level16__immigration",
+          "frenchTranslation": "Immigration",
+          "englishTranslation": "Immigration",
+          "tag": "airport"
+        },
+        {
+          "title": "level16__magnifier",
+          "imageUri": "level16__magnifier",
+          "frenchTranslation": "Loupe",
+          "englishTranslation": "Magnifier",
+          "tag": "school"
+        },
+        {
+          "title": "level16__matchstick",
+          "imageUri": "level16__matchstick",
+          "frenchTranslation": "Allumette",
+          "englishTranslation": "Matchstick",
+          "tag": "home;bag"
+        },
+        {
+          "title": "level16__pouring",
+          "imageUri": "level16__pouring",
+          "frenchTranslation": "Torrentielle",
+          "englishTranslation": "Pour",
+          "tag": "action"
+        },
+        {
+          "title": "level16__redcarpet",
+          "imageUri": "level16__redcarpet",
+          "frenchTranslation": "Tapis rouge",
+          "englishTranslation": "Red carpet",
+          "tag": "party"
+        },
+        {
+          "title": "level16__scooter",
+          "imageUri": "level16__scooter",
+          "frenchTranslation": "Scooter",
+          "englishTranslation": "Scooter",
+          "tag": "city;vehicle;sport"
+        },
+        {
+          "title": "level16__sealion",
+          "imageUri": "level16__sealion",
+          "frenchTranslation": "Otarie",
+          "englishTranslation": "Sea lion",
+          "tag": "animal;zoo"
+        },
+        {
+          "title": "level16__seesaw",
+          "imageUri": "level16__seesaw",
+          "frenchTranslation": "Bascule",
+          "englishTranslation": "Seesaw",
+          "tag": "play"
+        },
+        {
+          "title": "level16__singing",
+          "imageUri": "level16__singing",
+          "frenchTranslation": "En chantant",
+          "englishTranslation": "Sing",
+          "tag": "action"
+        },
+        {
+          "title": "level16__siren",
+          "imageUri": "level16__siren",
+          "frenchTranslation": "Sirène",
+          "englishTranslation": "Siren",
+          "tag": "hospital;city"
+        },
+        {
+          "title": "level16__skating",
+          "imageUri": "level16__skating",
+          "frenchTranslation": "Patinage",
+          "englishTranslation": "Skating",
+          "tag": "sport"
+        },
+        {
+          "title": "level16__skiing",
+          "imageUri": "level16__skiing",
+          "frenchTranslation": "Ski",
+          "englishTranslation": "Skiing",
+          "tag": "sport"
+        },
+        {
+          "title": "level16__skull",
+          "imageUri": "level16__skull",
+          "frenchTranslation": "Crâne",
+          "englishTranslation": "Skull",
+          "tag": "body"
+        },
+        {
+          "title": "level16__slip",
+          "imageUri": "level16__slip",
+          "frenchTranslation": "Glisser",
+          "englishTranslation": "Slip",
+          "tag": "action"
+        },
+        {
+          "title": "level16__sms",
+          "imageUri": "level16__sms",
+          "frenchTranslation": "SMS",
+          "englishTranslation": "SMS",
+          "tag": ""
+        },
+        {
+          "title": "level16__stage",
+          "imageUri": "level16__stage",
+          "frenchTranslation": "Théâtre",
+          "englishTranslation": "Stage",
+          "tag": "city"
+        },
+        {
+          "title": "level16__stamp",
+          "imageUri": "level16__stamp",
+          "frenchTranslation": "Timbre",
+          "englishTranslation": "Stamp",
+          "tag": "office"
+        },
+        {
+          "title": "level16__sweater",
+          "imageUri": "level16__sweater",
+          "frenchTranslation": "Chandail",
+          "englishTranslation": "Sweater",
+          "tag": "dress;winter"
+        },
+        {
+          "title": "level16__threadandneedle",
+          "imageUri": "level16__threadandneedle",
+          "frenchTranslation": "fil et aiguille",
+          "englishTranslation": "Thread and Needle",
+          "tag": "home"
+        },
+        {
+          "title": "level16__tissues",
+          "imageUri": "level16__tissues",
+          "frenchTranslation": "Boîte à mouchoirs",
+          "englishTranslation": "Tissue Box",
+          "tag": "office"
+        }, {
+          "title": "level16__torchlight",
+          "imageUri": "level16__torchlight",
+          "frenchTranslation": "Lampe torche",
+          "englishTranslation": "Torch light",
+          "tag": "bag"
+        },
+        {
+          "title": "level16__tulip",
+          "imageUri": "level16__tulip",
+          "frenchTranslation": "Tulipe",
+          "englishTranslation": "Tulip",
+          "tag": "flower"
+        },
+        {
+          "title": "level16__waffle",
+          "imageUri": "level16__waffle",
+          "frenchTranslation": " Gaufre",
+          "englishTranslation": "Waffle",
+          "tag": "food"
+        },
+        {
+          "title": "level16__wall",
+          "imageUri": "level16__wall",
+          "frenchTranslation": "Mur",
+          "englishTranslation": "Wall",
+          "tag": "city;home"
+        },
+        {
+          "title": "level16__washingmachine",
+          "imageUri": "level16__washingmachine",
+          "frenchTranslation": "Lave-linge",
+          "englishTranslation": "Washing Machine",
+          "tag": "electronic;home"
+        },
+        {
+          "title": "level16__wheat",
+          "imageUri": "level16__wheat",
+          "frenchTranslation": "Blé",
+          "englishTranslation": "Wheat",
+          "tag": "food;supermarket"
+        },
+        {
+          "title": "level16__windmill",
+          "imageUri": "level16__windmill",
+          "frenchTranslation": "Moulin à vent",
+          "englishTranslation": "Wind Mill",
+          "tag": "building"
+        },
+        {
+          "title": "level16__windy",
+          "imageUri": "level16__windy",
+          "frenchTranslation": "Venteux",
+          "englishTranslation": "Windy",
+          "tag": ""
+        },
+        {
+          "title": "level16__yoga",
+          "imageUri": "level16__yoga",
+          "frenchTranslation": "Yoga",
+          "englishTranslation": "Yoga",
+          "tag": "sport"
+        },
+        {
+          "title": "level16__zoo",
+          "imageUri": "level16__zoo",
+          "frenchTranslation": "Zoo",
+          "englishTranslation": "Zoo",
+          "tag": "bag"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Question 1",
+        "imageUri": "level16__bathrobe",
+        "option1": "Soleil",
+        "option2": "un peignoir",
+        "option3": "Cœur",
+        "option4": "L'eau",
+        "correct": "un peignoir"
+      },
+        {
+          "title": "Question 2",
+          "imageUri": "level16__bubble",
+          "option1": "monnaie",
+          "option2": "un peignoir",
+          "option3": "Bulle",
+          "option4": "Argent",
+          "correct": "Bulle"
+        },
+        {
+          "title": "Question 3",
+          "imageUri": "level16__camping",
+          "option1": "un peignoir",
+          "option2": "l' mal à la tête",
+          "option3": "Pain",
+          "option4": "Camp",
+          "correct": "Camp"
+        },
+        {
+          "title": "Question 4",
+          "imageUri": "level16__dancing",
+          "option1": "un peignoir",
+          "option2": "Danse",
+          "option3": "Cheminée",
+          "option4": "Train",
+          "correct": "Danse"
+        },
+        {
+          "title": "Question 5",
+          "imageUri": "level16__deforestation",
+          "option1": "un peignoir",
+          "option2": "Déforestation",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Déforestation"
+        },
+        {
+          "title": "Question 6",
+          "imageUri": "level16__crying",
+          "option1": "Chein",
+          "option2": "un peignoir",
+          "option3": "Pleurs",
+          "option4": "le foyer",
+          "correct": "Pleurs"
+        },
+        {
+          "title": "Question 7",
+          "imageUri": "level16__chimney",
+          "option1": "Cheminée",
+          "option2": "un peignoir",
+          "option3": "Pleurs",
+          "option4": "Les cuisinier",
+          "correct": "Cheminée"
+        },
+        {
+          "title": "Question 8",
+          "imageUri": "level16__camera",
+          "option1": "Cheminée",
+          "option2": "La caméra",
+          "option3": "Pleurs",
+          "option4": "viande",
+          "correct": "La caméra"
+        },
+        {
+          "title": "Question 9",
+          "imageUri": "level16__crown",
+          "option1": "Couronne",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Couronne"
+        },
+        {
+          "title": "Question 10",
+          "imageUri": "level16__caughing",
+          "option1": "Les cuisinier",
+          "option2": "Immigration",
+          "option3": "Tousser",
+          "option4": "Cheminée",
+          "correct": "Tousser"
+        },
+        {
+          "title": "Question 11",
+          "imageUri": "level16__drowning",
+          "option1": "Soleil",
+          "option2": "Noyade",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Noyade"
+        },
+        {
+          "title": "Question 12",
+          "imageUri": "level16__excercise",
+          "option1": "monnaie",
+          "option2": "Noyade",
+          "option3": "Exercice",
+          "option4": "Argent",
+          "correct": "Exercice"
+        },
+        {
+          "title": "Question 13",
+          "imageUri": "level16__fall",
+          "option1": "Noyade",
+          "option2": "l' mal à la tête",
+          "option3": "un peignoir",
+          "option4": "la baisse",
+          "correct": "la baisse"
+        },
+        {
+          "title": "Question 14",
+          "imageUri": "level16__hit",
+          "option1": "Noyade",
+          "option2": "Tram",
+          "option3": "Corbeautte",
+          "option4": "Renversé",
+          "correct": "Renversé"
+        },
+        {
+          "title": "Question 15",
+          "imageUri": "level16__icecube",
+          "option1": "Noyade",
+          "option2": "Glaçon",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Glaçon"
+        },
+        {
+          "title": "Question 16",
+          "imageUri": "level16__help",
+          "option1": "Chein",
+          "option2": "un peignoir",
+          "option3": "Aide",
+          "option4": "le foyer",
+          "correct": "Aide"
+        },
+        {
+          "title": "Question 17",
+          "imageUri": "level16__grass",
+          "option1": "l' herbe",
+          "option2": "un peignoir",
+          "option3": "Aide",
+          "option4": "Les cuisinier",
+          "correct": "l' herbe"
+        },
+        {
+          "title": "Question 18",
+          "imageUri": "level16__extinguisher",
+          "option1": "l' herbe",
+          "option2": "extincteur d'incendie",
+          "option3": "Aide",
+          "option4": "viande",
+          "correct": "extincteur d'incendie"
+        },
+        {
+          "title": "Question 19",
+          "imageUri": "level16__headache",
+          "option1": "l' mal à la tête",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "l' mal à la tête"
+        },
+        {
+          "title": "Question 20",
+          "imageUri": "level16__fireplace",
+          "option1": "l' mal à la tête",
+          "option2": "Immigration",
+          "option3": "Poste",
+          "option4": "le foyer",
+          "correct": "le foyer"
+        },
+        {
+          "title": "Question 21",
+          "imageUri": "level16__immigration",
+          "option1": "Soleil",
+          "option2": "Immigration",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Immigration"
+        },
+        {
+          "title": "Question 22",
+          "imageUri": "level16__magnifier",
+          "option1": "monnaie",
+          "option2": "Immigration",
+          "option3": "Loupe",
+          "option4": "Argent",
+          "correct": "Loupe"
+        },
+        {
+          "title": "Question 23",
+          "imageUri": "level16__pouring",
+          "option1": "Immigration",
+          "option2": "Timbre",
+          "option3": "Pain",
+          "option4": "Torrentielle",
+          "correct": "Torrentielle"
+        },
+        {
+          "title": "Question 24",
+          "imageUri": "level16__singing",
+          "option1": "Immigration",
+          "option2": "En chantant",
+          "option3": "Scooter",
+          "option4": "Train",
+          "correct": "En chantant"
+        },
+        {
+          "title": "Question 25",
+          "imageUri": "level16__siren",
+          "option1": "Immigration",
+          "option2": "Sirène",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Sirène"
+        },
+        {
+          "title": "Question 26",
+          "imageUri": "level16__seesaw",
+          "option1": "Chein",
+          "option2": "Immigration",
+          "option3": "Bascule",
+          "option4": "SMS",
+          "correct": "Bascule"
+        },
+        {
+          "title": "Question 27",
+          "imageUri": "level16__scooter",
+          "option1": "Scooter",
+          "option2": "Immigration",
+          "option3": "Bascule",
+          "option4": "Les cuisinier",
+          "correct": "Scooter"
+        },
+        {
+          "title": "Question 28",
+          "imageUri": "level16__matchstick",
+          "option1": "Scooter",
+          "option2": "Allumette",
+          "option3": "Bascule",
+          "option4": "viande",
+          "correct": "Allumette"
+        },
+        {
+          "title": "Question 29",
+          "imageUri": "level16__sealion",
+          "option1": "Otarie",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Otarie"
+        },
+        {
+          "title": "Question 30",
+          "imageUri": "level16__redcarpet",
+          "option1": "Les cuisinier",
+          "option2": "Immigration",
+          "option3": "Tapis rouge",
+          "option4": "Scooter",
+          "correct": "Tapis rouge"
+        },
+        {
+          "title": "Question 31",
+          "imageUri": "level16__skating",
+          "option1": "Soleil",
+          "option2": "Patinage",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Patinage"
+        },
+        {
+          "title": "Question 32",
+          "imageUri": "level16__skiing",
+          "option1": "monnaie",
+          "option2": "Patinage",
+          "option3": "Ski",
+          "option4": "Argent",
+          "correct": "Ski"
+        },
+        {
+          "title": "Question 33",
+          "imageUri": "level16__slip",
+          "option1": "Patinage",
+          "option2": "Timbre",
+          "option3": "Immigration",
+          "option4": "Glisser",
+          "correct": "Glisser"
+        },
+        {
+          "title": "Question 34",
+          "imageUri": "level16__threadandneedle",
+          "option1": "Patinage",
+          "option2": "Tram",
+          "option3": "Loupe suissette",
+          "option4": "fil et aiguille",
+          "correct": "fil et aiguille"
+        },
+        {
+          "title": "Question 35",
+          "imageUri": "level16__tissues",
+          "option1": "Patinage",
+          "option2": "Boîte à mouchoirs",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Boîte à mouchoirs"
+        },
+        {
+          "title": "Question 36",
+          "imageUri": "level16__sweater",
+          "option1": "Chein",
+          "option2": "Immigration",
+          "option3": "Chandail",
+          "option4": "SMS",
+          "correct": "Chandail"
+        },
+        {
+          "title": "Question 37",
+          "imageUri": "level16__stage",
+          "option1": "Théâtre",
+          "option2": "Immigration",
+          "option3": "Chandail",
+          "option4": "Les cuisinier",
+          "correct": "Théâtre"
+        },
+        {
+          "title": "Question 38",
+          "imageUri": "level16__skull",
+          "option1": "Théâtre",
+          "option2": "Crâne",
+          "option3": "Chandail",
+          "option4": "viande",
+          "correct": "Crâne"
+        },
+        {
+          "title": "Question 39",
+          "imageUri": "level16__stamp",
+          "option1": "Timbre",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Timbre"
+        },
+        {
+          "title": "Question 40",
+          "imageUri": "level16__sms",
+          "option1": "Timbre",
+          "option2": "Immigration",
+          "option3": "Poste",
+          "option4": "SMS",
+          "correct": "SMS"
+        }, {
+          "title": "Question 41",
+          "imageUri": "level16__torchlight",
+          "option1": "Soleil",
+          "option2": "Lampe torche",
+          "option3": "Cœur",
+          "option4": "lunettes",
+          "correct": "Lampe torche"
+        },
+        {
+          "title": "Question 42",
+          "imageUri": "level16__tulip",
+          "option1": "monnaie",
+          "option2": "Lampe torche",
+          "option3": "Tulipe",
+          "option4": "Argent",
+          "correct": "Tulipe"
+        },
+        {
+          "title": "Question 43",
+          "imageUri": "level16__wall",
+          "option1": "Lampe torche",
+          "option2": "Thé",
+          "option3": "Sac",
+          "option4": "Mur",
+          "correct": "Mur"
+        },
+        {
+          "title": "Question 44",
+          "imageUri": "level16__yoga",
+          "option1": "Lampe torche",
+          "option2": "Tram",
+          "option3": "Policiertte",
+          "option4": "Yoga",
+          "correct": "Yoga"
+        },
+        {
+          "title": "Question 45",
+          "imageUri": "level16__zoo",
+          "option1": "Lampe torche",
+          "option2": "Zoo",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Zoo"
+        },
+        {
+          "title": "Question 46",
+          "imageUri": "level16__windy",
+          "option1": "Chein",
+          "option2": "Sac",
+          "option3": "Venteux",
+          "option4": "Tarte",
+          "correct": "Venteux"
+        },
+        {
+          "title": "Question 47",
+          "imageUri": "level16__wheat",
+          "option1": "Blé",
+          "option2": "cloche",
+          "option3": "Venteux",
+          "option4": "Casque",
+          "correct": "Blé"
+        },
+        {
+          "title": "Question 48",
+          "imageUri": "level16__waffle",
+          "option1": "Blé",
+          "option2": " Gaufre",
+          "option3": "Venteux",
+          "option4": "viande",
+          "correct": " Gaufre"
+        },
+        {
+          "title": "Question 49",
+          "imageUri": "level16__windmill",
+          "option1": "Moulin à vent",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Moulin à vent"
+        },
+        {
+          "title": "Question 50",
+          "imageUri": "level16__washingmachine",
+          "option1": "Moulin à vent",
+          "option2": "Infirmière",
+          "option3": "Poste",
+          "option4": "Lave-linge",
+          "correct": "Lave-linge"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Banque"
+        }
+      ]
+    },
+    {
+
+      "color": "#228c8e",
+
+      "title": "Level 17",
+
+      "lesson": [
+
+        {
+
+          "title": "level17__angel",
+
+          "imageUri": "level17__angel",
+
+          "frenchTranslation": "Ange",
+
+          "englishTranslation": "Angel",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__bagscan",
+
+          "imageUri": "level17__bagscan",
+
+          "frenchTranslation": "Balayage de sac",
+
+          "englishTranslation": "Bag Scan",
+
+          "tag": "airport;school"
+
+        },
+
+        {
+
+          "title": "level17__blender",
+
+          "imageUri": "level17__blender",
+
+          "frenchTranslation": "Mixeur",
+
+          "englishTranslation": "Blender",
+
+          "tag": "restuarent;home;kitchen;electronic"
+
+        },
+
+        {
+
+          "title": "level17__budget",
+
+          "imageUri": "level17__budget",
+
+          "frenchTranslation": "Budget",
+
+          "englishTranslation": "Budget",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__bunk",
+
+          "imageUri": "level17__bunk",
+
+          "frenchTranslation": "Station essence",
+
+          "englishTranslation": "Petrol Bunk",
+
+          "tag": "city"
+
+        },
+
+        {
+
+          "title": "level17__carpenter",
+
+          "imageUri": "level17__carpenter",
+
+          "frenchTranslation": "Charpentier",
+
+          "englishTranslation": "Carpenter",
+
+          "tag": "profession"
+
+        },
+
+        {
+
+          "title": "level17__cart",
+
+          "imageUri": "level17__cart",
+
+          "frenchTranslation": "Chariot",
+
+          "englishTranslation": "Cart",
+
+          "tag": "city"
+
+        },
+
+        {
+
+          "title": "level17__cinema",
+
+          "imageUri": "level17__cinema",
+
+          "frenchTranslation": "Cinéma",
+
+          "englishTranslation": "Cinema",
+
+          "tag": "city"
+
+        },
+
+        {
+
+          "title": "level17__click",
+
+          "imageUri": "level17__click",
+
+          "frenchTranslation": "Cliquez sur",
+
+          "englishTranslation": "Click",
+
+          "tag": "Office;action"
+
+        },
+
+        {
+
+          "title": "level17__closed",
+
+          "imageUri": "level17__closed",
+
+          "frenchTranslation": "Fermé",
+
+          "englishTranslation": "Closed",
+
+          "tag": "city;supermarket"
+
+        },
+
+        {
+
+          "title": "level17__date",
+
+          "imageUri": "level17__date",
+
+          "frenchTranslation": "l'date",
+
+          "englishTranslation": "Date",
+
+          "tag": "office;school"
+
+        },
+
+        {
+
+          "title": "level17__deo",
+
+          "imageUri": "level17__deo",
+
+          "frenchTranslation": "Déodorant",
+
+          "englishTranslation": "Deo",
+
+          "tag": "home;bag"
+
+        },
+
+        {
+
+          "title": "level17__dig",
+
+          "imageUri": "level17__dig",
+
+          "frenchTranslation": "Creuser",
+
+          "englishTranslation": "dig",
+
+          "tag": "action"
+
+        },
+
+        {
+
+          "title": "level17__eating",
+
+          "imageUri": "level17__eating",
+
+          "frenchTranslation": "Mange",
+
+          "englishTranslation": "Eat",
+
+          "tag": "action"
+
+        },
+
+        {
+
+          "title": "level17__fold",
+
+          "imageUri": "level17__fold",
+
+          "frenchTranslation": "Plier",
+
+          "englishTranslation": "Fold",
+
+          "tag": "action"
+
+        },
+
+        {
+
+          "title": "level17__fuel",
+
+          "imageUri": "level17__fuel",
+
+          "frenchTranslation": "Carburant",
+
+          "englishTranslation": "Fuel",
+
+          "tag": "city"
+
+        },
+
+        {
+
+          "title": "level17__hotel",
+
+          "imageUri": "level17__hotel",
+
+          "frenchTranslation": "Hôtel",
+
+          "englishTranslation": "Hotel",
+
+          "tag": "city;building"
+
+        },
+
+        {
+
+          "title": "level17__interview",
+
+          "imageUri": "level17__interview",
+
+          "frenchTranslation": "Entrevue",
+
+          "englishTranslation": "Interview",
+
+          "tag": "office"
+
+        },
+
+        {
+
+          "title": "level17__iron",
+
+          "imageUri": "level17__iron",
+
+          "frenchTranslation": "Boîte en fer",
+
+          "englishTranslation": "Iron Box",
+
+          "tag": "home"
+
+        },
+
+        {
+
+          "title": "level17__kiss",
+
+          "imageUri": "level17__kiss",
+
+          "frenchTranslation": "Baiser",
+
+          "englishTranslation": "Kiss",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__lifejacket",
+
+          "imageUri": "level17__lifejacket",
+
+          "frenchTranslation": "gilet de sauvetage",
+
+          "englishTranslation": "Life Jacket",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__luggages",
+
+          "imageUri": "level17__luggages",
+
+          "frenchTranslation": "Bagages",
+
+          "englishTranslation": "Luggages",
+
+          "tag": "airport"
+
+        },
+
+        {
+
+          "title": "level17__magazine",
+
+          "imageUri": "level17__magazine",
+
+          "frenchTranslation": "Paon",
+
+          "englishTranslation": "Magazine",
+
+          "tag": "supermarket;home"
+
+        },
+
+        {
+
+          "title": "level17__marker",
+
+          "imageUri": "level17__marker",
+
+          "frenchTranslation": "Marqueur",
+
+          "englishTranslation": "Marker",
+
+          "tag": "office;school"
+
+        },
+
+        {
+
+          "title": "level17__mask",
+
+          "imageUri": "level17__mask",
+
+          "frenchTranslation": "Masque",
+
+          "englishTranslation": "Mask",
+
+          "tag": "dress;party"
+
+        },
+
+        {
+
+          "title": "level17__metro",
+
+          "imageUri": "level17__metro",
+
+          "frenchTranslation": "Métro",
+
+          "englishTranslation": "Metro",
+
+          "tag": "city;vehicle"
+
+        },
+
+        {
+
+          "title": "level17__mute",
+
+          "imageUri": "level17__mute",
+
+          "frenchTranslation": "Muet",
+
+          "englishTranslation": "Mute",
+
+          "tag": "action"
+
+        },
+
+        {
+
+          "title": "level17__news",
+
+          "imageUri": "level17__news",
+
+          "frenchTranslation": "Nouvelles",
+
+          "englishTranslation": "News",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__open",
+
+          "imageUri": "level17__open",
+
+          "frenchTranslation": "Ouvrir",
+
+          "englishTranslation": "Open",
+
+          "tag": "action"
+
+        },
+
+        {
+
+          "title": "level17__passport",
+
+          "imageUri": "level17__passport",
+
+          "frenchTranslation": "Passeport",
+
+          "englishTranslation": "Passport",
+
+          "tag": "airport;bag"
+
+        },
+
+        {
+
+          "title": "level17__peas",
+
+          "imageUri": "level17__peas",
+
+          "frenchTranslation": "Pois",
+
+          "englishTranslation": "Peas",
+
+          "tag": "vegetable;green;superarket;food"
+
+        },
+
+        {
+
+          "title": "level17__plumber",
+
+          "imageUri": "level17__plumber",
+
+          "frenchTranslation": "Plombier",
+
+          "englishTranslation": "Plumber",
+
+          "tag": "profession"
+
+        },
+
+        {
+
+          "title": "level17__politician",
+
+          "imageUri": "level17__politician",
+
+          "frenchTranslation": "Politicien",
+
+          "englishTranslation": "Politician",
+
+          "tag": "profession"
+
+        },
+
+        {
+
+          "title": "level17__press",
+
+          "imageUri": "level17__press",
+
+          "frenchTranslation": "Appuie",
+
+          "englishTranslation": "Press",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__protest",
+
+          "imageUri": "level17__protest",
+
+          "frenchTranslation": "Manifestations",
+
+          "englishTranslation": "Protest",
+
+          "tag": "city;action"
+
+        },
+
+        {
+
+          "title": "level17__queen",
+
+          "imageUri": "level17__queen",
+
+          "frenchTranslation": "Reine",
+
+          "englishTranslation": "Queen",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__ribbon",
+
+          "imageUri": "level17__ribbon",
+
+          "frenchTranslation": "Ruban",
+
+          "englishTranslation": "Ribbon",
+
+          "tag": "party"
+
+        },
+
+        {
+
+          "title": "level15__wand",
+
+          "imageUri": "level15__wand",
+
+          "frenchTranslation": "Baguette magique",
+
+          "englishTranslation": "Wand",
+
+          "tag": ""
+
+        },
+
+        {
+
+          "title": "level17__ringing",
+
+          "imageUri": "level17__ringing",
+
+          "frenchTranslation": "Sonnerie",
+
+          "englishTranslation": "Ring",
+
+          "tag": "home"
+
+        },
+
+        {
+
+          "title": "level17__safety",
+
+          "imageUri": "level17__safety",
+
+          "frenchTranslation": "Bouée de sauvetage",
+
+          "englishTranslation": "Lifebuoy",
+
+          "tag": "sea"
+
+        }, {
+
+          "title": "level17__signature",
+
+          "imageUri": "level17__signature",
+
+          "frenchTranslation": "Signature",
+
+          "englishTranslation": "signature",
+
+          "tag": "office"
+
+        },
+
+        {
+
+          "title": "level17__solarsystem",
+
+          "imageUri": "level17__solarsystem",
+
+          "frenchTranslation": "Système solaire",
+
+          "englishTranslation": "Solar system",
+
+          "tag": "science"
+
+        },
+
+        {
+
+          "title": "level17__speakers",
+
+          "imageUri": "level17__speakers",
+
+          "frenchTranslation": " Enceinte",
+
+          "englishTranslation": "Speakers",
+
+          "tag": "electronic"
+
+        },
+
+        {
+
+          "title": "level17__stadium",
+
+          "imageUri": "level17__stadium",
+
+          "frenchTranslation": "Stade",
+
+          "englishTranslation": "Stadium",
+
+          "tag": "city;school;building"
+
+        },
+
+        {
+
+          "title": "level17__station",
+
+          "imageUri": "level17__station",
+
+          "frenchTranslation": "La gare",
+
+          "englishTranslation": "Station",
+
+          "tag": "building,city"
+
+        },
+
+        {
+
+          "title": "level17__streetsign",
+
+          "imageUri": "level17__streetsign",
+
+          "frenchTranslation": "Panneau de signalisation",
+
+          "englishTranslation": "Street Sign",
+
+          "tag": "city"
+
+        },
+
+        {
+
+          "title": "level17__sushi",
+
+          "imageUri": "level17__sushi",
+
+          "frenchTranslation": "Sushi",
+
+          "englishTranslation": "Sushi",
+
+          "tag": "food"
+
+        },
+
+        {
+
+          "title": "level17__tag",
+
+          "imageUri": "level17__tag",
+
+          "frenchTranslation": "Marque",
+
+          "englishTranslation": "Tag",
+
+          "tag": "office;supermarket"
+
+        },
+
+        {
+
+          "title": "level17__taxi",
+
+          "imageUri": "level17__taxi",
+
+          "frenchTranslation": "Taxi",
+
+          "englishTranslation": "Taxi",
+
+          "tag": "home"
+
+        },
+
+        {
+
+          "title": "level17__tedercoco",
+
+          "imageUri": "level17__tedercoco",
+
+          "frenchTranslation": "Noix de coco tendre",
+
+          "englishTranslation": "Tender coconut",
+
+          "tag": "bag"
+
+        },
+
+        {
+
+          "title": "congratulations",
+
+          "imageUri": "",
+
+          "frenchTranslation": "",
+
+          "englishTranslation": ""
+
+        }
+
+      ],
+
+      "quiz": [
+
+        {
+
+          "title": "Question 1",
+
+          "imageUri": "level17__angel",
+
+          "option1": "Soleil",
+
+          "option2": "Ange",
+
+          "option3": "Cœur",
+
+          "option4": "L'eau",
+
+          "correct": "Ange"
+
+        },
+
+        {
+
+          "title": "Question 2",
+
+          "imageUri": "level17__bagscan",
+
+          "option1": "monnaie",
+
+          "option2": "Ange",
+
+          "option3": "Balayage de sac",
+
+          "option4": "Argent",
+
+          "correct": "Balayage de sac"
+
+        },
+
+        {
+
+          "title": "Question 3",
+
+          "imageUri": "level17__budget",
+
+          "option1": "Ange",
+
+          "option2": "Hôtel",
+
+          "option3": "Pain",
+
+          "option4": "Budget",
+
+          "correct": "Budget"
+
+        },
+
+        {
+
+          "title": "Question 4",
+
+          "imageUri": "level17__click",
+
+          "option1": "Ange",
+
+          "option2": "Cliquez sur",
+
+          "option3": "Charpentier",
+
+          "option4": "Train",
+
+          "correct": "Cliquez sur"
+
+        },
+
+        {
+
+          "title": "Question 5",
+
+          "imageUri": "level17__closed",
+
+          "option1": "Ange",
+
+          "option2": "Fermé",
+
+          "option3": "Temps",
+
+          "option4": "Train",
+
+          "correct": "Fermé"
+
+        },
+
+        {
+
+          "title": "Question 6",
+
+          "imageUri": "level17__cinema",
+
+          "option1": "Chein",
+
+          "option2": "Ange",
+
+          "option3": "Cinéma",
+
+          "option4": "Plier",
+
+          "correct": "Cinéma"
+
+        },
+
+        {
+
+          "title": "Question 7",
+
+          "imageUri": "level17__carpenter",
+
+          "option1": "Charpentier",
+
+          "option2": "Ange",
+
+          "option3": "Cinéma",
+
+          "option4": "Les cuisinier",
+
+          "correct": "Charpentier"
+
+        },
+
+        {
+
+          "title": "Question 8",
+
+          "imageUri": "level17__blender",
+
+          "option1": "Charpentier",
+
+          "option2": "Mixeur",
+
+          "option3": "Cinéma",
+
+          "option4": "viande",
+
+          "correct": "Mixeur"
+
+        },
+
+        {
+
+          "title": "Question 9",
+
+          "imageUri": "level17__cart",
+
+          "option1": "Chariot",
+
+          "option2": "Positif",
+
+          "option3": "Pas",
+
+          "option4": "viande",
+
+          "correct": "Chariot"
+
+        },
+
+        {
+
+          "title": "Question 10",
+
+          "imageUri": "level17__bunk",
+
+          "option1": "Les cuisinier",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Station essence",
+
+          "option4": "Charpentier",
+
+          "correct": "Station essence"
+
+        },
+
+        {
+
+          "title": "Question 11",
+
+          "imageUri": "level17__date",
+
+          "option1": "Soleil",
+
+          "option2": "l'date",
+
+          "option3": "Cœur",
+
+          "option4": "L'eau",
+
+          "correct": "l'date"
+
+        },
+
+        {
+
+          "title": "Question 12",
+
+          "imageUri": "level17__deo",
+
+          "option1": "monnaie",
+
+          "option2": "l'date",
+
+          "option3": "Déodorant",
+
+          "option4": "Argent",
+
+          "correct": "Déodorant"
+
+        },
+
+        {
+
+          "title": "Question 13",
+
+          "imageUri": "level17__eating",
+
+          "option1": "l'date",
+
+          "option2": "Hôtel",
+
+          "option3": "Ange",
+
+          "option4": "Mange",
+
+          "correct": "Mange"
+
+        },
+
+        {
+
+          "title": "Question 14",
+
+          "imageUri": "level17__iron",
+
+          "option1": "l'date",
+
+          "option2": "Tram",
+
+          "option3": "Corbeautte",
+
+          "option4": "Boîte en fer",
+
+          "correct": "Boîte en fer"
+
+        },
+
+        {
+
+          "title": "Question 15",
+
+          "imageUri": "level17__kiss",
+
+          "option1": "l'date",
+
+          "option2": "Baiser",
+
+          "option3": "Temps",
+
+          "option4": "Train",
+
+          "correct": "Baiser"
+
+        },
+
+        {
+
+          "title": "Question 16",
+
+          "imageUri": "level17__interview",
+
+          "option1": "Chein",
+
+          "option2": "Ange",
+
+          "option3": "Entrevue",
+
+          "option4": "Plier",
+
+          "correct": "Entrevue"
+
+        },
+
+        {
+
+          "title": "Question 17",
+
+          "imageUri": "level17__fuel",
+
+          "option1": "Carburant",
+
+          "option2": "Ange",
+
+          "option3": "Entrevue",
+
+          "option4": "Les cuisinier",
+
+          "correct": "Carburant"
+
+        },
+
+        {
+
+          "title": "Question 18",
+
+          "imageUri": "level17__dig",
+
+          "option1": "Carburant",
+
+          "option2": "Creuser",
+
+          "option3": "Entrevue",
+
+          "option4": "viande",
+
+          "correct": "Creuser"
+
+        },
+
+        {
+
+          "title": "Question 19",
+
+          "imageUri": "level17__hotel",
+
+          "option1": "Hôtel",
+
+          "option2": "Positif",
+
+          "option3": "Pas",
+
+          "option4": "viande",
+
+          "correct": "Hôtel"
+
+        },
+
+        {
+
+          "title": "Question 20",
+
+          "imageUri": "level17__fold",
+
+          "option1": "Hôtel",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Poste",
+
+          "option4": "Plier",
+
+          "correct": "Plier"
+
+        },
+
+        {
+
+          "title": "Question 21",
+
+          "imageUri": "level17__lifejacket",
+
+          "option1": "Soleil",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Cœur",
+
+          "option4": "L'eau",
+
+          "correct": "gilet de sauvetage"
+
+        },
+
+        {
+
+          "title": "Question 22",
+
+          "imageUri": "level17__luggages",
+
+          "option1": "monnaie",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Bagages",
+
+          "option4": "Argent",
+
+          "correct": "Bagages"
+
+        },
+
+        {
+
+          "title": "Question 23",
+
+          "imageUri": "level17__marker",
+
+          "option1": "gilet de sauvetage",
+
+          "option2": "Ruban",
+
+          "option3": "Pain",
+
+          "option4": "Marqueur",
+
+          "correct": "Marqueur"
+
+        },
+
+        {
+
+          "title": "Question 24",
+
+          "imageUri": "level17__open",
+
+          "option1": "gilet de sauvetage",
+
+          "option2": "Ouvrir",
+
+          "option3": "Métro",
+
+          "option4": "Train",
+
+          "correct": "Ouvrir"
+
+        },
+
+        {
+
+          "title": "Question 25",
+
+          "imageUri": "level17__passport",
+
+          "option1": "gilet de sauvetage",
+
+          "option2": "Passeport",
+
+          "option3": "Temps",
+
+          "option4": "Train",
+
+          "correct": "Passeport"
+
+        },
+
+        {
+
+          "title": "Question 26",
+
+          "imageUri": "level17__news",
+
+          "option1": "Chein",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Nouvelles",
+
+          "option4": "Manifestations",
+
+          "correct": "Nouvelles"
+
+        },
+
+        {
+
+          "title": "Question 27",
+
+          "imageUri": "level17__metro",
+
+          "option1": "Métro",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Nouvelles",
+
+          "option4": "Les cuisinier",
+
+          "correct": "Métro"
+
+        },
+
+        {
+
+          "title": "Question 28",
+
+          "imageUri": "level17__magazine",
+
+          "option1": "Métro",
+
+          "option2": "Paon",
+
+          "option3": "Nouvelles",
+
+          "option4": "viande",
+
+          "correct": "Paon"
+
+        },
+
+        {
+
+          "title": "Question 29",
+
+          "imageUri": "level17__mute",
+
+          "option1": "Muet",
+
+          "option2": "Positif",
+
+          "option3": "Pas",
+
+          "option4": "viande",
+
+          "correct": "Muet"
+
+        },
+
+        {
+
+          "title": "Question 30",
+
+          "imageUri": "level17__mask",
+
+          "option1": "Les cuisinier",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Masque",
+
+          "option4": "Métro",
+
+          "correct": "Masque"
+
+        },
+
+        {
+
+          "title": "Question 31",
+
+          "imageUri": "level17__peas",
+
+          "option1": "Soleil",
+
+          "option2": "Pois",
+
+          "option3": "Cœur",
+
+          "option4": "L'eau",
+
+          "correct": "Pois"
+
+        },
+
+        {
+
+          "title": "Question 32",
+
+          "imageUri": "level17__plumber",
+
+          "option1": "monnaie",
+
+          "option2": "Pois",
+
+          "option3": "Plombier",
+
+          "option4": "Argent",
+
+          "correct": "Plombier"
+
+        },
+
+        {
+
+          "title": "Question 33",
+
+          "imageUri": "level17__press",
+
+          "option1": "Pois",
+
+          "option2": "Ruban",
+
+          "option3": "gilet de sauvetage",
+
+          "option4": "Appuie",
+
+          "correct": "Appuie"
+
+        },
+
+        {
+
+          "title": "Question 34",
+
+          "imageUri": "level17__ringing",
+
+          "option1": "Pois",
+
+          "option2": "Tram",
+
+          "option3": "Bagages suissette",
+
+          "option4": "Sonnerie",
+
+          "correct": "Sonnerie"
+
+        },
+
+        {
+
+          "title": "Question 35",
+
+          "imageUri": "level17__safety",
+
+          "option1": "Pois",
+
+          "option2": "Bouée de sauvetage",
+
+          "option3": "Temps",
+
+          "option4": "Train",
+
+          "correct": "Bouée de sauvetage"
+
+        },
+
+        {
+
+          "title": "Question 36",
+
+          "imageUri": "level15__wand",
+
+          "option1": "Chein",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Baguette magique",
+
+          "option4": "Manifestations",
+
+          "correct": "Baguette magique"
+
+        },
+
+        {
+
+          "title": "Question 37",
+
+          "imageUri": "level17__queen",
+
+          "option1": "Reine",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Baguette magique",
+
+          "option4": "Les cuisinier",
+
+          "correct": "Reine"
+
+        },
+
+        {
+
+          "title": "Question 38",
+
+          "imageUri": "level17__politician",
+
+          "option1": "Reine",
+
+          "option2": "Politicien",
+
+          "option3": "Baguette magique",
+
+          "option4": "viande",
+
+          "correct": "Politicien"
+
+        },
+
+        {
+
+          "title": "Question 39",
+
+          "imageUri": "level17__ribbon",
+
+          "option1": "Ruban",
+
+          "option2": "Positif",
+
+          "option3": "Pas",
+
+          "option4": "viande",
+
+          "correct": "Ruban"
+
+        },
+
+        {
+
+          "title": "Question 40",
+
+          "imageUri": "level17__protest",
+
+          "option1": "Ruban",
+
+          "option2": "gilet de sauvetage",
+
+          "option3": "Poste",
+
+          "option4": "Manifestations",
+
+          "correct": "Manifestations"
+
+        }, {
+
+          "title": "Question 41",
+
+          "imageUri": "level17__signature",
+
+          "option1": "Soleil",
+
+          "option2": "Signature",
+
+          "option3": "Cœur",
+
+          "option4": "lunettes",
+
+          "correct": "Signature"
+
+        },
+
+        {
+
+          "title": "Question 42",
+
+          "imageUri": "level17__solarsystem",
+
+          "option1": "monnaie",
+
+          "option2": "Signature",
+
+          "option3": "Système solaire",
+
+          "option4": "Argent",
+
+          "correct": "Système solaire"
+
+        },
+
+        {
+
+          "title": "Question 43",
+
+          "imageUri": "level17__stadium",
+
+          "option1": "Signature",
+
+          "option2": "Thé",
+
+          "option3": "Sac",
+
+          "option4": "Stade",
+
+          "correct": "Stade"
+
+        },
+
+        {
+
+          "title": "Question 44",
+
+          "imageUri": "level17__taxi",
+
+          "option1": "Signature",
+
+          "option2": "Tram",
+
+          "option3": "Policiertte",
+
+          "option4": "Taxi",
+
+          "correct": "Taxi"
+
+        },
+
+        {
+
+          "title": "Question 45",
+
+          "imageUri": "level17__tedercoco",
+
+          "option1": "Signature",
+
+          "option2": "Noix de coco tendre",
+
+          "option3": "Temps",
+
+          "option4": "Train",
+
+          "correct": "Noix de coco tendre"
+
+        },
+
+        {
+
+          "title": "Question 46",
+
+          "imageUri": "level17__tag",
+
+          "option1": "Chein",
+
+          "option2": "Sac",
+
+          "option3": "Marque",
+
+          "option4": "Tarte",
+
+          "correct": "Marque"
+
+        },
+
+        {
+
+          "title": "Question 47",
+
+          "imageUri": "level17__streetsign",
+
+          "option1": "Panneau de signalisation",
+
+          "option2": "cloche",
+
+          "option3": "Marque",
+
+          "option4": "Casque",
+
+          "correct": "Panneau de signalisation"
+
+        },
+
+        {
+
+          "title": "Question 48",
+
+          "imageUri": "level17__speakers",
+
+          "option1": "Panneau de signalisation",
+
+          "option2": " Enceinte",
+
+          "option3": "Marque",
+
+          "option4": "viande",
+
+          "correct": " Enceinte"
+
+        },
+
+        {
+
+          "title": "Question 49",
+
+          "imageUri": "level17__sushi",
+
+          "option1": "Sushi",
+
+          "option2": "Positif",
+
+          "option3": "Pas",
+
+          "option4": "viande",
+
+          "correct": "Sushi"
+
+        },
+
+        {
+
+          "title": "Question 50",
+
+          "imageUri": "level17__station",
+
+          "option1": "Sushi",
+
+          "option2": "Infirmière",
+
+          "option3": "Poste",
+
+          "option4": "La gare",
+
+          "correct": "La gare"
+
+        },
+
+        {
+
+          "title": "congratulations",
+
+          "imageUri": "apple",
+
+          "option1": "Bonjour",
+
+          "option2": "Bonjour",
+
+          "option3": "Bonjour",
+
+          "option4": "Bonjour",
+
+          "correct": "Banque"
+
+        }
+
+      ]
+
+    },
+    {
+      "color": "#228c8e",
+      "title": "Level 18",
+      "lesson": [{
+        "title": "level18__basketball",
+        "imageUri": "level18__basketball",
+        "frenchTranslation": "Basketball",
+        "englishTranslation": "Basket Ball",
+        "tag": "sport"
+      },
+        {
+          "title": "level18__bathing",
+          "imageUri": "level18__bathing",
+          "frenchTranslation": "Bain",
+          "englishTranslation": "Bath",
+          "tag": "home"
+        },
+        {
+          "title": "level18__bathroom",
+          "imageUri": "level18__bathroom",
+          "frenchTranslation": "Salle de bains",
+          "englishTranslation": "Bathroom",
+          "tag": "home"
+        },
+        {
+          "title": "level18__bed",
+          "imageUri": "level18__bed",
+          "frenchTranslation": "Lit",
+          "englishTranslation": "Bed",
+          "tag": "home"
+        },
+        {
+          "title": "level18__camera",
+          "imageUri": "level18__camera",
+          "frenchTranslation": "Caméra de surveillance",
+          "englishTranslation": "Surveillance Camera",
+          "tag": "city"
+        },
+        {
+          "title": "level18__checklist",
+          "imageUri": "level18__checklist",
+          "frenchTranslation": "Liste de contrôle",
+          "englishTranslation": "Checklist",
+          "tag": "office"
+        },
+        {
+          "title": "level18__construction",
+          "imageUri": "level18__construction",
+          "frenchTranslation": "Construction",
+          "englishTranslation": "Construction",
+          "tag": "city"
+        },
+        {
+          "title": "level18__crane",
+          "imageUri": "level18__crane",
+          "frenchTranslation": "Grue",
+          "englishTranslation": "Crane",
+          "tag": "city"
+        },
+        {
+          "title": "level18__dogwalk",
+          "imageUri": "level18__dogwalk",
+          "frenchTranslation": "Promenade de chien",
+          "englishTranslation": "Dog Walk",
+          "tag": "action"
+        },
+        {
+          "title": "level18__drying",
+          "imageUri": "level18__drying",
+          "frenchTranslation": "Séchage",
+          "englishTranslation": "Drying",
+          "tag": "action"
+        },
+        {
+          "title": "level18__eraser",
+          "imageUri": "level18__eraser",
+          "frenchTranslation": "la gomme",
+          "englishTranslation": "Eraser",
+          "tag": "school;office"
+        },
+        {
+          "title": "level18__filmroll",
+          "imageUri": "level18__filmroll",
+          "frenchTranslation": "Rouleau de film",
+          "englishTranslation": "Film roll",
+          "tag": ""
+        },
+        {
+          "title": "level18__garlic",
+          "imageUri": "level18__garlic",
+          "frenchTranslation": "Ail",
+          "englishTranslation": "Garlic",
+          "tag": "supermarket;kitchen;food;vegetable"
+        },
+        {
+          "title": "level18__gate",
+          "imageUri": "level18__gate",
+          "frenchTranslation": "Porte",
+          "englishTranslation": "Gate",
+          "tag": "home"
+        },
+        {
+          "title": "level18__groupdiscussion",
+          "imageUri": "level18__groupdiscussion",
+          "frenchTranslation": "Remue-méninges",
+          "englishTranslation": "Brain Storming",
+          "tag": "office"
+        },
+        {
+          "title": "level18__hall",
+          "imageUri": "level18__hall",
+          "frenchTranslation": "Salle",
+          "englishTranslation": "Hall",
+          "tag": "home"
+        },
+        {
+          "title": "level18__hibiscus",
+          "imageUri": "level18__hibiscus",
+          "frenchTranslation": "Hibiscus",
+          "englishTranslation": "Hibiscus",
+          "tag": "red;flower"
+        },
+        {
+          "title": "level18__janitor",
+          "imageUri": "level18__janitor",
+          "frenchTranslation": "Concierge",
+          "englishTranslation": "Janitor",
+          "tag": "profession"
+        },
+        {
+          "title": "level18__kneel",
+          "imageUri": "level18__kneel",
+          "frenchTranslation": "à genoux",
+          "englishTranslation": "Kneel",
+          "tag": "action"
+        },
+        {
+          "title": "level18__lift",
+          "imageUri": "level18__lift",
+          "frenchTranslation": "Soulever",
+          "englishTranslation": "Lift",
+          "tag": "action"
+        },
+        {
+          "title": "level18__omlet",
+          "imageUri": "level18__omlet",
+          "frenchTranslation": "Omelette",
+          "englishTranslation": "Omlet",
+          "tag": "food;restuarent"
+        },
+        {
+          "title": "level18__party",
+          "imageUri": "level18__party",
+          "frenchTranslation": "Fête",
+          "englishTranslation": "Party",
+          "tag": ""
+        },
+        {
+          "title": "level18__pent",
+          "imageUri": "level18__pent",
+          "frenchTranslation": "Penthouse",
+          "englishTranslation": "Pent",
+          "tag": "home;building;city"
+        },
+        {
+          "title": "level18__pool",
+          "imageUri": "level18__pool",
+          "frenchTranslation": "Piscine",
+          "englishTranslation": "Pool",
+          "tag": "home;city"
+        },
+        {
+          "title": "level18__popcorn",
+          "imageUri": "level18__popcorn",
+          "frenchTranslation": "Pop corn",
+          "englishTranslation": "Pop corn",
+          "tag": "party;food"
+        },
+        {
+          "title": "level18__punch",
+          "imageUri": "level18__punch",
+          "frenchTranslation": "Coup de poing",
+          "englishTranslation": "Punch",
+          "tag": "action"
+        },
+        {
+          "title": "level18__push",
+          "imageUri": "level18__push",
+          "frenchTranslation": "Pousser",
+          "englishTranslation": "Push",
+          "tag": "action"
+        },
+        {
+          "title": "level18__puzzle",
+          "imageUri": "level18__puzzle",
+          "frenchTranslation": "énigmes",
+          "englishTranslation": "Puzzle",
+          "tag": ""
+        },
+        {
+          "title": "level18__rowing",
+          "imageUri": "level18__rowing",
+          "frenchTranslation": "Aviron",
+          "englishTranslation": "Rowing",
+          "tag": "action;sport"
+        },
+        {
+          "title": "level18__safe",
+          "imageUri": "level18__safe",
+          "frenchTranslation": "Coffre",
+          "englishTranslation": "Safe",
+          "tag": "bank"
+        },
+        {
+          "title": "level18__shelf",
+          "imageUri": "level18__shelf",
+          "frenchTranslation": "étagère",
+          "englishTranslation": "Shelf",
+          "tag": "home"
+        },
+        {
+          "title": "level18__slide",
+          "imageUri": "level18__slide",
+          "frenchTranslation": "Glissades",
+          "englishTranslation": "Slide",
+          "tag": "sport"
+        },
+        {
+          "title": "level18__sneezing",
+          "imageUri": "level18__sneezing",
+          "frenchTranslation": "éternuer",
+          "englishTranslation": "Sneezing",
+          "tag": "action"
+        },
+        {
+          "title": "level18__spa",
+          "imageUri": "level18__spa",
+          "frenchTranslation": "Spa",
+          "englishTranslation": "Spa",
+          "tag": ""
+        },
+        {
+          "title": "level18__spiderweb",
+          "imageUri": "level18__spiderweb",
+          "frenchTranslation": "Toile d'araignée",
+          "englishTranslation": "Spider Web",
+          "tag": ""
+        },
+        {
+          "title": "level18__stack",
+          "imageUri": "level18__stack",
+          "frenchTranslation": "Pile",
+          "englishTranslation": "Stack",
+          "tag": ""
+        },
+        {
+          "title": "level18__streetlight",
+          "imageUri": "level18__streetlight",
+          "frenchTranslation": "Lampadaires",
+          "englishTranslation": "Street Light",
+          "tag": "city"
+        },
+        {
+          "title": "level18__strikethrough",
+          "imageUri": "level18__strikethrough",
+          "frenchTranslation": "Barré",
+          "englishTranslation": "Strike through",
+          "tag": "office"
+        },
+        {
+          "title": "level18__swimming",
+          "imageUri": "level18__swimming",
+          "frenchTranslation": "Nager",
+          "englishTranslation": "Swimming",
+          "tag": "sport;action"
+        },
+        {
+          "title": "level18__switch",
+          "imageUri": "level18__switch",
+          "frenchTranslation": "Commutateur",
+          "englishTranslation": "Switch",
+          "tag": "office;home;electronic"
+        }, {
+          "title": "level18__talking",
+          "imageUri": "level18__talking",
+          "frenchTranslation": "Parlant",
+          "englishTranslation": "Talking",
+          "tag": "action"
+        },
+        {
+          "title": "level18__theater",
+          "imageUri": "level18__theater",
+          "frenchTranslation": "Théâtre",
+          "englishTranslation": "Theatre",
+          "tag": "city"
+        },
+        {
+          "title": "level18__thinking",
+          "imageUri": "level18__thinking",
+          "frenchTranslation": "Pensée",
+          "englishTranslation": "Thinking",
+          "tag": "action"
+        },
+        {
+          "title": "level18__tie",
+          "imageUri": "level18__tie",
+          "frenchTranslation": "Cravate",
+          "englishTranslation": "Tie",
+          "tag": "dress"
+        },
+        {
+          "title": "level18__tissue",
+          "imageUri": "level18__tissue",
+          "frenchTranslation": "Rouleau de tissu",
+          "englishTranslation": "Tissue roll",
+          "tag": "home"
+        },
+        {
+          "title": "level18__tools",
+          "imageUri": "level18__tools",
+          "frenchTranslation": "Outils",
+          "englishTranslation": "Tools",
+          "tag": "home"
+        },
+        {
+          "title": "level18__video",
+          "imageUri": "level18__video",
+          "frenchTranslation": "Vidéo",
+          "englishTranslation": "Video",
+          "tag": ""
+        },
+        {
+          "title": "level18__washing",
+          "imageUri": "level18__washing",
+          "frenchTranslation": "Lavage",
+          "englishTranslation": "Washing",
+          "tag": "action"
+        },
+        {
+          "title": "level18__welcome",
+          "imageUri": "level18__welcome",
+          "frenchTranslation": "Bienvenue",
+          "englishTranslation": "Welcome",
+          "tag": "home;city"
+        },
+        {
+          "title": "level18__stool",
+          "imageUri": "level18__stool",
+          "frenchTranslation": "Tabouret",
+          "englishTranslation": "Stool",
+          "tag": "school;home"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Question 1",
+        "imageUri": "level18__basketball",
+        "option1": "Soleil",
+        "option2": "Basketball",
+        "option3": "Cœur",
+        "option4": "L'eau",
+        "correct": "Basketball"
+      },
+        {
+          "title": "Question 2",
+          "imageUri": "level18__bathing",
+          "option1": "monnaie",
+          "option2": "Basketball",
+          "option3": "Bain",
+          "option4": "Argent",
+          "correct": "Bain"
+        },
+        {
+          "title": "Question 3",
+          "imageUri": "level18__bed",
+          "option1": "Basketball",
+          "option2": "Hibiscus",
+          "option3": "Pain",
+          "option4": "Lit",
+          "correct": "Lit"
+        },
+        {
+          "title": "Question 4",
+          "imageUri": "level18__dogwalk",
+          "option1": "Basketball",
+          "option2": "Promenade de chien",
+          "option3": "Liste de contrôle",
+          "option4": "Train",
+          "correct": "Promenade de chien"
+        },
+        {
+          "title": "Question 5",
+          "imageUri": "level18__drying",
+          "option1": "Basketball",
+          "option2": "Séchage",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Séchage"
+        },
+        {
+          "title": "Question 6",
+          "imageUri": "level18__crane",
+          "option1": "Chein",
+          "option2": "Basketball",
+          "option3": "Grue",
+          "option4": "Remue-méninges",
+          "correct": "Grue"
+        },
+        {
+          "title": "Question 7",
+          "imageUri": "level18__checklist",
+          "option1": "Liste de contrôle",
+          "option2": "Basketball",
+          "option3": "Grue",
+          "option4": "Les cuisinier",
+          "correct": "Liste de contrôle"
+        },
+        {
+          "title": "Question 8",
+          "imageUri": "level18__bathroom",
+          "option1": "Liste de contrôle",
+          "option2": "Salle de bains",
+          "option3": "Grue",
+          "option4": "viande",
+          "correct": "Salle de bains"
+        },
+        {
+          "title": "Question 9",
+          "imageUri": "level18__construction",
+          "option1": "Construction",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Construction"
+        },
+        {
+          "title": "Question 10",
+          "imageUri": "level18__camera",
+          "option1": "Les cuisinier",
+          "option2": "Omelette",
+          "option3": "Caméra de surveillance",
+          "option4": "Liste de contrôle",
+          "correct": "Caméra de surveillance"
+        },
+        {
+          "title": "Question 11",
+          "imageUri": "level18__eraser",
+          "option1": "Soleil",
+          "option2": "la gomme",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "la gomme"
+        },
+        {
+          "title": "Question 12",
+          "imageUri": "level18__filmroll",
+          "option1": "monnaie",
+          "option2": "la gomme",
+          "option3": "Rouleau de film",
+          "option4": "Argent",
+          "correct": "Rouleau de film"
+        },
+        {
+          "title": "Question 13",
+          "imageUri": "level18__gate",
+          "option1": "la gomme",
+          "option2": "Hibiscus",
+          "option3": "Basketball",
+          "option4": "Porte",
+          "correct": "Porte"
+        },
+        {
+          "title": "Question 14",
+          "imageUri": "level18__kneel",
+          "option1": "la gomme",
+          "option2": "Tram",
+          "option3": "Corbeautte",
+          "option4": "à genoux",
+          "correct": "à genoux"
+        },
+        {
+          "title": "Question 15",
+          "imageUri": "level18__lift",
+          "option1": "la gomme",
+          "option2": "Soulever",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Soulever"
+        },
+        {
+          "title": "Question 16",
+          "imageUri": "level18__janitor",
+          "option1": "Chein",
+          "option2": "Basketball",
+          "option3": "Concierge",
+          "option4": "Remue-méninges",
+          "correct": "Concierge"
+        },
+        {
+          "title": "Question 17",
+          "imageUri": "level18__hall",
+          "option1": "Salle",
+          "option2": "Basketball",
+          "option3": "Concierge",
+          "option4": "Les cuisinier",
+          "correct": "Salle"
+        },
+        {
+          "title": "Question 18",
+          "imageUri": "level18__garlic",
+          "option1": "Salle",
+          "option2": "Ail",
+          "option3": "Concierge",
+          "option4": "viande",
+          "correct": "Ail"
+        },
+        {
+          "title": "Question 19",
+          "imageUri": "level18__hibiscus",
+          "option1": "Hibiscus",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Hibiscus"
+        },
+        {
+          "title": "Question 20",
+          "imageUri": "level18__groupdiscussion",
+          "option1": "Hibiscus",
+          "option2": "Omelette",
+          "option3": "Poste",
+          "option4": "Remue-méninges",
+          "correct": "Remue-méninges"
+        },
+        {
+          "title": "Question 21",
+          "imageUri": "level18__omlet",
+          "option1": "Soleil",
+          "option2": "Omelette",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Omelette"
+        },
+        {
+          "title": "Question 22",
+          "imageUri": "level18__party",
+          "option1": "monnaie",
+          "option2": "Omelette",
+          "option3": "Fête",
+          "option4": "Argent",
+          "correct": "Fête"
+        },
+        {
+          "title": "Question 23",
+          "imageUri": "level18__pool",
+          "option1": "Omelette",
+          "option2": "Lampadaires",
+          "option3": "Pain",
+          "option4": "Piscine",
+          "correct": "Piscine"
+        },
+        {
+          "title": "Question 24",
+          "imageUri": "level18__rowing",
+          "option1": "Omelette",
+          "option2": "Aviron",
+          "option3": "Coup de poing",
+          "option4": "Train",
+          "correct": "Aviron"
+        },
+        {
+          "title": "Question 25",
+          "imageUri": "level18__safe",
+          "option1": "Omelette",
+          "option2": "Coffre",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Coffre"
+        },
+        {
+          "title": "Question 26",
+          "imageUri": "level18__puzzle",
+          "option1": "Chein",
+          "option2": "Omelette",
+          "option3": "énigmes",
+          "option4": "Toile d'araignée",
+          "correct": "énigmes"
+        },
+        {
+          "title": "Question 27",
+          "imageUri": "level18__punch",
+          "option1": "Coup de poing",
+          "option2": "Omelette",
+          "option3": "énigmes",
+          "option4": "Les cuisinier",
+          "correct": "Coup de poing"
+        },
+        {
+          "title": "Question 28",
+          "imageUri": "level18__pent",
+          "option1": "Coup de poing",
+          "option2": "Penthouse",
+          "option3": "énigmes",
+          "option4": "viande",
+          "correct": "Penthouse"
+        },
+        {
+          "title": "Question 29",
+          "imageUri": "level18__push",
+          "option1": "Pousser",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Pousser"
+        },
+        {
+          "title": "Question 30",
+          "imageUri": "level18__popcorn",
+          "option1": "Les cuisinier",
+          "option2": "Omelette",
+          "option3": "Pop corn",
+          "option4": "Coup de poing",
+          "correct": "Pop corn"
+        },
+        {
+          "title": "Question 31",
+          "imageUri": "level18__shelf",
+          "option1": "Soleil",
+          "option2": "étagère",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "étagère"
+        },
+        {
+          "title": "Question 32",
+          "imageUri": "level18__slide",
+          "option1": "monnaie",
+          "option2": "étagère",
+          "option3": "Glissades",
+          "option4": "Argent",
+          "correct": "Glissades"
+        },
+        {
+          "title": "Question 33",
+          "imageUri": "level18__spa",
+          "option1": "étagère",
+          "option2": "Lampadaires",
+          "option3": "Omelette",
+          "option4": "Spa",
+          "correct": "Spa"
+        },
+        {
+          "title": "Question 34",
+          "imageUri": "level18__swimming",
+          "option1": "étagère",
+          "option2": "Tram",
+          "option3": "Fête suissette",
+          "option4": "Nager",
+          "correct": "Nager"
+        },
+        {
+          "title": "Question 35",
+          "imageUri": "level18__switch",
+          "option1": "étagère",
+          "option2": "Commutateur",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Commutateur"
+        },
+        {
+          "title": "Question 36",
+          "imageUri": "level18__strikethrough",
+          "option1": "Chein",
+          "option2": "Omelette",
+          "option3": "Barré",
+          "option4": "Toile d'araignée",
+          "correct": "Barré"
+        },
+        {
+          "title": "Question 37",
+          "imageUri": "level18__stack",
+          "option1": "Pile",
+          "option2": "Omelette",
+          "option3": "Barré",
+          "option4": "Les cuisinier",
+          "correct": "Pile"
+        },
+        {
+          "title": "Question 38",
+          "imageUri": "level18__sneezing",
+          "option1": "Pile",
+          "option2": "éternuer",
+          "option3": "Barré",
+          "option4": "viande",
+          "correct": "éternuer"
+        },
+        {
+          "title": "Question 39",
+          "imageUri": "level18__streetlight",
+          "option1": "Lampadaires",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Lampadaires"
+        },
+        {
+          "title": "Question 40",
+          "imageUri": "level18__spiderweb",
+          "option1": "Lampadaires",
+          "option2": "Omelette",
+          "option3": "Poste",
+          "option4": "Toile d'araignée",
+          "correct": "Toile d'araignée"
+        }, {
+          "title": "Question 41",
+          "imageUri": "level18__talking",
+          "option1": "Soleil",
+          "option2": "Parlant",
+          "option3": "Cœur",
+          "option4": "lunettes",
+          "correct": "Parlant"
+        },
+        {
+          "title": "Question 42",
+          "imageUri": "level18__theater",
+          "option1": "monnaie",
+          "option2": "Parlant",
+          "option3": "Théâtre",
+          "option4": "Argent",
+          "correct": "Théâtre"
+        },
+        {
+          "title": "Question 43",
+          "imageUri": "level18__tie",
+          "option1": "Parlant",
+          "option2": "Thé",
+          "option3": "Sac",
+          "option4": "Cravate",
+          "correct": "Cravate"
+        },
+        {
+          "title": "Question 44",
+          "imageUri": "level18__welcome",
+          "option1": "Parlant",
+          "option2": "Tram",
+          "option3": "Policiertte",
+          "option4": "Bienvenue",
+          "correct": "Bienvenue"
+        },
+        {
+          "title": "Question 45",
+          "imageUri": "level18__stool",
+          "option1": "Parlant",
+          "option2": "Tabouret",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Tabouret"
+        },
+        {
+          "title": "Question 46",
+          "imageUri": "level18__washing",
+          "option1": "Chein",
+          "option2": "Sac",
+          "option3": "Lavage",
+          "option4": "Tarte",
+          "correct": "Lavage"
+        },
+        {
+          "title": "Question 47",
+          "imageUri": "level18__tools",
+          "option1": "Outils",
+          "option2": "cloche",
+          "option3": "Lavage",
+          "option4": "Casque",
+          "correct": "Outils"
+        },
+        {
+          "title": "Question 48",
+          "imageUri": "level18__thinking",
+          "option1": "Outils",
+          "option2": " Pensée",
+          "option3": "Lavage",
+          "option4": "viande",
+          "correct": " Pensée"
+        },
+        {
+          "title": "Question 49",
+          "imageUri": "level18__video",
+          "option1": "Vidéo",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Vidéo"
+        },
+        {
+          "title": "Question 50",
+          "imageUri": "level18__tissue",
+          "option1": "Vidéo",
+          "option2": "Infirmière",
+          "option3": "Poste",
+          "option4": "Rouleau de tissu",
+          "correct": "Rouleau de tissu"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Banque"
+        }
+      ]
+    },
+    {
+      "color": "#228c8e",
+      "title": "Level 19",
+      "lesson": [{
+        "title": "level19__actor",
+        "imageUri": "level19__actor",
+        "frenchTranslation": "Acteur",
+        "englishTranslation": "Actor",
+        "tag": "profession"
+      },
+        {
+          "title": "level19__announcement",
+          "imageUri": "level19__announcement",
+          "frenchTranslation": "annonce",
+          "englishTranslation": "Announcement",
+          "tag": ""
+        },
+        {
+          "title": "level19__appletree",
+          "imageUri": "level19__appletree",
+          "frenchTranslation": "Pommier",
+          "englishTranslation": "Apple tree",
+          "tag": ""
+        },
+        {
+          "title": "level19__aquarium",
+          "imageUri": "level19__aquarium",
+          "frenchTranslation": "Aquarium",
+          "englishTranslation": "Aquarium",
+          "tag": "home"
+        },
+        {
+          "title": "level19__arch",
+          "imageUri": "level19__arch",
+          "frenchTranslation": "Cambre",
+          "englishTranslation": "Arch",
+          "tag": ""
+        },
+        {
+          "title": "level19__band",
+          "imageUri": "level19__band",
+          "frenchTranslation": "élastique",
+          "englishTranslation": "Rubber Band",
+          "tag": "office"
+        },
+        {
+          "title": "level19__blood",
+          "imageUri": "level19__blood",
+          "frenchTranslation": "Du sang",
+          "englishTranslation": "Blood",
+          "tag": "body"
+        },
+        {
+          "title": "level19__brocoli",
+          "imageUri": "level19__brocoli",
+          "frenchTranslation": "Brocoli",
+          "englishTranslation": "Broccoli",
+          "tag": "green;vegetable"
+        },
+        {
+          "title": "level19__cementmixer",
+          "imageUri": "level19__cementmixer",
+          "frenchTranslation": "Bétonnière",
+          "englishTranslation": "Cement Mixer",
+          "tag": "vehicle"
+        },
+        {
+          "title": "level19__cheetah",
+          "imageUri": "level19__cheetah",
+          "frenchTranslation": "Guépard",
+          "englishTranslation": "Cheetah",
+          "tag": "zoo"
+        },
+        {
+          "title": "level19__crib",
+          "imageUri": "level19__crib",
+          "frenchTranslation": "lit de bébé",
+          "englishTranslation": "Crib",
+          "tag": "hoapital;home"
+        },
+        {
+          "title": "level19__cricket",
+          "imageUri": "level19__cricket",
+          "frenchTranslation": "Cricket",
+          "englishTranslation": "Cricket",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__cut",
+          "imageUri": "level19__cut",
+          "frenchTranslation": "Couper",
+          "englishTranslation": "Cut",
+          "tag": "action"
+        },
+        {
+          "title": "level18__gate",
+          "imageUri": "level18__gate",
+          "frenchTranslation": "Porte",
+          "englishTranslation": "Gate",
+          "tag": "home"
+        },
+        {
+          "title": "level19__cycling",
+          "imageUri": "level19__cycling",
+          "frenchTranslation": "Bicyclette",
+          "englishTranslation": "Cycling",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__deer",
+          "imageUri": "level19__deer",
+          "frenchTranslation": "Cerf",
+          "englishTranslation": "Deer",
+          "tag": "zoo;animal"
+        },
+        {
+          "title": "level19__diaper",
+          "imageUri": "level19__diaper",
+          "frenchTranslation": "Couche",
+          "englishTranslation": "Diaper",
+          "tag": ""
+        },
+        {
+          "title": "level19__dinner",
+          "imageUri": "level19__dinner",
+          "frenchTranslation": "Dîner",
+          "englishTranslation": "Dinner",
+          "tag": "food;restuarent"
+        },
+        {
+          "title": "level19__dolphin",
+          "imageUri": "level19__dolphin",
+          "frenchTranslation": "Dauphin",
+          "englishTranslation": "Dolphin",
+          "tag": "zoo;animal"
+        },
+        {
+          "title": "level19__drone",
+          "imageUri": "level19__drone",
+          "frenchTranslation": "Drone",
+          "englishTranslation": "Drone",
+          "tag": ""
+        },
+        {
+          "title": "level19__eagle",
+          "imageUri": "level19__eagle",
+          "frenchTranslation": "Aigle",
+          "englishTranslation": "Eagle",
+          "tag": "zoo;animal"
+        },
+        {
+          "title": "level19__feedignbottle",
+          "imageUri": "level19__feedignbottle",
+          "frenchTranslation": "Biberon",
+          "englishTranslation": "Feeding Bottle",
+          "tag": ""
+        },
+        {
+          "title": "level19__fishbowl",
+          "imageUri": "level19__fishbowl",
+          "frenchTranslation": "Bocal à poisson",
+          "englishTranslation": "Fish Bowl",
+          "tag": "home"
+        },
+        {
+          "title": "level19__grasshopper",
+          "imageUri": "level19__grasshopper",
+          "frenchTranslation": "Sauterelle",
+          "englishTranslation": "Grasshopper",
+          "tag": ""
+        },
+        {
+          "title": "level19__horn",
+          "imageUri": "level19__horn",
+          "frenchTranslation": "Klaxon",
+          "englishTranslation": "Horn",
+          "tag": ""
+        },
+        {
+          "title": "level19__kennel",
+          "imageUri": "level19__kennel",
+          "frenchTranslation": "Chenil",
+          "englishTranslation": "kennel",
+          "tag": ""
+        },
+        {
+          "title": "level19__lab",
+          "imageUri": "level19__lab",
+          "frenchTranslation": "Laboratoire",
+          "englishTranslation": "Lab",
+          "tag": ""
+        },
+        {
+          "title": "level19__ladder",
+          "imageUri": "level19__ladder",
+          "frenchTranslation": "échelle",
+          "englishTranslation": "Ladder",
+          "tag": "home"
+        },
+        {
+          "title": "level19__leaning",
+          "imageUri": "level19__leaning",
+          "frenchTranslation": "Penché",
+          "englishTranslation": "Leaning",
+          "tag": ""
+        },
+        {
+          "title": "level19__mummy",
+          "imageUri": "level19__mummy",
+          "frenchTranslation": "Maman",
+          "englishTranslation": "Mummy",
+          "tag": ""
+        },
+        {
+          "title": "level19__pacifier",
+          "imageUri": "level19__pacifier",
+          "frenchTranslation": "Sucette",
+          "englishTranslation": "Pacifier",
+          "tag": ""
+        },
+        {
+          "title": "level19__parking",
+          "imageUri": "level19__parking",
+          "frenchTranslation": "Terrain de stationnement",
+          "englishTranslation": "Parking",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__pets",
+          "imageUri": "level19__pets",
+          "frenchTranslation": "Animaux domestiques",
+          "englishTranslation": "Pets",
+          "tag": ""
+        },
+        {
+          "title": "level19__postman",
+          "imageUri": "level19__postman",
+          "frenchTranslation": "Homme de poste",
+          "englishTranslation": "Post man",
+          "tag": "profession"
+        },
+        {
+          "title": "level19__postoffice",
+          "imageUri": "level19__postoffice",
+          "frenchTranslation": "Bureau de poste",
+          "englishTranslation": "Post Office",
+          "tag": ""
+        },
+        {
+          "title": "level19__rattle",
+          "imageUri": "level19__rattle",
+          "frenchTranslation": "Hochet",
+          "englishTranslation": "Rattle",
+          "tag": ""
+        },
+        {
+          "title": "level19__roots",
+          "imageUri": "level19__roots",
+          "frenchTranslation": "Racine",
+          "englishTranslation": "Root",
+          "tag": ""
+        },
+        {
+          "title": "level19__running",
+          "imageUri": "level19__running",
+          "frenchTranslation": "Fonctionnement",
+          "englishTranslation": "Running",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__sailing",
+          "imageUri": "level19__sailing",
+          "frenchTranslation": "Voile",
+          "englishTranslation": "Sailing",
+          "tag": "sport;action"
+        },
+        {
+          "title": "level19__seal",
+          "imageUri": "level19__seal",
+          "frenchTranslation": "Commutateur",
+          "englishTranslation": "Seal",
+          "tag": ""
+        }, {
+          "title": "level19__searching",
+          "imageUri": "level19__searching",
+          "frenchTranslation": "Recherche",
+          "englishTranslation": "Search",
+          "tag": "action"
+        },
+        {
+          "title": "level19__seriallight",
+          "imageUri": "level19__seriallight",
+          "frenchTranslation": "Feu de série",
+          "englishTranslation": "Serial Light",
+          "tag": ""
+        },
+        {
+          "title": "level19__shell",
+          "imageUri": "level19__shell",
+          "frenchTranslation": "Pensée",
+          "englishTranslation": "Shell",
+          "tag": ""
+        },
+        {
+          "title": "level19__stomachache",
+          "imageUri": "level19__stomachache",
+          "frenchTranslation": "Maux d'estomac",
+          "englishTranslation": "Stomach ache",
+          "tag": ""
+        },
+        {
+          "title": "level19__tabletennis",
+          "imageUri": "level19__tabletennis",
+          "frenchTranslation": "Tennis de table",
+          "englishTranslation": "Table tennis",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__tennis",
+          "imageUri": "level19__tennis",
+          "frenchTranslation": "Tennis",
+          "englishTranslation": "Tennis",
+          "tag": "sport"
+        },
+        {
+          "title": "level19__tractor",
+          "imageUri": "level19__tractor",
+          "frenchTranslation": "Tracteur",
+          "englishTranslation": "Tractor",
+          "tag": "vehicleS"
+        },
+        {
+          "title": "level19__vacumn",
+          "imageUri": "level19__vacumn",
+          "frenchTranslation": "Vide",
+          "englishTranslation": "Vacumn",
+          "tag": ""
+        },
+        {
+          "title": "level19__war",
+          "imageUri": "level19__war",
+          "frenchTranslation": "Guerre",
+          "englishTranslation": "War",
+          "tag": ""
+        },
+        {
+          "title": "level19__whale",
+          "imageUri": "level19__whale",
+          "frenchTranslation": "Baleine",
+          "englishTranslation": "Whale",
+          "tag": ""
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Question 1",
+        "imageUri": "level19__actor",
+        "option1": "Soleil",
+        "option2": "Acteur",
+        "option3": "Cœur",
+        "option4": "L'eau",
+        "correct": "Acteur"
+      },
+        {
+          "title": "Question 2",
+          "imageUri": "level19__announcement",
+          "option1": "monnaie",
+          "option2": "Acteur",
+          "option3": "annonce",
+          "option4": "Argent",
+          "correct": "annonce"
+        },
+        {
+          "title": "Question 3",
+          "imageUri": "level19__aquarium",
+          "option1": "Acteur",
+          "option2": "Couche",
+          "option3": "Pain",
+          "option4": "Aquarium",
+          "correct": "Aquarium"
+        },
+        {
+          "title": "Question 4",
+          "imageUri": "level19__cementmixer",
+          "option1": "Acteur",
+          "option2": "Bétonnière",
+          "option3": "élastique",
+          "option4": "Train",
+          "correct": "Bétonnière"
+        },
+        {
+          "title": "Question 5",
+          "imageUri": "level19__cheetah",
+          "option1": "Acteur",
+          "option2": "Guépard",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Guépard"
+        },
+        {
+          "title": "Question 6",
+          "imageUri": "level19__brocoli",
+          "option1": "Chein",
+          "option2": "Acteur",
+          "option3": "Brocoli",
+          "option4": "Bicyclette",
+          "correct": "Brocoli"
+        },
+        {
+          "title": "Question 7",
+          "imageUri": "level19__band",
+          "option1": "élastique",
+          "option2": "Acteur",
+          "option3": "Brocoli",
+          "option4": "Les cuisinier",
+          "correct": "élastique"
+        },
+        {
+          "title": "Question 8",
+          "imageUri": "level19__appletree",
+          "option1": "élastique",
+          "option2": "Pommier",
+          "option3": "Brocoli",
+          "option4": "viande",
+          "correct": "Pommier"
+        },
+        {
+          "title": "Question 9",
+          "imageUri": "level19__blood",
+          "option1": "Du sang",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Du sang"
+        },
+        {
+          "title": "Question 10",
+          "imageUri": "level19__arch",
+          "option1": "Les cuisinier",
+          "option2": "Aigle",
+          "option3": "Cambre",
+          "option4": "élastique",
+          "correct": "Cambre"
+        },
+        {
+          "title": "Question 11",
+          "imageUri": "level19__crib",
+          "option1": "Soleil",
+          "option2": "lit de bébé",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "lit de bébé"
+        },
+        {
+          "title": "Question 12",
+          "imageUri": "level19__cricket",
+          "option1": "monnaie",
+          "option2": "lit de bébé",
+          "option3": "Cricket",
+          "option4": "Argent",
+          "correct": "Cricket"
+        },
+        {
+          "title": "Question 13",
+          "imageUri": "level18__gate",
+          "option1": "lit de bébé",
+          "option2": "Couche",
+          "option3": "Acteur",
+          "option4": "Porte",
+          "correct": "Porte"
+        },
+        {
+          "title": "Question 14",
+          "imageUri": "level19__dolphin",
+          "option1": "lit de bébé",
+          "option2": "Tram",
+          "option3": "Corbeautte",
+          "option4": "Dauphin",
+          "correct": "Dauphin"
+        },
+        {
+          "title": "Question 15",
+          "imageUri": "level19__drone",
+          "option1": "lit de bébé",
+          "option2": "Drone",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Drone"
+        },
+        {
+          "title": "Question 16",
+          "imageUri": "level19__dinner",
+          "option1": "Chein",
+          "option2": "Acteur",
+          "option3": "Dîner",
+          "option4": "Bicyclette",
+          "correct": "Dîner"
+        },
+        {
+          "title": "Question 17",
+          "imageUri": "level19__deer",
+          "option1": "Cerf",
+          "option2": "Acteur",
+          "option3": "Dîner",
+          "option4": "Les cuisinier",
+          "correct": "Cerf"
+        },
+        {
+          "title": "Question 18",
+          "imageUri": "level19__cut",
+          "option1": "Cerf",
+          "option2": "Couper",
+          "option3": "Dîner",
+          "option4": "viande",
+          "correct": "Couper"
+        },
+        {
+          "title": "Question 19",
+          "imageUri": "level19__diaper",
+          "option1": "Couche",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Couche"
+        },
+        {
+          "title": "Question 20",
+          "imageUri": "level19__cycling",
+          "option1": "Couche",
+          "option2": "Aigle",
+          "option3": "Poste",
+          "option4": "Bicyclette",
+          "correct": "Bicyclette"
+        },
+        {
+          "title": "Question 21",
+          "imageUri": "level19__eagle",
+          "option1": "Soleil",
+          "option2": "Aigle",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Aigle"
+        },
+        {
+          "title": "Question 22",
+          "imageUri": "level19__feedignbottle",
+          "option1": "monnaie",
+          "option2": "Aigle",
+          "option3": "Biberon",
+          "option4": "Argent",
+          "correct": "Biberon"
+        },
+        {
+          "title": "Question 23",
+          "imageUri": "level19__grasshopper",
+          "option1": "Aigle",
+          "option2": "Racine",
+          "option3": "Pain",
+          "option4": "Sauterelle",
+          "correct": "Sauterelle"
+        },
+        {
+          "title": "Question 24",
+          "imageUri": "level19__leaning",
+          "option1": "Aigle",
+          "option2": "Penché",
+          "option3": "Chenil",
+          "option4": "Train",
+          "correct": "Penché"
+        },
+        {
+          "title": "Question 25",
+          "imageUri": "level19__mummy",
+          "option1": "Aigle",
+          "option2": "Maman",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Maman"
+        },
+        {
+          "title": "Question 26",
+          "imageUri": "level19__ladder",
+          "option1": "Chein",
+          "option2": "Aigle",
+          "option3": "échelle",
+          "option4": "Bureau de poste",
+          "correct": "échelle"
+        },
+        {
+          "title": "Question 27",
+          "imageUri": "level19__kennel",
+          "option1": "Chenil",
+          "option2": "Aigle",
+          "option3": "échelle",
+          "option4": "Les cuisinier",
+          "correct": "Chenil"
+        },
+        {
+          "title": "Question 28",
+          "imageUri": "level19__fishbowl",
+          "option1": "Chenil",
+          "option2": "Bocal à poisson",
+          "option3": "échelle",
+          "option4": "viande",
+          "correct": "Bocal à poisson"
+        },
+        {
+          "title": "Question 29",
+          "imageUri": "level19__lab",
+          "option1": "Laboratoire",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Laboratoire"
+        },
+        {
+          "title": "Question 30",
+          "imageUri": "level19__horn",
+          "option1": "Les cuisinier",
+          "option2": "Aigle",
+          "option3": "Klaxon",
+          "option4": "Chenil",
+          "correct": "Klaxon"
+        },
+        {
+          "title": "Question 31",
+          "imageUri": "level19__pacifier",
+          "option1": "Soleil",
+          "option2": "Sucette",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Sucette"
+        },
+        {
+          "title": "Question 32",
+          "imageUri": "level19__parking",
+          "option1": "monnaie",
+          "option2": "Sucette",
+          "option3": "Terrain de stationnement",
+          "option4": "Argent",
+          "correct": "Terrain de stationnement"
+        },
+        {
+          "title": "Question 33",
+          "imageUri": "level19__postman",
+          "option1": "Sucette",
+          "option2": "Racine",
+          "option3": "Aigle",
+          "option4": "Spa",
+          "correct": "Spa"
+        },
+        {
+          "title": "Question 34",
+          "imageUri": "level19__sailing",
+          "option1": "Sucette",
+          "option2": "Tram",
+          "option3": "Biberon suissette",
+          "option4": "Voile",
+          "correct": "Voile"
+        },
+        {
+          "title": "Question 35",
+          "imageUri": "level19__seal",
+          "option1": "Sucette",
+          "option2": "Sceller",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Sceller"
+        },
+        {
+          "title": "Question 36",
+          "imageUri": "level19__running",
+          "option1": "Chein",
+          "option2": "Aigle",
+          "option3": "Fonctionnement",
+          "option4": "Bureau de poste",
+          "correct": "Fonctionnement"
+        },
+        {
+          "title": "Question 37",
+          "imageUri": "level19__rattle",
+          "option1": "Hochet",
+          "option2": "Aigle",
+          "option3": "Fonctionnement",
+          "option4": "Les cuisinier",
+          "correct": "Hochet"
+        },
+        {
+          "title": "Question 38",
+          "imageUri": "level19__pets",
+          "option1": "Hochet",
+          "option2": "Animaux domestiques",
+          "option3": "Fonctionnement",
+          "option4": "viande",
+          "correct": "Animaux domestiques"
+        },
+        {
+          "title": "Question 39",
+          "imageUri": "level19__roots",
+          "option1": "Racine",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Racine"
+        },
+        {
+          "title": "Question 40",
+          "imageUri": "level18__spiderweb",
+          "option1": "Racine",
+          "option2": "Aigle",
+          "option3": "Poste",
+          "option4": "Bureau de poste",
+          "correct": "Bureau de poste"
+        }, {
+          "title": "Question 41",
+          "imageUri": "level19__searching",
+          "option1": "Soleil",
+          "option2": "Recherche",
+          "option3": "Cœur",
+          "option4": "lunettes",
+          "correct": "Recherche"
+        },
+        {
+          "title": "Question 42",
+          "imageUri": "level19__seriallight",
+          "option1": "monnaie",
+          "option2": "Recherche",
+          "option3": "Feu de série",
+          "option4": "Argent",
+          "correct": "Feu de série"
+        },
+        {
+          "title": "Question 43",
+          "imageUri": "level19__stomachache",
+          "option1": "Recherche",
+          "option2": "Thé",
+          "option3": "Sac",
+          "option4": "Maux d'estomac",
+          "correct": "Maux d'estomac"
+        },
+        {
+          "title": "Question 44",
+          "imageUri": "level19__war",
+          "option1": "Recherche",
+          "option2": "Tram",
+          "option3": "Policiertte",
+          "option4": "Guerre",
+          "correct": "Guerre"
+        },
+        {
+          "title": "Question 45",
+          "imageUri": "level19__whale",
+          "option1": "Recherche",
+          "option2": "Baleine",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Baleine"
+        },
+        {
+          "title": "Question 46",
+          "imageUri": "level19__vacumn",
+          "option1": "Chein",
+          "option2": "Sac",
+          "option3": "Vide",
+          "option4": "Tarte",
+          "correct": "Vide"
+        },
+        {
+          "title": "Question 47",
+          "imageUri": "level19__tennis",
+          "option1": "Tennis",
+          "option2": "cloche",
+          "option3": "Vide",
+          "option4": "Casque",
+          "correct": "Tennis"
+        },
+        {
+          "title": "Question 48",
+          "imageUri": "level19__shell",
+          "option1": "Tennis",
+          "option2": " Pensée",
+          "option3": "Vide",
+          "option4": "viande",
+          "correct": " Pensée"
+        },
+        {
+          "title": "Question 49",
+          "imageUri": "level19__tractor",
+          "option1": "Tracteur",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Tracteur"
+        },
+        {
+          "title": "Question 50",
+          "imageUri": "level19__tabletennis",
+          "option1": "Tracteur",
+          "option2": "Infirmière",
+          "option3": "Poste",
+          "option4": "Tennis de table",
+          "correct": "Tennis de table"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Banque"
+        }
+      ]
+    },
+    {
+      "color": "#228c8e",
+      "title": "Level 20",
+      "lesson": [{
+        "title": "level20__airhostess",
+        "imageUri": "level20__airhostess",
+        "frenchTranslation": "Hôtesse",
+        "englishTranslation": "Air hostess",
+        "tag": "profession;airport"
+      },
+        {
+          "title": "level20__almond",
+          "imageUri": "level20__almond",
+          "frenchTranslation": "Amande",
+          "englishTranslation": "Almonds",
+          "tag": "food;supermarket"
+        },
+        {
+          "title": "level20__army",
+          "imageUri": "level20__army",
+          "frenchTranslation": "Armée",
+          "englishTranslation": "Army",
+          "tag": "profession"
+        },
+        {
+          "title": "level20__asparagus",
+          "imageUri": "level20__asparagus",
+          "frenchTranslation": "Asperges",
+          "englishTranslation": "Asparagus",
+          "tag": "vegetable;green;supermarket"
+        },
+        {
+          "title": "level20__atom",
+          "imageUri": "level20__atom",
+          "frenchTranslation": "Atome",
+          "englishTranslation": "Atom",
+          "tag": ""
+        },
+        {
+          "title": "level20__bamboo",
+          "imageUri": "level20__bamboo",
+          "frenchTranslation": "Bambou",
+          "englishTranslation": "Bamboo",
+          "tag": "zoo;green"
+        },
+        {
+          "title": "level20__barbeque",
+          "imageUri": "level20__barbeque",
+          "frenchTranslation": "Barbecue",
+          "englishTranslation": "Barbeque",
+          "tag": ""
+        },
+        {
+          "title": "level20__beg",
+          "imageUri": "level20__beg",
+          "frenchTranslation": "Mendier",
+          "englishTranslation": "Beg",
+          "tag": "action"
+        },
+        {
+          "title": "level20__bloodtest",
+          "imageUri": "level20__bloodtest",
+          "frenchTranslation": "Test sanguin",
+          "englishTranslation": "Blood Test",
+          "tag": "hospital;body"
+        },
+        {
+          "title": "level20__boardingpass",
+          "imageUri": "level20__boardingpass",
+          "frenchTranslation": "Carte d'embarquement",
+          "englishTranslation": "Boarding Pass",
+          "tag": "airport;bag"
+        },
+        {
+          "title": "level20__bonfire",
+          "imageUri": "level20__bonfire",
+          "frenchTranslation": "Feux de joie",
+          "englishTranslation": "Bonfire",
+          "tag": "party"
+        },
+        {
+          "title": "level20__businessman",
+          "imageUri": "level20__businessman",
+          "frenchTranslation": "Homme d'affaire",
+          "englishTranslation": "Business Man",
+          "tag": "profession"
+        },
+        {
+          "title": "level20__celery",
+          "imageUri": "level20__celery",
+          "frenchTranslation": "Céleri",
+          "englishTranslation": "Celery",
+          "tag": "green;supermarket;vegetable"
+        },
+        {
+          "title": "level20__dna",
+          "imageUri": "level20__dna",
+          "frenchTranslation": "ADN",
+          "englishTranslation": "DNA",
+          "tag": "body"
+        },
+        {
+          "title": "level20__enquire",
+          "imageUri": "level20__enquire",
+          "frenchTranslation": "Renseigner",
+          "englishTranslation": "Enquire",
+          "tag": "action"
+        },
+        {
+          "title": "level20__fast",
+          "imageUri": "level20__fast",
+          "frenchTranslation": "Vite",
+          "englishTranslation": "Fast",
+          "tag": ""
+        },
+        {
+          "title": "level20__featus",
+          "imageUri": "level20__featus",
+          "frenchTranslation": "Fœtus",
+          "englishTranslation": "Featus",
+          "tag": "body"
+        },
+        {
+          "title": "level20__grandma",
+          "imageUri": "level20__grandma",
+          "frenchTranslation": "Grand-mère",
+          "englishTranslation": "Grand mother",
+          "tag": "family"
+        },
+        {
+          "title": "level20__grandpa",
+          "imageUri": "level20__grandpa",
+          "frenchTranslation": "grand-père",
+          "englishTranslation": "Grand Father",
+          "tag": "family"
+        },
+        {
+          "title": "level20__hammock",
+          "imageUri": "level20__hammock",
+          "frenchTranslation": "hamac",
+          "englishTranslation": "Hammock",
+          "tag": ""
+        },
+        {
+          "title": "level20__hazelnut",
+          "imageUri": "level20__hazelnut",
+          "frenchTranslation": "Noisette",
+          "englishTranslation": "Hazelnut",
+          "tag": "food;supermarket"
+        },
+        {
+          "title": "level20__history",
+          "imageUri": "level20__history",
+          "frenchTranslation": "L'histoire",
+          "englishTranslation": "History",
+          "tag": ""
+        },
+        {
+          "title": "level20__kidney",
+          "imageUri": "level20__kidney",
+          "frenchTranslation": "Rein",
+          "englishTranslation": "Kidney",
+          "tag": "body"
+        },
+        {
+          "title": "level20__kiwi",
+          "imageUri": "level20__kiwi",
+          "frenchTranslation": "Kiwi",
+          "englishTranslation": "Kiwi",
+          "tag": "food;supermarket;fruit"
+        },
+        {
+          "title": "level20__kneepain",
+          "imageUri": "level20__kneepain",
+          "frenchTranslation": "Douleur au genou",
+          "englishTranslation": "Knee pain",
+          "tag": "emotion"
+        },
+        {
+          "title": "level20__liver",
+          "imageUri": "level20__liver",
+          "frenchTranslation": "Foie",
+          "englishTranslation": "Liver",
+          "tag": "body"
+        },
+        {
+          "title": "level20__medicalreport",
+          "imageUri": "level20__medicalreport",
+          "frenchTranslation": "Rapport médical",
+          "englishTranslation": "Medical Report",
+          "tag": "hospital"
+        },
+        {
+          "title": "level20__muscles",
+          "imageUri": "level20__muscles",
+          "frenchTranslation": "Muscles",
+          "englishTranslation": "Muscles",
+          "tag": "body"
+        },
+        {
+          "title": "level20__old",
+          "imageUri": "level20__old",
+          "frenchTranslation": "Vieux",
+          "englishTranslation": "Old",
+          "tag": ""
+        },
+        {
+          "title": "level20__passenger",
+          "imageUri": "level20__passenger",
+          "frenchTranslation": "Passager",
+          "englishTranslation": "Passenger",
+          "tag": "airport;city"
+        },
+        {
+          "title": "level20__pay",
+          "imageUri": "level20__pay",
+          "frenchTranslation": "Payer",
+          "englishTranslation": "Pay",
+          "tag": "action"
+        },
+        {
+          "title": "level20__peanut",
+          "imageUri": "level20__peanut",
+          "frenchTranslation": "Cacahuète",
+          "englishTranslation": "Peanut",
+          "tag": "food;supermarket"
+        },
+        {
+          "title": "level20__pista",
+          "imageUri": "level20__pista",
+          "frenchTranslation": "Pistache",
+          "englishTranslation ": "Pistachio",
+          "tag": "food;supermarket"
+        },
+        {
+          "title": "level20__plum",
+          "imageUri": "level20__plum",
+          "frenchTranslation": "Prune",
+          "englishTranslation": "Plum",
+          "tag": "food;fruit;supermarket"
+        },
+        {
+          "title": "level20__pull",
+          "imageUri": "level20__pull",
+          "frenchTranslation": "Tirez",
+          "englishTranslation": "Pull",
+          "tag": "action"
+        },
+        {
+          "title": "level20__queue",
+          "imageUri": "level20__queue",
+          "frenchTranslation": "Queue",
+          "englishTranslation": "Queue",
+          "tag": "office;city"
+        },
+        {
+          "title": "level20__quiet",
+          "imageUri": "level20__quiet",
+          "frenchTranslation": "Silencieux",
+          "englishTranslation": "Quiet",
+          "tag": "hospital;action"
+        },
+        {
+          "title": "level20__salute",
+          "imageUri": "level20__salute",
+          "frenchTranslation": "Saluer",
+          "englishTranslation": "Salute",
+          "tag": "action"
+        },
+        {
+          "title": "level20__science",
+          "imageUri": "level20__science",
+          "frenchTranslation": "Science",
+          "englishTranslation": "Science",
+          "tag": "school"
+        },
+        {
+          "title": "level20__shadow",
+          "imageUri": "level20__shadow",
+          "frenchTranslation": "Ombre",
+          "englishTranslation": "Shadow",
+          "tag": ""
+        }, {
+          "title": "level20__skeleton",
+          "imageUri": "level20__skeleton",
+          "frenchTranslation": "Squelette",
+          "englishTranslation": "Skeleton",
+          "tag": "school;hospital;body"
+        },
+        {
+          "title": "level20__speech",
+          "imageUri": "level20__speech",
+          "frenchTranslation": "Discours",
+          "englishTranslation": "Speech",
+          "tag": "action"
+        },
+        {
+          "title": "level20__takingpicture",
+          "imageUri": "level20__takingpicture",
+          "frenchTranslation": "Capturer",
+          "englishTranslation": "Capture",
+          "tag": "action"
+        },
+        {
+          "title": "level20__tourist",
+          "imageUri": "level20__tourist",
+          "frenchTranslation": "Touristique",
+          "englishTranslation": "Tourist",
+          "tag": "city"
+        },
+        {
+          "title": "level20__travel",
+          "imageUri": "level20__travel",
+          "frenchTranslation": "Voyage",
+          "englishTranslation": "Travel",
+          "tag": "action"
+        },
+        {
+          "title": "level20__true",
+          "imageUri": "level20__true",
+          "frenchTranslation": "Vrai",
+          "englishTranslation": "True",
+          "tag": ""
+        },
+        {
+          "title": "level20__undies",
+          "imageUri": "level20__undies",
+          "frenchTranslation": "Sous-vêtements",
+          "englishTranslation": "Undies",
+          "tag": "dress"
+        },
+        {
+          "title": "level20__university",
+          "imageUri": "level20__university",
+          "frenchTranslation": "Université",
+          "englishTranslation": "University",
+          "tag": "city;building"
+        },
+        {
+          "title": "level20__wait",
+          "imageUri": "level20__wait",
+          "frenchTranslation": "Attendre",
+          "englishTranslation": "Wait",
+          "tag": "action"
+        },
+        {
+          "title": "level20__wig",
+          "imageUri": "level20__wig",
+          "frenchTranslation": "Perruque",
+          "englishTranslation": "Wig",
+          "tag": ""
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "",
+          "frenchTranslation": "",
+          "englishTranslation": ""
+        }
+      ],
+      "quiz": [{
+        "title": "Question 1",
+        "imageUri": "level20__airhostess",
+        "option1": "Soleil",
+        "option2": "Hôtesse",
+        "option3": "Cœur",
+        "option4": "L'eau",
+        "correct": "Hôtesse"
+      },
+        {
+          "title": "Question 2",
+          "imageUri": "level20__almond",
+          "option1": "monnaie",
+          "option2": "Hôtesse",
+          "option3": "Amande",
+          "option4": "Argent",
+          "correct": "Amande"
+        },
+        {
+          "title": "Question 3",
+          "imageUri": "level20__asparagus",
+          "option1": "Hôtesse",
+          "option2": "Fœtus",
+          "option3": "Pain",
+          "option4": "Asperges",
+          "correct": "Asperges"
+        },
+        {
+          "title": "Question 4",
+          "imageUri": "level20__bloodtest",
+          "option1": "Hôtesse",
+          "option2": "Test sanguin",
+          "option3": "Bambou",
+          "option4": "Train",
+          "correct": "Test sanguin"
+        },
+        {
+          "title": "Question 5",
+          "imageUri": "level20__boardingpass",
+          "option1": "Hôtesse",
+          "option2": "Carte d'embarquement",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Carte d'embarquement"
+        },
+        {
+          "title": "Question 6",
+          "imageUri": "level20__beg",
+          "option1": "Chein",
+          "option2": "Hôtesse",
+          "option3": "Mendier",
+          "option4": "Renseigner",
+          "correct": "Mendier"
+        },
+        {
+          "title": "Question 7",
+          "imageUri": "level20__bamboo",
+          "option1": "Bambou",
+          "option2": "Hôtesse",
+          "option3": "Mendier",
+          "option4": "Les cuisinier",
+          "correct": "Bambou"
+        },
+        {
+          "title": "Question 8",
+          "imageUri": "level20__army",
+          "option1": "Bambou",
+          "option2": "Armée",
+          "option3": "Mendier",
+          "option4": "viande",
+          "correct": "Armée"
+        },
+        {
+          "title": "Question 9",
+          "imageUri": "level20__barbeque",
+          "option1": "Barbecue",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Barbecue"
+        },
+        {
+          "title": "Question 10",
+          "imageUri": "level20__atom",
+          "option1": "Les cuisinier",
+          "option2": "Noisette",
+          "option3": "Atome",
+          "option4": "Bambou",
+          "correct": "Atome"
+        },
+        {
+          "title": "Question 11",
+          "imageUri": "level20__bonfire",
+          "option1": "Soleil",
+          "option2": "Feux de joie",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Feux de joie"
+        },
+        {
+          "title": "Question 12",
+          "imageUri": "level20__businessman",
+          "option1": "monnaie",
+          "option2": "Feux de joie",
+          "option3": "Homme d'affaire",
+          "option4": "Argent",
+          "correct": "Homme d'affaire"
+        },
+        {
+          "title": "Question 13",
+          "imageUri": "level20__dna",
+          "option1": "Feux de joie",
+          "option2": "Fœtus",
+          "option3": "Hôtesse",
+          "option4": "ADN",
+          "correct": "ADN"
+        },
+        {
+          "title": "Question 14",
+          "imageUri": "level20__grandpa",
+          "option1": "Feux de joie",
+          "option2": "Tram",
+          "option3": "Corbeautte",
+          "option4": "grand-père",
+          "correct": "grand-père"
+        },
+        {
+          "title": "Question 15",
+          "imageUri": "level20__hammock",
+          "option1": "Feux de joie",
+          "option2": "hamac",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "hamac"
+        },
+        {
+          "title": "Question 16",
+          "imageUri": "level20__grandma",
+          "option1": "Chein",
+          "option2": "Hôtesse",
+          "option3": "Grand-mère",
+          "option4": "Renseigner",
+          "correct": "Grand-mère"
+        },
+        {
+          "title": "Question 17",
+          "imageUri": "level20__fast",
+          "option1": "Vite",
+          "option2": "Hôtesse",
+          "option3": "Grand-mère",
+          "option4": "Les cuisinier",
+          "correct": "Vite"
+        },
+        {
+          "title": "Question 18",
+          "imageUri": "level20__celery",
+          "option1": "Vite",
+          "option2": "Céleri",
+          "option3": "Grand-mère",
+          "option4": "viande",
+          "correct": "Céleri"
+        },
+        {
+          "title": "Question 19",
+          "imageUri": "level20__featus",
+          "option1": "Fœtus",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Fœtus"
+        },
+        {
+          "title": "Question 20",
+          "imageUri": "level20__enquire",
+          "option1": "Fœtus",
+          "option2": "Noisette",
+          "option3": "Poste",
+          "option4": "Renseigner",
+          "correct": "Renseigner"
+        },
+        {
+          "title": "Question 21",
+          "imageUri": "level20__hazelnut",
+          "option1": "Soleil",
+          "option2": "Noisette",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Noisette"
+        },
+        {
+          "title": "Question 22",
+          "imageUri": "level20__history",
+          "option1": "monnaie",
+          "option2": "Noisette",
+          "option3": "L'histoire",
+          "option4": "Argent",
+          "correct": "L'histoire"
+        },
+        {
+          "title": "Question 23",
+          "imageUri": "level20__kiwi",
+          "option1": "Noisette",
+          "option2": "Silencieux",
+          "option3": "Pain",
+          "option4": "Kiwi",
+          "correct": "Kiwi"
+        },
+        {
+          "title": "Question 24",
+          "imageUri": "level20__old",
+          "option1": "Noisette",
+          "option2": "Vieux",
+          "option3": "Foie",
+          "option4": "Train",
+          "correct": "Vieux"
+        },
+        {
+          "title": "Question 25",
+          "imageUri": "level20__passenger",
+          "option1": "Noisette",
+          "option2": "Passager",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Passager"
+        },
+        {
+          "title": "Question 26",
+          "imageUri": "level20__muscles",
+          "option1": "Chein",
+          "option2": "Noisette",
+          "option3": "Muscles",
+          "option4": "Tirez",
+          "correct": "Muscles"
+        },
+        {
+          "title": "Question 27",
+          "imageUri": "level20__liver",
+          "option1": "Foie",
+          "option2": "Noisette",
+          "option3": "Muscles",
+          "option4": "Les cuisinier",
+          "correct": "Foie"
+        },
+        {
+          "title": "Question 28",
+          "imageUri": "level20__kidney",
+          "option1": "Foie",
+          "option2": "Rein",
+          "option3": "Muscles",
+          "option4": "viande",
+          "correct": "Rein"
+        },
+        {
+          "title": "Question 29",
+          "imageUri": "level20__medicalreport",
+          "option1": "Rapport médical",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Rapport médical"
+        },
+        {
+          "title": "Question 30",
+          "imageUri": "level20__kneepain",
+          "option1": "Les cuisinier",
+          "option2": "Noisette",
+          "option3": "Douleur au genou",
+          "option4": "Foie",
+          "correct": "Douleur au genou"
+        },
+        {
+          "title": "Question 31",
+          "imageUri": "level20__pay",
+          "option1": "Soleil",
+          "option2": "Payer",
+          "option3": "Cœur",
+          "option4": "L'eau",
+          "correct": "Payer"
+        },
+        {
+          "title": "Question 32",
+          "imageUri": "level20__peanut",
+          "option1": "monnaie",
+          "option2": "Payer",
+          "option3": "Cacahuète",
+          "option4": "Argent",
+          "correct": "Cacahuète"
+        },
+        {
+          "title": "Question 33",
+          "imageUri": "level20__plum",
+          "option1": "Payer",
+          "option2": "Silencieux",
+          "option3": "Noisette",
+          "option4": "Spa",
+          "correct": "Spa"
+        },
+        {
+          "title": "Question 34",
+          "imageUri": "level20__science",
+          "option1": "Payer",
+          "option2": "Tram",
+          "option3": "L'histoire suissette",
+          "option4": "Science",
+          "correct": "Science"
+        },
+        {
+          "title": "Question 35",
+          "imageUri": "level20__shadow",
+          "option1": "Payer",
+          "option2": "Ombre",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Ombre"
+        },
+        {
+          "title": "Question 36",
+          "imageUri": "level20__salute",
+          "option1": "Chein",
+          "option2": "Noisette",
+          "option3": "Saluer",
+          "option4": "Tirez",
+          "correct": "Saluer"
+        },
+        {
+          "title": "Question 37",
+          "imageUri": "level20__queue",
+          "option1": "Queue",
+          "option2": "Noisette",
+          "option3": "Saluer",
+          "option4": "Les cuisinier",
+          "correct": "Queue"
+        },
+        {
+          "title": "Question 38",
+          "imageUri": "level20__pista",
+          "option1": "Queue",
+          "option2": "Pistache",
+          "option3": "Saluer",
+          "option4": "viande",
+          "correct": "Pistache"
+        },
+        {
+          "title": "Question 39",
+          "imageUri": "level20__quiet",
+          "option1": "Silencieux",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Silencieux"
+        },
+        {
+          "title": "Question 40",
+          "imageUri": "level20__pull",
+          "option1": "Silencieux",
+          "option2": "Noisette",
+          "option3": "Poste",
+          "option4": "Tirez",
+          "correct": "Tirez"
+        }, {
+          "title": "Question 41",
+          "imageUri": "level20__skeleton",
+          "option1": "Soleil",
+          "option2": "Squelette",
+          "option3": "Cœur",
+          "option4": "lunettes",
+          "correct": "Squelette"
+        },
+        {
+          "title": "Question 42",
+          "imageUri": "level20__speech",
+          "option1": "monnaie",
+          "option2": "Squelette",
+          "option3": "Discours",
+          "option4": "Argent",
+          "correct": "Discours"
+        },
+        {
+          "title": "Question 43",
+          "imageUri": "level20__tourist",
+          "option1": "Squelette",
+          "option2": "Thé",
+          "option3": "Sac",
+          "option4": "Touristique",
+          "correct": "Touristique"
+        },
+        {
+          "title": "Question 44",
+          "imageUri": "level20__wait",
+          "option1": "Squelette",
+          "option2": "Tram",
+          "option3": "Policiertte",
+          "option4": "Attendre",
+          "correct": "Attendre"
+        },
+        {
+          "title": "Question 45",
+          "imageUri": "level20__wig",
+          "option1": "Squelette",
+          "option2": "Perruque",
+          "option3": "Temps",
+          "option4": "Train",
+          "correct": "Perruque"
+        },
+        {
+          "title": "Question 46",
+          "imageUri": "level20__university",
+          "option1": "Chein",
+          "option2": "Sac",
+          "option3": "Université",
+          "option4": "Tarte",
+          "correct": "Université"
+        },
+        {
+          "title": "Question 47",
+          "imageUri": "level20__true",
+          "option1": "Vrai",
+          "option2": "cloche",
+          "option3": "Université",
+          "option4": "Casque",
+          "correct": "Vrai"
+        },
+        {
+          "title": "Question 48",
+          "imageUri": "level20__takingpicture",
+          "option1": "Vrai",
+          "option2": "Capturer",
+          "option3": "Université",
+          "option4": "viande",
+          "correct": "Capturer"
+        },
+        {
+          "title": "Question 49",
+          "imageUri": "level20__undies",
+          "option1": "Sous-vêtements",
+          "option2": "Positif",
+          "option3": "Pas",
+          "option4": "viande",
+          "correct": "Sous-vêtements"
+        },
+        {
+          "title": "Question 50",
+          "imageUri": "level20__travel",
+          "option1": "Sous-vêtements",
+          "option2": "Infirmière",
+          "option3": "Poste",
+          "option4": "Voyage",
+          "correct": "Voyage"
+        },
+        {
+          "title": "congratulations",
+          "imageUri": "apple",
+          "option1": "Bonjour",
+          "option2": "Bonjour",
+          "option3": "Bonjour",
+          "option4": "Bonjour",
+          "correct": "Banque"
+        }
+      ]
     }
   ]
 }
