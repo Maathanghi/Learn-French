@@ -20,11 +20,11 @@ public class SlideAdapter extends PagerAdapter {
     public String[] slideImages ={"cycle_animation.json","trophy.json","books.json","favourite_app_icon.json","play_button.json"};
     public String[] slideHeadings ={"Levels","Quiz","Catagories","Bookmark","Auto Play"};
     public String[] slideDescriptions =
-            {"Test ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim.",
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in massa nec ex commodo condimentum ut ut enim. Vestibulum at ex aliquet, sodales lectus at, blandit urna. Aenean pretium dictum lectus eget dignissim."};
+            {"Every level contains a set of flash cards and on back of the card you can see the french word and english translation of the same word. Complete a level to become an expert from a beginner",
+            "At the end of each level challenge yourself with quiz , master that level and earn the level trophy to proceed to the next level.",
+            "Each category has a set of cards specific subject and thus choose the category of your interest.",
+            "Book mark your favourite card or the card that you would like to revise using the book mark option available on to of the card in each level and revisit them in the bookmark tab.",
+            "Not in a position to flip the card as you are driving or your hands are occupied. Not to worry. This autoplay option lets you to listen all the words of the level one by one. Learn on the Go"};
 
     public SlideAdapter(Context context){
         this.context=context;
