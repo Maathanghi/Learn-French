@@ -24,7 +24,7 @@
           "imageUri": "level1__building",
           "frenchTranslation": "Bâtiment",
           "englishTranslation": "Building",
-          "tag": "buildings"
+          "tag": "building"
         },
         {
           "title": "level1__candy",
@@ -146,7 +146,7 @@
           "imageUri": "level2__cash",
           "frenchTranslation": "Espèces",
           "englishTranslation": "Cash",
-          "tag": "bank,bag"
+          "tag": "bank;bag"
         },
         {
           "title": "level2__chicken",
@@ -174,7 +174,7 @@
           "imageUri": "level2__ring",
           "frenchTranslation": "Bague",
           "englishTranslation": "Ring",
-          "tag": "Jewel;Marriage"
+          "tag": "jewel;marriage"
         },
         {
           "title": "level2__staircase",
@@ -341,14 +341,14 @@
           "imageUri": "level3__pen",
           "frenchTranslation": "Stylo",
           "englishTranslation": "Pen",
-          "tag": "Office;school"
+          "tag": "office;school"
         },
         {
           "title": "level3__pharmacie",
           "imageUri": "level3__pharmacie",
           "frenchTranslation": "Pharmacie",
           "englishTranslation": "Pharmacy",
-          "tag": "building,hospital"
+          "tag": "building;hospital"
         },
         {
           "title": "level3__policeman",
@@ -508,7 +508,7 @@
           "imageUri": "level4__box",
           "frenchTranslation": "Boîte",
           "englishTranslation": "Box",
-          "tag": ""
+          "tag": "city"
         },
         {
           "title": "level4__butterfly",
@@ -522,7 +522,7 @@
           "imageUri": "level4__church",
           "frenchTranslation": "église",
           "englishTranslation": "Church",
-          "tag": "animal;zoo"
+          "tag": "city;building"
         },
         {
           "title": "level4__cow",
@@ -536,7 +536,7 @@
           "imageUri": "level4__flag",
           "frenchTranslation": "Drapeau",
           "englishTranslation": "Flag",
-          "tag": "animal"
+          "tag": "city;school"
         },
         {
           "title": "level4__hand",
@@ -710,7 +710,7 @@
           "imageUri": "level5__duck",
           "frenchTranslation": "Canard",
           "englishTranslation": "Duck",
-          "tag": "animals"
+          "tag": "animal"
         },
         {
           "title": "level5__jam",
@@ -724,7 +724,7 @@
           "imageUri": "level5__spinach",
           "frenchTranslation": "épinard",
           "englishTranslation": "Spinach",
-          "tag": "food;supermarket,green"
+          "tag": "food;supermarket;green"
         },
         {
           "title": "level5__keyboard",
@@ -887,7 +887,7 @@
           "imageUri": "level6__car",
           "frenchTranslation": "Voiture",
           "englishTranslation": "Car",
-          "tag": "vehicle;transportation"
+          "tag": "vehicle;transportation;city"
         },
         {
           "title": "level6__chair",
@@ -985,7 +985,7 @@
           "imageUri": "level6__tea",
           "frenchTranslation": "Thé",
           "englishTranslation": "Tea",
-          "tag": "food;supermarket"
+          "tag": "food;supermarket;restaurant"
         },
         {
           "title": "level6__toothbrush",
@@ -1242,7 +1242,7 @@
           "imageUri": "level7__drink",
           "frenchTranslation": "Boisson",
           "englishTranslation": "Drink",
-          "tag": "food"
+          "tag": "food;resaurants"
         },
         {
           "title": "level7__fish",
@@ -1256,7 +1256,7 @@
           "imageUri": "level7__headphones",
           "frenchTranslation": "Casque",
           "englishTranslation": "Headphones",
-          "tag": "bag;electronics"
+          "tag": "bag;electronic"
         },
         {
           "title": "level7__honey",
@@ -1305,7 +1305,7 @@
           "imageUri": "level7__mouse",
           "frenchTranslation": "Souris",
           "englishTranslation": "Mouse",
-          "tag": "animal"
+          "tag": "office;electronic"
         },
         {
           "title": "level7__line",
@@ -1340,7 +1340,7 @@
           "imageUri": "level7__pasta",
           "frenchTranslation": "Pâtes",
           "englishTranslation": "Pasta",
-          "tag": "food;supermarket;restuarent"
+          "tag": "food;supermarket;restaurant"
         },
         {
           "title": "level7__sea",
@@ -1582,7 +1582,7 @@
           "imageUri": "level8__burger",
           "frenchTranslation": "Burger",
           "englishTranslation": "Burger",
-          "tag": "food;restuarent"
+          "tag": "food;restaurent"
         },
         {
           "title": "level8__cake",
@@ -1596,7 +1596,7 @@
           "imageUri": "level8__chef",
           "frenchTranslation": "Chef de cuisine",
           "englishTranslation": "Chef",
-          "tag": "restuarent;profession"
+          "tag": "restaurent;profession"
         },
         {
           "title": "level8__chilli",
@@ -1666,7 +1666,7 @@
           "imageUri": "level8__salad",
           "frenchTranslation": "Salade",
           "englishTranslation": "Salad",
-          "tag": "food;supermarket;restuarent"
+          "tag": "food;supermarket;restaurent"
         },
         {
           "title": "level8__signal",
@@ -1680,7 +1680,7 @@
           "imageUri": "level8__snowglobe",
           "frenchTranslation": "Boule á neige",
           "englishTranslation": "Snow globe",
-          "tag": "food;supermarket;bakery"
+          "tag": "christmas"
         },
         {
           "title": "level8__student",
@@ -1964,7 +1964,7 @@
           "imageUri": "level9__fries",
           "frenchTranslation": "Frites",
           "englishTranslation": "Fries",
-          "tag": "food;supermarket;bakery"
+          "tag": "food;supermarket;restaurant"
         },
         {
           "title": "level9__hat",
@@ -2714,14 +2714,14 @@
           "imageUri": "level11__ketchup",
           "frenchTranslation": "Ketchup",
           "englishTranslation": "Ketchup",
-          "tag": "food;supermarket;restuarent;red"
+          "tag": "food;supermarket;restaurent;red"
         },
         {
           "title": "level11__knife",
           "imageUri": "level11__knife",
           "frenchTranslation": "Couteau",
           "englishTranslation": "Knife",
-          "tag": "table;kitchen;restuarent"
+          "tag": "table;kitchen;restaurent"
         },
         {
           "title": "level11__magnet",
@@ -2735,14 +2735,14 @@
           "imageUri": "level11__mushroom",
           "frenchTranslation": "Champignon",
           "englishTranslation": "Mushroom",
-          "tag": "food;supermarket;restuarent"
+          "tag": "food;supermarket;restaurent"
         },
         {
           "title": "level11__nails",
           "imageUri": "level11__nails",
           "frenchTranslation": "Clouer",
           "englishTranslation": "Nails",
-          "tag": "body"
+          "tag": "tool"
         },
         {
           "title": "level11__necklace",
@@ -2756,7 +2756,7 @@
           "imageUri": "level11__pizza",
           "frenchTranslation": "Pizza",
           "englishTranslation": "Pizza",
-          "tag": "restuarent"
+          "tag": "restaurent"
         },
         {
           "title": "level11__plaster",
@@ -2812,7 +2812,7 @@
           "imageUri": "level11__soup",
           "frenchTranslation": "Soupe",
           "englishTranslation": "Soup",
-          "tag": "restuarent;food"
+          "tag": "restaurent;food"
         },
         {
           "title": "level11__swissarmyknife",
@@ -3423,7 +3423,7 @@
           "imageUri": "level12__oven",
           "frenchTranslation": "Four",
           "englishTranslation": "Oven",
-          "tag": "kitchen,electronic"
+          "tag": "kitchen;electronic"
         },
         {
           "title": "level12__pigeon",
@@ -4096,7 +4096,7 @@
           "title": "level13__office",
           "imageUri": "level13__office",
           "frenchTranslation": "Bureau",
-          "englishTranslation": "Office",
+          "englishTranslation": "office",
           "tag": "office"
         },
         {
@@ -4631,7 +4631,7 @@
           "imageUri": "level14__library",
           "frenchTranslation": "Bibliothèque",
           "englishTranslation": "Library",
-          "tag": "buildings"
+          "tag": "building"
         },
         {
           "title": "level14__lotus",
@@ -4764,7 +4764,7 @@
           "imageUri": "level14__stationary",
           "frenchTranslation": "Stationnaire",
           "englishTranslation": "Stationary",
-          "tag": "school,office"
+          "tag": "school;office"
         },
         {
           "title": "level14__steering",
@@ -5228,7 +5228,7 @@
           "imageUri": "level15__bill",
           "frenchTranslation": "Facture",
           "englishTranslation": "Bill",
-          "tag": "restuarent"
+          "tag": "restaurent"
         },
         {
           "title": "level15__cactus",
@@ -5983,7 +5983,7 @@
           "imageUri": "level16__fireplace",
           "frenchTranslation": "le foyer",
           "englishTranslation": "Fire place",
-          "tag": "action"
+          "tag": "home"
         },
         {
           "title": "level16__grass",
@@ -6742,7 +6742,7 @@
 
           "englishTranslation": "Blender",
 
-          "tag": "restuarent;home;kitchen;electronic"
+          "tag": "restaurent;home;kitchen;electronic"
 
         },
 
@@ -6826,7 +6826,7 @@
 
           "englishTranslation": "Click",
 
-          "tag": "Office;action"
+          "tag": "action"
 
         },
 
@@ -7134,7 +7134,7 @@
 
           "englishTranslation": "Peas",
 
-          "tag": "vegetable;green;superarket;food"
+          "tag": "vegetable;green;supermarket;food"
 
         },
 
@@ -7328,7 +7328,7 @@
 
           "englishTranslation": "Station",
 
-          "tag": "building,city"
+          "tag": "building;city"
 
         },
 
@@ -7398,7 +7398,7 @@
 
           "englishTranslation": "Tender coconut",
 
-          "tag": "bag"
+          "tag": "vacation;supermarket;food"
 
         },
 
@@ -8485,7 +8485,7 @@
           "imageUri": "level18__omlet",
           "frenchTranslation": "Omelette",
           "englishTranslation": "Omlet",
-          "tag": "food;restuarent"
+          "tag": "food;restaurent"
         },
         {
           "title": "level18__party",
@@ -9234,7 +9234,7 @@
           "imageUri": "level19__crib",
           "frenchTranslation": "lit de bébé",
           "englishTranslation": "Crib",
-          "tag": "hoapital;home"
+          "tag": "hospital;home"
         },
         {
           "title": "level19__cricket",
@@ -9283,7 +9283,7 @@
           "imageUri": "level19__dinner",
           "frenchTranslation": "Dîner",
           "englishTranslation": "Dinner",
-          "tag": "food;restuarent"
+          "tag": "food;restaurent"
         },
         {
           "title": "level19__dolphin",
@@ -9401,7 +9401,7 @@
           "title": "level19__postoffice",
           "imageUri": "level19__postoffice",
           "frenchTranslation": "Bureau de poste",
-          "englishTranslation": "Post Office",
+          "englishTranslation": "Post office",
           "tag": ""
         },
         {
@@ -9485,7 +9485,7 @@
           "imageUri": "level19__tractor",
           "frenchTranslation": "Tracteur",
           "englishTranslation": "Tractor",
-          "tag": "vehicleS"
+          "tag": "vehicle"
         },
         {
           "title": "level19__vacumn",
