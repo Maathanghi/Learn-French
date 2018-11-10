@@ -19,10 +19,10 @@ public class App  extends Application {
     public void onCreate() {
         super.onCreate();
         //TypefaceUtil.overrideFont(getApplicationContext(), "SERIF", "fonts/grandhotel.otf"); // font from assets: "assets/fonts/Roboto-Regular.ttf
-        TypefaceUtil.setDefaultFont(this, "DEFAULT", "fonts/sansationregular.ttf");
-        TypefaceUtil.setDefaultFont(this, "MONOSPACE", "fonts/sansationregular.ttf");
-        TypefaceUtil.setDefaultFont(this, "SERIF", "fonts/sansationregular.ttf");
-        TypefaceUtil.setDefaultFont(this, "SANS_SERIF", "fonts/sansationregular.ttf");
+        TypefaceUtil.setDefaultFont(this, "DEFAULT", "fonts/pacifico.ttf");
+        TypefaceUtil.setDefaultFont(this, "MONOSPACE", "fonts/pacifico.ttf");
+        TypefaceUtil.setDefaultFont(this, "SERIF", "fonts/pacifico.ttf");
+        TypefaceUtil.setDefaultFont(this, "SANS_SERIF", "fonts/pacifico.ttf");
 
         Fabric.with(this, new Crashlytics());
     }
